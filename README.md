@@ -119,7 +119,8 @@ https://drive.google.com/drive/folders/1lRCIcQo9CqFRDhUd3aZRAA46k8nLL49J?usp=sha
 3. Then, also create a folder `../log_skogs` (i.e. the `data` and `log_skogs` folders should be next to each other; not one of them within the other).
 
 4. To evaluate model(s) on the Skogsstyrelsen cloudy / clear image binary classification setup, first ensure that `MODEL_LOAD_PATH` points to model / models that have been trained on the synthetic
-data by SMHI (see "Task 1" above), AND/OR first download pretrained models as described below. 
+data by SMHI (see "Task 1" above, but note that the models must have 11-dimensional and not 12-dimensional inputs, since B10 is missing, as explained earlier), AND/OR first download pretrained models
+as described below (these pretrained models expect 11-dimensional inputs, as desired). 
 
 5. Then run
 ```
