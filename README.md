@@ -1,6 +1,13 @@
 # SDL2 developer event "Walking on Thin Clouds"
-Please, **carefully follow this README when working on this developer event!** Prior to
-working on any code:
+Please, **carefully follow this README when working on this developer event!**
+
+Whenever this README says that something should be sent to the organizers or
+similar, please send this to the following emails:
+```
+aleksis.pirinen@ri.se; thomas.ohlson.timoudas@ri.se; gyorgy.kovacs@ltu.se; nosheen.abid@ltu.se
+```
+
+Prior to working on any code:
 
 1. **One** person within each group sends her/his github user name to the organizers. The organizers will then
 add that person as a collaborator of this private repository.
