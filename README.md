@@ -2,15 +2,24 @@
 Please, **carefully follow this README when working on this developer event!**
 
 Whenever this README says that something should be sent to the organizers or
-similar, please send this to the following emails:
+similar, please use the following subject line
+```
+[SDL2 developer event] Group X -- <optional info>
+```
+where you should raplace X with your group's number, and `<optional info>` should
+be replaced with any other relevant info about the email. For example, it
+could say "test results for Task 1", or similar, depending on the context
+of course.
+
+Then send to the following emails:
 ```
 aleksis.pirinen@ri.se; thomas.ohlson.timoudas@ri.se; gyorgy.kovacs@ltu.se; nosheen.abid@ltu.se
 ```
 
 Prior to working on any code:
 
-1. **One** person within each group sends her/his github user name to the organizers. The organizers will then
-add that person as a collaborator of this private repository.
+1. **One** person within each group sends her/his github user name to the organizers.
+The organizers will then add that person as a collaborator of this private repository.
 
 2. That person shall then clone this git repository via the command `git clone https://github.com/aleksispi/sdl2-hackathon.git`.
 
@@ -37,7 +46,8 @@ For both tasks, you will have access to plenty of pre-written code, and even pre
 so that you already get a baseline to which to compare your own ideas.
 
 In all cases, it's perfectly fine (and even encouraged!) to add or remove code, and to try completely different things.
-**The only constraint is that your final test set predictions should follow the pre-determined format(s)**, as will be described further down.
+**The only constraint is that your final test set predictions should follow the pre-determined format(s)**, as will be
+described further down.
 
 ## Task 1: Training and evaluating ML models for synthetic cloud optical thickness (COT) data provided by SMHI
 The main files of importance are:
@@ -66,7 +76,10 @@ Model weights will then be automatically saved in a log-folder, e.g. `../log_smh
 where each input data point is assumed to be a 12-dimensional vector corresponding to the 12 spectral bands in the synthetic dataset (all of the 13 standard bands, except for B1), and where 3% noise
 is added to the inputs during training (see the flag `INPUT_NOISE_TRAIN`).
 
-To train models which also omit band B10 (e.g. to do evaluations on Skogsstyrelsen data; see "Task 2" below), set `SKIP_BAND_10` to True instead of False.
+**NOTE:** To train models which also omit band B10, set `SKIP_BAND_10` to True instead of False. In particular,
+note that models that you want to use in Task 2 will have to be trained with `SKIP_BAND_10 = True` because
+the data in that task is Level 2A instead of Level 1C. However, you may still want to use `SKIP_BAND_10 = False`
+for this task (Task 1), since it may lead to better results for this task.
 
 Note that it is allowed to modify the code in `cot_synth_train.py` so that model training is performed on the union of the train and val splits (could be done e.g. prior to final test set evaluation).
 
@@ -162,6 +175,7 @@ these two the same in this binary setup) on the whole train-val set, in such a w
 On a Ubuntu work station, the below should be sufficient for running this developer event.
 ```
 conda create -n hackathon python=3.8
+conda activate hackathon
 conda install pytorch pytorch-cuda=11.7 -c pytorch -c nvidia
 pip install scipy
 pip install matplotlib
