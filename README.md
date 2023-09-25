@@ -41,6 +41,8 @@ Also note that you may not wish to git push the code prior to the end of the eve
 unless you want other groups to also be able to see your code during the event.
 
 After the above, you are ready to proceed working on the two tasks of the event (see below)!
+At the bottom of the page we list the various packages that are needed if you want to run
+code locally on your laptop.
 
 For both tasks, you will have access to plenty of pre-written code, and even pretrained models,
 so that you already get a baseline to which to compare your own ideas.
@@ -176,6 +178,7 @@ these two the same in this binary setup) on the whole train-val set, in such a w
 
 ## If you want to set up your own Conda environment
 On a Ubuntu work station, the below should be sufficient for running this developer event.
+Note that if you prefer, a virtual environment could be used instead of Conda.
 ```
 conda create -n hackathon python=3.8
 conda activate hackathon
