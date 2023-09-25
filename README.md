@@ -77,9 +77,12 @@ where each input data point is assumed to be a 12-dimensional vector correspondi
 is added to the inputs during training (see the flag `INPUT_NOISE_TRAIN`).
 
 **NOTE:** To train models which also omit band B10, set `SKIP_BAND_10` to True instead of False. In particular,
-note that models that you want to use in Task 2 will have to be trained with `SKIP_BAND_10 = True` because
-the data in that task is Level 2A instead of Level 1C. However, you may still want to use `SKIP_BAND_10 = False`
-for this task (Task 1), since it may lead to better results for this task.
+note that models that you want to use in Task 2 (see below) will have to be trained with `SKIP_BAND_10 = True`
+because the data in that task is Level 2A instead of Level 1C. However, you may still want to use
+`SKIP_BAND_10 = False` for this task (Task 1), since it may lead to better results for this task.
+In summary, when you are ready to move on from Task 1 to Task 2, you may be interested in re-training
+the best model(s) that you got for Task 1, but this time with `SKIP_BAND_10 = True`, so that they 
+can also be tried out for Task 2.
 
 Note that it is allowed to modify the code in `cot_synth_train.py` so that model training is performed on the union of the train and val splits (could be done e.g. prior to final test set evaluation).
 
