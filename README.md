@@ -172,7 +172,7 @@ using the file `final_cot_synth_eval.py`, as will be described further down. Not
    |   | SDL2_SMHI_data.zip
    |   | skogsstyrelsen_data.zip
    |   └─── SDL2_SMHI_data
-   |   └─── skogsstyrelsen_data
+   |   └─── skogsstyrelsen
    |
    └─── log_smhi
    ```
@@ -247,14 +247,15 @@ If you work with models from Task 1, you need to retrain similar models but wher
 
 2. Within `../data/skogsstyrelsen/`, put the data that you can download from
 https://drive.google.com/drive/folders/1lRCIcQo9CqFRDhUd3aZRAA46k8nLL49J?usp=sharing.
+Make sure to have the correct folder tree as described in step 3. of Task 1. You might need to rename the folder ```skogsstyrelsen_data``` to ```skogsstyrelsen```.
 
-3. Then, also create a folder `../log_skogs` (i.e. the `data` and `log_skogs` folders should be next to each other; not one of them within the other).
+4. Then, also create a folder `../log_skogs` (i.e. the `data` and `log_skogs` folders should be next to each other; not one of them within the other).
 
-4. To evaluate model(s) on the Skogsstyrelsen cloudy / clear image binary classification setup, first ensure that `MODEL_LOAD_PATH` points to model / models that have been trained on the synthetic
+5. To evaluate model(s) on the Skogsstyrelsen cloudy / clear image binary classification setup, first ensure that `MODEL_LOAD_PATH` points to model / models that have been trained on the synthetic
 data by SMHI (see "Task 1" above, but note that the models must have 11-dimensional and not 12-dimensional inputs, since B10 is missing, as explained earlier), AND/OR first download pretrained models
 as described below (these pretrained models expect 11-dimensional inputs, as desired). 
 
-5. Then run
+6. Then run
 ```
 python swe_forest_agency_cls.py
 ```
