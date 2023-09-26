@@ -89,10 +89,11 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
    |   | temp.zip
    |   | temp2.zip
    |   └─── SDL2_SMHI_data
-   |   └─── skogsstyrelsen_data
+   |   └─── skogsstyrelsen
    |
    └─── log_smhi
    ```
+   Note: you might need to rename the folder ```skogsstyrelsen_data```into ```skogsstyrelsen```.
    
 ## Running in Docker
 To run in Docker you should:
