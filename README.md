@@ -40,6 +40,10 @@ pip install xarray
 pip install scikit-image
 pip install netCDF4
 ```
+You could also use the environment.yml (we could change the name of this file into env_sdl2_hackathon.yml or something similar and change the name in the command below) file and run the following command
+conda env create --file environment.yml
+This will create the hackathon environment which you will then activate with 
+conda activate hackathon
 
 ## Things to do prior to working on any code
 
