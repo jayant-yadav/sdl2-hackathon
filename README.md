@@ -249,8 +249,8 @@ https://drive.google.com/drive/folders/1lRCIcQo9CqFRDhUd3aZRAA46k8nLL49J?usp=sha
 After the download, unzip the downloaded file (`skogsstyrelsen-data.zip`), and then move
 all of the content within the resulting folder (called `skogsstyrelsen-data`) into
 the folder `../data/skogsstyrelsen/`. Note that the folder `skogsstyrelsen-data` should
-be empty after this step (and it may optionally be removed). At the end of this step,
-make sure to have the correct folder tree, i.e.
+be empty after this step (and it may optionally be removed). Thus at the end of this step,
+make sure to have the following folder structure:
 
    ```
    SDL2_group<X>
@@ -264,13 +264,27 @@ make sure to have the correct folder tree, i.e.
    └─── log_smhi
    ```
 
-4. Then, also create a folder `../log_skogs` (i.e. the `data` and `log_skogs` folders should be next to each other; not one of them within the other).
+4. Then, also create a folder `../log_skogs` (i.e. the `data` and `log_skogs` folders should be next to each other; not one of them within the other). Thus at the end of this step, the
+folder structure should look like this:
 
-5. To evaluate model(s) on the Skogsstyrelsen cloudy / clear image binary classification setup, first ensure that `MODEL_LOAD_PATH` points to model / models that have been trained on the synthetic
+   ```
+   SDL2_group<X>
+   |
+   └─── data
+   |   | SDL2_SMHI_data.zip
+   |   | skogsstyrelsen_data.zip
+   |   └─── SDL2_SMHI_data
+   |   └─── skogsstyrelsen
+   |
+   └─── log_smhi
+   └─── log_skogs
+   ```
+
+6. To evaluate model(s) on the Skogsstyrelsen cloudy / clear image binary classification setup, first ensure that `MODEL_LOAD_PATH` points to model / models that have been trained on the synthetic
 data by SMHI (see "Task 1" above, but note that the models must have 11-dimensional and not 12-dimensional inputs, since B10 is missing, as explained earlier), AND/OR first download pretrained models
 as described below (these pretrained models expect 11-dimensional inputs, as desired). 
 
-6. Then run
+7. Then run
 ```
 python swe_forest_agency_cls.py
 ```
