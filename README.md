@@ -17,6 +17,16 @@ Then send to the following emails:
 aleksis.pirinen@ri.se; thomas.ohlson.timoudas@ri.se; gyorgy.kovacs@ltu.se; nosheen.abid@ltu.se
 ```
 
+## Where to run the challenge and how
+There are several possibilities for you to run the challenge. You can start by experimenting on your local machine for instance, 
+since the datasets and the model we provide are quite lightweight, computationally speaking. 
+To do so, we recommend to create a conda environment with the required modules we listed below in the dedicated section.
+We offer also the possibility to run your experiments on AWS, in case your models need more than just a regular laptop. 
+This is particularly true if you decide to use more satellite data, like for instance the kappazeta dataset we linked in the 
+task description document or datasets you can download from the Digital Earth Sweden platform.
+If you do want to use AWS, please carefully follow the instructions in the dedicated section of this readme file.
+
+
 ## If you want to set up your own Conda environment
 On a Ubuntu work station, the below should be sufficient for running this developer event.
 Note that if you prefer, a virtual environment could be used instead of Conda.
