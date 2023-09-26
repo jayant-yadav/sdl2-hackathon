@@ -45,6 +45,18 @@ conda env create --file environment.yml
 This will create the hackathon environment which you will then activate with 
 conda activate hackathon
 
+## If you want to use AWS
+Your team will be provided with EC2 instance on AWS. Go to the private group channel (e.g. group 4 will get access to #group4 channel). In that channel you will find the key (.pem) file to access the instance with ssh.
+1. mkdir SDL2_AWS directory and cd into it.
+2. download the your-team.pem file in it
+3. chmod 400 your-team.pem
+4. run the command
+   ```ssh -i "<your-team.pem>" ubuntu@<your-group-instanceID>.eu-north-1.compute.amazonaws.com   ```
+    
+
+
+
+
 ## Things to do prior to working on any code
 
 1. **One** person within each group sends her/his github user name to the organizers.
