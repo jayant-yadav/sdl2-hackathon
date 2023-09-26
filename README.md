@@ -41,18 +41,32 @@ pip install scikit-image
 pip install netCDF4
 ```
 You could also use the environment.yml (we could change the name of this file into env_sdl2_hackathon.yml or something similar and change the name in the command below) file and run the following command
-conda env create --file environment.yml
+```conda env create --file environment.yml```
 This will create the hackathon environment which you will then activate with 
-conda activate hackathon
+```conda activate hackathon```
 
 ## If you want to use AWS
-Your team will be provided with EC2 instance on AWS. Go to the private group channel (e.g. group 4 will get access to #group4 channel). In that channel you will find the key (.pem) file to access the instance with ssh.
-1. mkdir SDL2_AWS directory and cd into it.
-2. download the your-team.pem file in it
-3. chmod 400 your-team.pem
-4. run the command
+Your team will be provided with EC2 instance on AWS. Go to the private group channel (e.g. group 4 will get access to #group4 channel). In that channel you will find the key (.pem) file to access the instance with ssh and the instance ID of your group. Note that the key is an openssh key.
+1. ```mkdir SDL2_AWS``` directory and ```cd``` into it.
+2. download the your-team.pem file in the folder you have just created
+3. ```chmod 400 <your-team.pem>```
+4. run the command (make sure to substitute the right file name and instance ID in the following command):
    ```ssh -i "<your-team.pem>" ubuntu@<your-group-instanceID>.eu-north-1.compute.amazonaws.com   ```
-    
+5. Once you are inside the instance, run the following commands:
+ 
+   ```sudo apt update && sudo apt upgrade -y && sudo reboot ```
+   
+   Note: by running this command you will be notified of a kernel update. Press ok.
+   Note 2: it will reboot the instance, so you will need to reconnect.
+   
+   ```sudo apt install nvidia-driver-535 -y && sudo apt install unzip -y && sudo apt install pip -y && sudo pip install torch && pip install scipy && pip install matplotlib && pip install xarray && pip install scikit-image && pip install netCDF4 && sudo reboot```
+
+   Note: it will reboot the instance, so you will need to reconnect.
+   Now your environment is ready. 
+   
+Testing:
+Now fix the git repo stuff and move into the git repo root folder(?) Then run below:
+mkdir data && mkdir log_smhi  && cd data && wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1fmdHZLD44c2_rmwQh5cskGLb3_Do_Zbl' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1fmdHZLD44c2_rmwQh5cskGLb3_Do_Zbl" -O temp.zip && rm -rf /tmp/cookies.txt && unzip temp.zip
 
 
 
@@ -105,7 +119,7 @@ models using `cot_synth_eval.py`. Note that at this stage, evaluation is only po
 using the file `final_cot_synth_eval.py`, as will be described further down.
 
 1. Begin by creating a folder `../data`, and in this folder you should put the data folder `SDL2_SMHI_data` that you can download from
-https://drive.google.com/drive/folders/19I4FvvBzYC1Plo1psrq_KoMIURCJwrjr?usp=sharing (you must also unzip the file).
+(https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=drive_link) (you must also unzip the file).
 
 2. Then create a folder `../log_smhi` (this folder should be side-by-side with the folder `../data`; not one inside the other).
 
