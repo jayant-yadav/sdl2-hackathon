@@ -1,2 +1,4 @@
 __pycache__
+notebooks/msi1c-data/
+notebooks/.ipynb_checkpoints/
 *.npy

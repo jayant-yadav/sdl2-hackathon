@@ -1,0 +1,26 @@
+name: hackathon
+
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - gdal=3.6.3
+  - pytorch
+  - pytorch-cuda=11.7
+  - rasterio
+  - geopandas
+  - jupyterlab
+  - matplotlib
+  - pyyaml
+  - pydantic
+  - netCDF4
+  - scipy
+  - xarray
+  - scikit-image
+  - unzip
+  - pip
+  - pip:
+    - openeo
+    - gdown

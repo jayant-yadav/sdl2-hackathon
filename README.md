@@ -94,7 +94,17 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
    └─── log_smhi
    ```
    
+## Running in Docker
+To run in Docker you should:
 
+1. Run  ```./docker_build``` to build the image. It is tagged "hack"
+2. Run ```./docker_run```to start the image, with port forward on port 8888 for jupyter-notebook. You will get an interactive terminal inside the image. The Git repository is mounted inside the container.
+
+These steps should set you up with the conda environment, directory structure, and data you need to run the training scripts.
+
+To start the included jupyter notebook, navigate to notebooks and run the jupyter-start script: ```./jupyter-start```
+
+Note: If you want to run the jupyter-lab on AWS, make sure that you port forward port 8888 to the EC2 instance. E.g. ```ssh -L 8888:localhost:8888 ...```
 
 ## Things to do prior to working on any code
 
