@@ -1,6 +1,7 @@
 # SDL2 developer event "Walking on Thin Clouds"
 Please, **carefully follow this README when working on this developer event!**
 
+## Where to send results etcetera
 Whenever this README says that something should be sent to the organizers or
 similar, please use the following subject line
 ```
@@ -16,7 +17,21 @@ Then send to the following emails:
 aleksis.pirinen@ri.se; thomas.ohlson.timoudas@ri.se; gyorgy.kovacs@ltu.se; nosheen.abid@ltu.se
 ```
 
-Prior to working on any code:
+## If you want to set up your own Conda environment
+On a Ubuntu work station, the below should be sufficient for running this developer event.
+Note that if you prefer, a virtual environment could be used instead of Conda.
+```
+conda create -n hackathon python=3.8
+conda activate hackathon
+conda install pytorch pytorch-cuda=11.7 -c pytorch -c nvidia
+pip install scipy
+pip install matplotlib
+pip install xarray
+pip install scikit-image
+pip install netCDF4
+```
+
+## Things to do prior to working on any code
 
 1. **One** person within each group sends her/his github user name to the organizers.
 The organizers will then add that person as a collaborator of this private repository.
@@ -41,8 +56,6 @@ Also note that you may not wish to git push the code prior to the end of the eve
 unless you want other groups to also be able to see your code during the event.
 
 After the above, you are ready to proceed working on the two tasks of the event (see below)!
-At the bottom of the page we list the various packages that are needed if you want to run
-code locally on your laptop.
 
 For both tasks, you will have access to plenty of pre-written code, and even pretrained models,
 so that you already get a baseline to which to compare your own ideas.
@@ -175,17 +188,3 @@ are identical; they were trained with different random network initializations. 
 
 Prior to evaluating and submitting results on the test split, a suggestion is to tune the `THRESHOLD_THICKNESS_IS_CLOUD` (and `THRESHOLD_THICKNESS_IS_THIN_CLOUD`, but it's recommended to keep
 these two the same in this binary setup) on the whole train-val set, in such a way that you get as high Macro F1-score as possible on the whole train-val set.
-
-## If you want to set up your own Conda environment
-On a Ubuntu work station, the below should be sufficient for running this developer event.
-Note that if you prefer, a virtual environment could be used instead of Conda.
-```
-conda create -n hackathon python=3.8
-conda activate hackathon
-conda install pytorch pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install scipy
-pip install matplotlib
-pip install xarray
-pip install scikit-image
-pip install netCDF4
-```
