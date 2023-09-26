@@ -79,7 +79,8 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
 
    After these steps, you should have:
 
-   ```SDL2_group<X>
+   ```
+   SDL2_group<X>
    |
    └─── data
    |   | temp.zip
@@ -87,7 +88,8 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
    |   └─── SDL2_SMHI_data
    |   └─── skogsstyrelsen_data
    |
-   └─── log_smhi ```
+   └─── log_smhi
+   ```
    
 
 
