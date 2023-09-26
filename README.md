@@ -107,7 +107,7 @@ The organizers will then add that person as a collaborator of this private repos
    
 4. Clone this git repository via the command `git clone https://github.com/aleksispi/sdl2-hackathon.git`. You will be asked to input your username and password. You should use the token you have just created as your password.
 
-5. Move into the git directory you cloned using the command `cd`.
+5. Move into the git directory you cloned using the command `cd sdl2-hackathon`.
 
 6. Create a git branch for your group. If you are group X, then run the command
 `git branch groupX` (if X is 4 in your case, it should say `git branch group4`).
