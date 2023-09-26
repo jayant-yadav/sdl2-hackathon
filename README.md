@@ -98,22 +98,27 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
 1. **One** person within each group sends her/his github user name to the organizers.
 The organizers will then add that person as a collaborator of this private repository.
 
-2. That person shall then clone this git repository via the command `git clone https://github.com/aleksispi/sdl2-hackathon.git`.
+2. Log in into your github account and got to https://github.com/settings/tokens.
+   
+3. Create a token and save it somewhere safe because you will need it later too.
+   
+4. Clone this git repository via the command `git clone https://github.com/aleksispi/sdl2-hackathon.git`. You will be asked to input your username and password. You should use the token you have just created as your password.
 
-3. Move into the git directory you cloned using the command `cd`.
+5. Move into the git directory you cloned using the command `cd`.
 
-4. Create a git branch for your group. If you are group X, then run the command
+6. Create a git branch for your group. If you are group X, then run the command
 `git branch groupX` (if X is 4 in your case, it should say `git branch group4`).
 
-5. Check the set of branches via the command `git branch`. You should now see the
+7. Check the set of branches via the command `git branch`. You should now see the
 two branches `groupX` and `master`.
 
-6. Switch to your group's branch via `git checkout groupX`. **Do all development
+8. Switch to your group's branch via `git checkout groupX`. **Do all development
 within this branch** (_not_ in `master`).
 
-7. Whenever you want, you can push code to your branch via `git push`. **Please
+9. Whenever you want, you can push code to your branch via `git push`. **Please
 ensure that you push your final code at the end of the developer event!**
-Note that the first push may require the command `git push --set-upstream origin groupX`.
+Note that the first push may require the command `git push --set-upstream origin groupX`. At this stage you
+will be asked again to use the token as your password.
 Also note that you may not wish to git push the code prior to the end of the event,
 unless you want other groups to also be able to see your code during the event.
 
