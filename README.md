@@ -144,8 +144,21 @@ using the file `final_cot_synth_eval.py`, as will be described further down.
 (https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=drive_link) (you must also unzip the file).
 
 2. Then create a folder `../log_smhi` (this folder should be side-by-side with the folder `../data`; not one inside the other).
+3. After these steps, you should have:
 
-3. After the above, to train a model simply run
+   ```
+   SDL2_group<X>
+   |
+   └─── data
+   |   | SDL2_SMHI_data.zip
+   |   | skogsstyrelsen_data.zip
+   |   └─── SDL2_SMHI_data
+   |   └─── skogsstyrelsen_data
+   |
+   └─── log_smhi
+   ```
+
+4. After the above, to train a model simply run
 ```
 python cot_synth_train.py
 ```
