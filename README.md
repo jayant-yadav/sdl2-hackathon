@@ -60,8 +60,8 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
  
    ```sudo apt update && sudo apt upgrade -y && sudo reboot ```
    
-   Note: by running this command you will be notified of a kernel update. Press ok.
-   Note 2: it will reboot the instance, so you will need to reconnect.
+   Note: by running this command you will be notified of a kernel update. Press ok. There will be another panel with options. Just press ok again.
+   Note 2: it will reboot the instance, so you will need to reconnect. It might take a few seconds, so be patient.
    
    ```sudo apt install nvidia-driver-535 -y && sudo apt install unzip -y && sudo apt install pip -y && sudo pip install torch && pip install scipy && pip install matplotlib && pip install xarray && pip install scikit-image && pip install netCDF4 && sudo reboot```
 
@@ -105,20 +105,21 @@ The organizers will then add that person as a collaborator of this private repos
    
 3. Create a token and save it somewhere safe because you will need it later too.
    
-4. Clone this git repository via the command `git clone https://github.com/aleksispi/sdl2-hackathon.git`. You will be asked to input your username and password. You should use the token you have just created as your password.
+4. Move up of one folder: ```cd ..``` 
+5. Clone this git repository via the command `git clone https://github.com/aleksispi/sdl2-hackathon.git`. You will be asked to input your username and password. You should use the token you have just created as your password.
 
-5. Move into the git directory you cloned using the command `cd sdl2-hackathon`.
+6. Move into the git directory you cloned using the command `cd sdl2-hackathon`.
 
-6. Create a git branch for your group. If you are group X, then run the command
+7. Create a git branch for your group. If you are group X, then run the command
 `git branch groupX` (if X is 4 in your case, it should say `git branch group4`).
 
-7. Check the set of branches via the command `git branch`. You should now see the
+8. Check the set of branches via the command `git branch`. You should now see the
 two branches `groupX` and `master`.
 
-8. Switch to your group's branch via `git checkout groupX`. **Do all development
+9. Switch to your group's branch via `git checkout groupX`. **Do all development
 within this branch** (_not_ in `master`).
 
-9. Whenever you want, you can push code to your branch via `git push`. **Please
+10. Whenever you want, you can push code to your branch via `git push`. **Please
 ensure that you push your final code at the end of the developer event!**
 Note that the first push may require the command `git push --set-upstream origin groupX`. At this stage you
 will be asked again to use the token as your password.
@@ -146,7 +147,7 @@ The workflow is oriented around a **(1) model training and development phase**
 
 In **phase (1)**, the workflow is oriented around first training (and at the end of training, saving) models using `cot_synth_train.py`, followed by evaluting said
 models using `cot_synth_eval.py`. Note that at this stage, evaluation is only possible on the train and val splits. Once satisfied with phase (1), proceed to **phase (2)**
-using the file `final_cot_synth_eval.py`, as will be described further down.
+using the file `final_cot_synth_eval.py`, as will be described further down. Note: if you are working in AWS, step 1-3 are already done. Please double-check that your folder tree structure is like the one described in step 3.
 
 1. Begin by creating a folder `../data`, and in this folder you should put the data folder `SDL2_SMHI_data` that you can download from
 (https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=drive_link) (you must also unzip the file).
