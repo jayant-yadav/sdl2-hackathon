@@ -68,9 +68,12 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
    Note: it will reboot the instance, so you will need to reconnect.
    Now your environment is ready. 
    
-6. It is time to get the repository set up into the instance. In oder to run the code that we provide, we need to create a folder tree structure as the following:
+6. It is time to get the repository set up into the instance. In order to run the code that we provide, we need to create a folder tree structure as the following:
+   
    ```mkdir SDL2_group<X>```
+   
    ```cd SDL2_group<X>```
+   
    ```mkdir data && mkdir log_smhi  && cd data && wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1wrlbcA4RO73eeZxkXK28ghpP3QrUROre' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1wrlbcA4RO73eeZxkXK28ghpP3QrUROre" -O temp.zip && rm -rf /tmp/cookies.txt && unzip temp.zip```
 
    while still in the data folder (not in the SDL2_SMHI_data subfolder!), run also the following command to get the Skogsstyrelsen data as      well:
