@@ -40,7 +40,7 @@ pip install xarray
 pip install scikit-image
 pip install netCDF4
 ```
-You could also use the sdl2_env.yml (we could change the name of this file into env_sdl2_hackathon.yml or something similar and change the name in the command below) file and run the following command
+You could also use the `sdl2_env.yml` file and run the following command
 
 ```conda env create --file sdl2_env.yml```
 
@@ -248,7 +248,11 @@ If you work with models from Task 1, you need to retrain similar models but wher
 
 2. Within `../data/skogsstyrelsen/`, put the data that you can download from
 https://drive.google.com/drive/folders/1lRCIcQo9CqFRDhUd3aZRAA46k8nLL49J?usp=sharing.
-Make sure to have the correct folder tree as described in step 3. of Task 1. You might need to rename the folder ```skogsstyrelsen_data``` to ```skogsstyrelsen```.
+After the download, unzip the downloaded file (`skogsstyrelsen-data.zip`), and then move
+all of the content within the resulting folder (called `skogsstyrelsen-data`) into
+the folder `../data/skogsstyrelsen/`. Note that the folder `skogsstyrelsen-data` should
+be empty after this step (and it may optionally be removed). At the end of this step,
+make sure to have the correct folder tree as described in step 3. of Task 1.
 
 4. Then, also create a folder `../log_skogs` (i.e. the `data` and `log_skogs` folders should be next to each other; not one of them within the other).
 
