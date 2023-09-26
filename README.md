@@ -41,9 +41,13 @@ pip install scikit-image
 pip install netCDF4
 ```
 You could also use the environment.yml (we could change the name of this file into env_sdl2_hackathon.yml or something similar and change the name in the command below) file and run the following command
+
 ```conda env create --file environment.yml```
+
 This will create the hackathon environment which you will then activate with 
+
 ```conda activate hackathon```
+
 
 ## If you want to use AWS
 Your team will be provided with EC2 instance on AWS. Go to the private group channel (e.g. group 4 will get access to #group4 channel). In that channel you will find the key (.pem) file to access the instance with ssh and the instance ID of your group. Note that the key is an openssh key.
@@ -64,11 +68,27 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
    Note: it will reboot the instance, so you will need to reconnect.
    Now your environment is ready. 
    
-Testing:
-Now fix the git repo stuff and move into the git repo root folder(?) Then run below:
-mkdir data && mkdir log_smhi  && cd data && wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1fmdHZLD44c2_rmwQh5cskGLb3_Do_Zbl' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1fmdHZLD44c2_rmwQh5cskGLb3_Do_Zbl" -O temp.zip && rm -rf /tmp/cookies.txt && unzip temp.zip
+6. It is time to get the repository set up into the instance. In oder to run the code that we provide, we need to create a folder tree structure as the following:
+   ```mkdir SDL2_group<X>```
+   ```cd SDL2_group<X>```
+   ```mkdir data && mkdir log_smhi  && cd data && wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1wrlbcA4RO73eeZxkXK28ghpP3QrUROre' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1wrlbcA4RO73eeZxkXK28ghpP3QrUROre" -O temp.zip && rm -rf /tmp/cookies.txt && unzip temp.zip```
 
+   while still in the data folder (not in the SDL2_SMHI_data subfolder!), run also the following command to get the Skogsstyrelsen data as      well:
+   
+   ```wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=19MBh9JIJTxYIPAeO7G5RML5_ddjJ1Cpa' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=19MBh9JIJTxYIPAeO7G5RML5_ddjJ1Cpa" -O temp2.zip && rm -rf /tmp/cookies.txt && unzip temp2.zip```
 
+   After these steps, you should have:
+
+   ```SDL2_group<X>
+   |
+   └─── data
+   |   | temp.zip
+   |   | temp2.zip
+   |   └─── SDL2_SMHI_data
+   |   └─── skogsstyrelsen_data
+   |
+   └─── log_smhi ```
+   
 
 
 ## Things to do prior to working on any code
