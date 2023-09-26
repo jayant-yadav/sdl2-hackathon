@@ -161,7 +161,7 @@ models using `cot_synth_eval.py`. Note that at this stage, evaluation is only po
 using the file `final_cot_synth_eval.py`, as will be described further down. Note: if you are working in AWS, step 1-3 are already done. Please double-check that your folder tree structure is like the one described in step 3.
 
 1. Begin by creating a folder `../data`, and in this folder you should put the data folder `SDL2_SMHI_data` that you can download from
-(https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=drive_link) (you must also unzip the file).
+https://drive.google.com/drive/folders/16VBNSgT-ngsoH_ZZsDbOPbwpSB100k-1?usp=drive_link (you must also unzip the file).
 
 2. Then create a folder `../log_smhi` (this folder should be side-by-side with the folder `../data`; not one inside the other).
 3. After these steps, you should have:
@@ -171,9 +171,7 @@ using the file `final_cot_synth_eval.py`, as will be described further down. Not
    |
    └─── data
    |   | SDL2_SMHI_data.zip
-   |   | skogsstyrelsen_data.zip
    |   └─── SDL2_SMHI_data
-   |   └─── skogsstyrelsen
    |
    └─── log_smhi
    ```
@@ -202,7 +200,7 @@ Note that it is allowed to modify the code in `cot_synth_train.py` so that model
 ```
 python cot_synth_eval.py
 ```
-in order to evaluate the model that you trained using `cot_synth_train.py`. 
+in order to evaluate the model that you trained using `cot_synth_train.py`. **The aim of this task is to get as low RMSE as possible.**
 
 By default, evaluation occurs for the training split (can be changed with the flag `SPLIT_TO_USE`). Also, the flag `INPUT_NOISE` is set as the list `[0.00, 0.01, 0.02, 0.03, 0.04, 0.05]`.
 In this case, the evaluation script will show average results across different input noise levels. In the final test set evaluation (see more below), models will be evaluated based on
@@ -252,7 +250,19 @@ After the download, unzip the downloaded file (`skogsstyrelsen-data.zip`), and t
 all of the content within the resulting folder (called `skogsstyrelsen-data`) into
 the folder `../data/skogsstyrelsen/`. Note that the folder `skogsstyrelsen-data` should
 be empty after this step (and it may optionally be removed). At the end of this step,
-make sure to have the correct folder tree as described in step 3. of Task 1.
+make sure to have the correct folder tree, i.e.
+
+   ```
+   SDL2_group<X>
+   |
+   └─── data
+   |   | SDL2_SMHI_data.zip
+   |   | skogsstyrelsen_data.zip
+   |   └─── SDL2_SMHI_data
+   |   └─── skogsstyrelsen
+   |
+   └─── log_smhi
+   ```
 
 4. Then, also create a folder `../log_skogs` (i.e. the `data` and `log_skogs` folders should be next to each other; not one of them within the other).
 
