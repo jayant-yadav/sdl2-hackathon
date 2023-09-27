@@ -85,7 +85,7 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
    
    ```mkdir data && mkdir log_smhi  && cd data && wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1wrlbcA4RO73eeZxkXK28ghpP3QrUROre' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1wrlbcA4RO73eeZxkXK28ghpP3QrUROre" -O temp.zip && rm -rf /tmp/cookies.txt && unzip temp.zip```
 
-   while still in the data folder (not in the SDL2_SMHI_data subfolder!), run also the following command to get the Skogsstyrelsen data as      well:
+   while still in the data folder (not in the SDL2_SMHI_data subfolder!), run also the following command to get the Skogsstyrelsen data as well:
    
    ```wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=19MBh9JIJTxYIPAeO7G5RML5_ddjJ1Cpa' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=19MBh9JIJTxYIPAeO7G5RML5_ddjJ1Cpa" -O temp2.zip && rm -rf /tmp/cookies.txt && unzip temp2.zip```
 
@@ -227,7 +227,12 @@ so that the models do not become identical).
 2. Then, when running `cot_synth_eval.py`, ensure `MODEL_LOAD_PATH` becomes a list where each list element is a model-log path. Examples of this type of
 path specification are already available within `cot_synth_eval.py`.
 
-Pretrained model weights are already available here: https://drive.google.com/drive/folders/1MkqcoxLBb9C1vAUwvHipq5cr6Z7bXIel?usp=sharing. Download the content of this folder (a zip-file), unzip it,
+Pretrained model weights are already available here: https://drive.google.com/drive/folders/1MkqcoxLBb9C1vAUwvHipq5cr6Z7bXIel?usp=sharing. 
+Note that if you are working on AWS you would need to run the following command to get the pretrained model weights:
+
+```wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1oJXawadtmw0FCyjIQQXWL8123TP0TeSd' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1oJXawadtmw0FCyjIQQXWL8123TP0TeSd" -O temp3.zip && rm -rf /tmp/cookies.txt && unzip temp3.zip```
+
+Download the content of this folder (a zip-file), unzip it,
 and ensure the resulting 10 folders land inside `../log_smhi/`. The model weights that are available are 10 five-layer MLPs that were trained using 3% additive noise, and where
 each input data point is assumed to be a 12-dimensional vector corresponding to the 12 spectral bands in the synthetic dataset (all of the 13 standard bands, except for B1). The model architectures
 are identical; they were trained with different random network initializations. They can be run in ensemble-mode as described in the previous paragraph.
@@ -320,7 +325,10 @@ Note that running the script `eval_swe_forest_agency_cls.py` script can only be 
 is withheld from the participants). For the test set, it is instead the organizers who will run the script `eval_swe_forest_agency_cls.py` with the `skogs_preds.npy` files provided by the
 participants, where the participants have produced their `skogs_preds.npy` files by running `python swe_forest_agency_cls.py` with `SPLIT_TO_USE = 'test'`.
 
-Pretrained model weights are already available here: https://drive.google.com/drive/folders/14xTbLHPxaPznemG7ShE0DMC9zJsNU_hr?usp=sharing. Download the folder, unzip it, and ensure the resulting
+Pretrained model weights are already available here: https://drive.google.com/drive/folders/14xTbLHPxaPznemG7ShE0DMC9zJsNU_hr?usp=sharing. Note that if you are working in AWS you would need to run this command instead:
+```wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1j0Np2xTsQXWroUC-1T5io4Fj_XQpD0-d' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1j0Np2xTsQXWroUC-1T5io4Fj_XQpD0-d" -O temp4.zip && rm -rf /tmp/cookies.txt && unzip temp4.zip```
+
+Download the folder, unzip it, and ensure the resulting
 10 folders land inside `../log_skogs/`. The model weights that are available are 10 five-layer MLPs that were trained using 3% additive noise, and where each input data point is assumed to be an
 11-dimensional vector corresponding to 11 out of the 12 spectral bands in the synthetic dataset (all of the 13 standard bands, except for B1 and B10). The model architectures
 are identical; they were trained with different random network initializations. They can be run in ensemble-mode as described in the previous paragraph.
