@@ -1,6 +1,13 @@
 # SDL2 developer event "Walking on Thin Clouds"
 Please, **carefully follow this README when working on this developer event!**
 
+## How to get help during the event
+Many of the organizers will be phyically at the AI Sweden office in Stockholm, so
+for those present physically it's possible to just ask those who are there. You 
+should also have been invited to our Slack forum for this event, where you can
+chat with us. Please note that we have added some specific people for some
+different parts of the README below.
+
 ## Where to send results etcetera
 Whenever this README says that something should be sent to the organizers or
 similar, please use the following subject line
@@ -50,6 +57,8 @@ This will create the hackathon environment which you will then activate with
 
 
 ## If you want to use AWS
+_Contact persons for help with the AWS setup: Kim, Joakim, Chiara._
+
 Your team will be provided with EC2 instance on AWS. Go to the private group channel (e.g. group 4 will get access to #group4 channel). In that channel you will find the key (.pem) file to access the instance with ssh and the instance ID of your group. Note that the key is an openssh key.
 1. ```mkdir SDL2_AWS``` directory and ```cd``` into it.
 2. download the your-team.pem file in the folder you have just created
@@ -96,6 +105,8 @@ Your team will be provided with EC2 instance on AWS. Go to the private group cha
    Note: you might need to rename the folder ```skogsstyrelsen_data```into ```skogsstyrelsen```.
    
 ## Running in Docker
+_Contact person for help with Docker: Joel Sundholm._
+
 To run in Docker you should:
 
 1. Run  ```./docker_build``` to build the image. It is tagged "hack"
@@ -147,6 +158,8 @@ In all cases, it's perfectly fine (and even encouraged!) to add or remove code, 
 described further down.
 
 ## Task 1: Training and evaluating ML models for synthetic cloud optical thickness (COT) data provided by SMHI
+_Contact persons for help with Task 1: Thomas Ohlson Timoudas, Nosheen Abid, Aleksis Pirinen, György Kovacs_
+
 The main files of importance are:
 
 - `cot_synth_train.py`
@@ -233,6 +246,8 @@ default order (this order is ensured automatically by default in all scripts by 
 change the code accordingly.  
 
 ## Task 2: Cloudy / clear image classification use-case by Skogsstyrelsen (the Swedish Forest Agency (SFA))
+_Contact persons for help with Task 2: Thomas Ohlson Timoudas, Nosheen Abid, Aleksis Pirinen, György Kovacs_
+
 The main files of importance here are:
 
 - `swe_forest_agency_cls.py`
