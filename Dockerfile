@@ -1,7 +1,7 @@
 FROM mambaorg/micromamba:1.4.9
 
 WORKDIR /app
-COPY --chown=$MAMBA_USER:$MAMBA_USER environment.yml environment.yml
+COPY --chown=$MAMBA_USER:$MAMBA_USER docker_env.yml environment.yml
 
 
 RUN micromamba install -yn base -f environment.yml && \
