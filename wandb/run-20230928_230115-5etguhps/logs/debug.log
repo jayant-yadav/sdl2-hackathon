@@ -1,0 +1,27 @@
+2023-09-28 23:01:15,739 INFO    MainThread:6987 [wandb_setup.py:_flush():76] Current SDK version is 0.15.11
+2023-09-28 23:01:15,739 INFO    MainThread:6987 [wandb_setup.py:_flush():76] Configure stats pid to 6987
+2023-09-28 23:01:15,739 INFO    MainThread:6987 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/.config/wandb/settings
+2023-09-28 23:01:15,739 INFO    MainThread:6987 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/settings
+2023-09-28 23:01:15,739 INFO    MainThread:6987 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-28 23:01:15,740 INFO    MainThread:6987 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-28 23:01:15,740 INFO    MainThread:6987 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'cot_synth_train.py', 'program_abspath': '/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train.py', 'program': '/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train.py'}
+2023-09-28 23:01:15,740 INFO    MainThread:6987 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230928_230115-5etguhps/logs/debug.log
+2023-09-28 23:01:15,740 INFO    MainThread:6987 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230928_230115-5etguhps/logs/debug-internal.log
+2023-09-28 23:01:15,740 INFO    MainThread:6987 [wandb_init.py:init():568] calling init triggers
+2023-09-28 23:01:15,740 INFO    MainThread:6987 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0003, 'batch size': 32, 'weight decay': 0, 'beta 1': 0.9, 'training itr': 100000}
+2023-09-28 23:01:15,740 INFO    MainThread:6987 [wandb_init.py:init():618] starting backend
+2023-09-28 23:01:15,740 INFO    MainThread:6987 [wandb_init.py:init():622] setting up manager
+2023-09-28 23:01:15,741 INFO    MainThread:6987 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-28 23:01:15,742 INFO    MainThread:6987 [wandb_init.py:init():628] backend started and connected
+2023-09-28 23:01:15,743 INFO    MainThread:6987 [wandb_init.py:init():720] updated telemetry
+2023-09-28 23:01:15,747 INFO    MainThread:6987 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-09-28 23:01:16,169 INFO    MainThread:6987 [wandb_run.py:_on_init():2220] communicating current version
+2023-09-28 23:01:16,288 INFO    MainThread:6987 [wandb_run.py:_on_init():2229] got version response 
+2023-09-28 23:01:16,288 INFO    MainThread:6987 [wandb_init.py:init():804] starting run threads in backend
+2023-09-28 23:01:16,328 INFO    MainThread:6987 [wandb_run.py:_console_start():2199] atexit reg
+2023-09-28 23:01:16,328 INFO    MainThread:6987 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-09-28 23:01:16,329 INFO    MainThread:6987 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-09-28 23:01:16,329 INFO    MainThread:6987 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-09-28 23:01:16,329 INFO    MainThread:6987 [wandb_init.py:init():845] run started, returning control to user process
+2023-09-28 23:04:37,027 WARNING MsgRouterThr:6987 [router.py:message_loop():77] message_loop has been closed

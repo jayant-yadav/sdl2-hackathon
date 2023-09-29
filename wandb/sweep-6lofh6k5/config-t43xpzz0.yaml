@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_size:
+  value: 32
+beta1:
+  value: 0.9
+learning_rate:
+  value: 0.0002840725717884734
+training_itr:
+  value: 184872
+weight_decay:
+  value: 0.006383386411165636

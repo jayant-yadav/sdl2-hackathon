@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train-Copy1.py", line 230, in train
+    curr_gts = gts_train[train_ctr * config.batch_size : (train_ctr + 1) * config.batch_size]
+UnboundLocalError: local variable 'gts_train' referenced before assignment

@@ -1,0 +1,34 @@
+2023-09-29 09:42:33,487 INFO    Thread-49 (_run_job):1162 [wandb_setup.py:_flush():76] Current SDK version is 0.15.11
+2023-09-29 09:42:33,487 INFO    Thread-49 (_run_job):1162 [wandb_setup.py:_flush():76] Configure stats pid to 1162
+2023-09-29 09:42:33,487 INFO    Thread-49 (_run_job):1162 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/.config/wandb/settings
+2023-09-29 09:42:33,487 INFO    Thread-49 (_run_job):1162 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/settings
+2023-09-29 09:42:33,487 INFO    Thread-49 (_run_job):1162 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'AI sweden hackathon', 'entity': 'jayantyadav202', 'root_dir': '/home/ubuntu/SDL2_group2/sdl2-hackathon', 'run_id': '79zrl7ez', 'sweep_param_path': '/home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/sweep-6lofh6k5/config-79zrl7ez.yaml', 'sweep_id': '6lofh6k5'}
+2023-09-29 09:42:33,487 INFO    Thread-49 (_run_job):1162 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-29 09:42:33,487 INFO    Thread-49 (_run_job):1162 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'cot_synth_train-Copy1.py', 'program_abspath': '/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train-Copy1.py', 'program': '/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train-Copy1.py'}
+2023-09-29 09:42:33,487 INFO    Thread-49 (_run_job):1162 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_094233-79zrl7ez/logs/debug.log
+2023-09-29 09:42:33,488 INFO    Thread-49 (_run_job):1162 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_094233-79zrl7ez/logs/debug-internal.log
+2023-09-29 09:42:33,488 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():568] calling init triggers
+2023-09-29 09:42:33,488 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():575] wandb.init called with sweep_config: {'batch_size': 128, 'beta1': 0.9, 'learning_rate': 0.0005168271571122974, 'training_itr': 194599, 'weight_decay': 0.00015157761498848732}
+config: {}
+2023-09-29 09:42:33,488 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():618] starting backend
+2023-09-29 09:42:33,488 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():622] setting up manager
+2023-09-29 09:42:33,493 INFO    Thread-49 (_run_job):1162 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-29 09:42:33,494 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():628] backend started and connected
+2023-09-29 09:42:33,503 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_config_callback():1324] config_cb None None {'batch_size': 128, 'beta1': 0.9, 'learning_rate': 0.0005168271571122974, 'training_itr': 194599, 'weight_decay': 0.00015157761498848732}
+2023-09-29 09:42:33,504 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():720] updated telemetry
+2023-09-29 09:42:33,508 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-09-29 09:42:33,978 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_on_init():2220] communicating current version
+2023-09-29 09:42:34,099 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_on_init():2229] got version response 
+2023-09-29 09:42:34,099 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():804] starting run threads in backend
+2023-09-29 09:42:34,148 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_console_start():2199] atexit reg
+2023-09-29 09:42:34,149 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-09-29 09:42:34,149 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-09-29 09:42:34,149 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-09-29 09:42:34,150 INFO    Thread-49 (_run_job):1162 [wandb_init.py:init():845] run started, returning control to user process
+2023-09-29 09:52:25,016 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_finish():1934] finishing run jayantyadav202/AI sweden hackathon/79zrl7ez
+2023-09-29 09:52:25,016 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-09-29 09:52:25,016 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_restore():2151] restore
+2023-09-29 09:52:25,016 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_restore():2157] restore done
+2023-09-29 09:52:30,186 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2023-09-29 09:52:30,187 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2023-09-29 09:52:30,190 INFO    Thread-49 (_run_job):1162 [wandb_run.py:_footer_sync_info():3513] logging synced files

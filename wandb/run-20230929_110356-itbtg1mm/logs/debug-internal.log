@@ -1,0 +1,171 @@
+2023-09-29 11:03:56,820 INFO    StreamThr :3649 [internal.py:wandb_internal():86] W&B internal server running at pid: 3649, started at: 2023-09-29 11:03:56.820129
+2023-09-29 11:03:56,821 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: status
+2023-09-29 11:03:56,827 INFO    WriterThread:3649 [datastore.py:open_for_write():85] open: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/run-itbtg1mm.wandb
+2023-09-29 11:03:56,828 DEBUG   SenderThread:3649 [sender.py:send():380] send: header
+2023-09-29 11:03:56,831 DEBUG   SenderThread:3649 [sender.py:send():380] send: run
+2023-09-29 11:03:57,249 INFO    SenderThread:3649 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files
+2023-09-29 11:03:57,249 INFO    SenderThread:3649 [sender.py:_start_run_threads():1122] run started: itbtg1mm with start time 1695985436.819463
+2023-09-29 11:03:57,257 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: check_version
+2023-09-29 11:03:57,257 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: check_version
+2023-09-29 11:03:57,380 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: run_start
+2023-09-29 11:03:57,390 DEBUG   HandlerThread:3649 [system_info.py:__init__():32] System info init
+2023-09-29 11:03:57,390 DEBUG   HandlerThread:3649 [system_info.py:__init__():47] System info init done
+2023-09-29 11:03:57,390 INFO    HandlerThread:3649 [system_monitor.py:start():181] Starting system monitor
+2023-09-29 11:03:57,390 INFO    SystemMonitor:3649 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-29 11:03:57,391 INFO    HandlerThread:3649 [system_monitor.py:probe():201] Collecting system info
+2023-09-29 11:03:57,391 INFO    SystemMonitor:3649 [interfaces.py:start():190] Started cpu monitoring
+2023-09-29 11:03:57,392 INFO    SystemMonitor:3649 [interfaces.py:start():190] Started disk monitoring
+2023-09-29 11:03:57,392 INFO    SystemMonitor:3649 [interfaces.py:start():190] Started gpu monitoring
+2023-09-29 11:03:57,393 INFO    SystemMonitor:3649 [interfaces.py:start():190] Started memory monitoring
+2023-09-29 11:03:57,394 INFO    SystemMonitor:3649 [interfaces.py:start():190] Started network monitoring
+2023-09-29 11:03:57,403 DEBUG   HandlerThread:3649 [system_info.py:probe():196] Probing system
+2023-09-29 11:03:57,404 DEBUG   HandlerThread:3649 [system_info.py:_probe_git():181] Probing git
+2023-09-29 11:03:57,409 DEBUG   HandlerThread:3649 [system_info.py:_probe_git():189] Probing git done
+2023-09-29 11:03:57,409 DEBUG   HandlerThread:3649 [system_info.py:probe():244] Probing system done
+2023-09-29 11:03:57,409 DEBUG   HandlerThread:3649 [system_monitor.py:probe():210] {'os': 'Linux-6.2.0-1012-aws-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2023-09-29T11:03:57.403103', 'startedAt': '2023-09-29T11:03:56.813603', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train-Copy1.py', 'codePathLocal': 'cot_synth_train-Copy1.py', 'codePath': 'cot_synth_train-Copy1.py', 'git': {'remote': 'https://github.com/aleksispi/sdl2-hackathon.git', 'commit': '15fb5a901e6479bf6b6176f43f9e11ee5607c6d3'}, 'email': None, 'root': '/home/ubuntu/SDL2_group2/sdl2-hackathon', 'host': 'ip-172-31-23-179', 'username': 'ubuntu', 'executable': '/usr/bin/python3', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3099.43825, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3099.319, 'min': 0.0, 'max': 0.0}, {'current': 3099.212, 'min': 0.0, 'max': 0.0}, {'current': 3099.819, 'min': 0.0, 'max': 0.0}, {'current': 3099.403, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 48.27519989013672, 'used': 11.788326263427734}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 15.321460723876953}}
+2023-09-29 11:03:57,409 INFO    HandlerThread:3649 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-29 11:03:57,409 INFO    HandlerThread:3649 [system_monitor.py:probe():214] Publishing system info
+2023-09-29 11:03:57,409 DEBUG   HandlerThread:3649 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-09-29 11:03:57,410 DEBUG   HandlerThread:3649 [system_info.py:_save_pip():68] Saving pip packages done
+2023-09-29 11:03:57,410 INFO    HandlerThread:3649 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-29 11:03:57,412 DEBUG   SenderThread:3649 [sender.py:send():380] send: files
+2023-09-29 11:03:57,412 INFO    SenderThread:3649 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-09-29 11:03:57,417 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 11:03:57,417 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 11:03:57,457 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 11:03:57,703 DEBUG   SenderThread:3649 [sender.py:send():380] send: telemetry
+2023-09-29 11:03:57,704 DEBUG   SenderThread:3649 [sender.py:send():380] send: telemetry
+2023-09-29 11:03:57,705 DEBUG   SenderThread:3649 [sender.py:send():380] send: exit
+2023-09-29 11:03:57,705 INFO    SenderThread:3649 [sender.py:send_exit():585] handling exit code: 1
+2023-09-29 11:03:57,705 INFO    SenderThread:3649 [sender.py:send_exit():587] handling runtime: 0
+2023-09-29 11:03:57,705 INFO    SenderThread:3649 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-09-29 11:03:57,705 INFO    SenderThread:3649 [sender.py:send_exit():593] send defer
+2023-09-29 11:03:57,705 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:03:57,705 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-29 11:03:57,706 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:03:57,706 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-09-29 11:03:57,706 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 1
+2023-09-29 11:03:57,706 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:03:57,706 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-29 11:03:57,706 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:03:57,706 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-09-29 11:03:57,706 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 2
+2023-09-29 11:03:57,706 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:03:57,706 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-29 11:03:57,706 INFO    HandlerThread:3649 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-29 11:03:57,707 DEBUG   SystemMonitor:3649 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-29 11:03:57,707 INFO    HandlerThread:3649 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-29 11:03:57,707 DEBUG   SystemMonitor:3649 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-29 11:03:57,707 INFO    HandlerThread:3649 [interfaces.py:finish():202] Joined disk monitor
+2023-09-29 11:03:57,707 DEBUG   SystemMonitor:3649 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-29 11:03:57,726 INFO    HandlerThread:3649 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-29 11:03:57,726 INFO    HandlerThread:3649 [interfaces.py:finish():202] Joined memory monitor
+2023-09-29 11:03:57,726 INFO    HandlerThread:3649 [interfaces.py:finish():202] Joined network monitor
+2023-09-29 11:03:57,727 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:03:57,727 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-09-29 11:03:57,727 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 3
+2023-09-29 11:03:57,727 DEBUG   SenderThread:3649 [sender.py:send():380] send: stats
+2023-09-29 11:03:57,727 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:03:57,727 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-29 11:03:57,727 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:03:57,727 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-09-29 11:03:57,727 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 4
+2023-09-29 11:03:57,728 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:03:57,728 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-29 11:03:57,728 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:03:57,728 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-09-29 11:03:57,728 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 5
+2023-09-29 11:03:57,728 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:03:57,728 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-29 11:03:57,728 DEBUG   SenderThread:3649 [sender.py:send():380] send: summary
+2023-09-29 11:03:57,729 INFO    SenderThread:3649 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-09-29 11:03:57,729 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:03:57,729 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-09-29 11:03:57,729 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 6
+2023-09-29 11:03:57,729 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:03:57,729 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-29 11:03:57,729 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:03:57,729 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-09-29 11:03:57,732 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 11:03:57,915 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 7
+2023-09-29 11:03:57,915 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:03:57,916 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-29 11:03:57,916 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:03:57,916 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-09-29 11:03:58,016 INFO    wandb-upload_0:3649 [upload_job.py:push():131] Uploaded file /tmp/tmpl42f3c_owandb/pzhqckbo-wandb-metadata.json
+2023-09-29 11:03:58,251 INFO    Thread-12 :3649 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/config.yaml
+2023-09-29 11:03:58,251 INFO    Thread-12 :3649 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/wandb-metadata.json
+2023-09-29 11:03:58,251 INFO    Thread-12 :3649 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/requirements.txt
+2023-09-29 11:03:58,251 INFO    Thread-12 :3649 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/output.log
+2023-09-29 11:03:58,251 INFO    Thread-12 :3649 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/wandb-summary.json
+2023-09-29 11:03:58,463 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-29 11:04:00,249 INFO    Thread-12 :3649 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/output.log
+2023-09-29 11:04:01,711 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 8
+2023-09-29 11:04:01,712 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: poll_exit
+2023-09-29 11:04:01,712 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:04:01,712 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-29 11:04:01,712 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:04:01,712 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-09-29 11:04:01,712 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 9
+2023-09-29 11:04:01,712 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:04:01,713 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-29 11:04:01,713 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:04:01,713 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-09-29 11:04:01,713 INFO    SenderThread:3649 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-29 11:04:02,250 INFO    Thread-12 :3649 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/output.log
+2023-09-29 11:04:02,251 INFO    SenderThread:3649 [dir_watcher.py:finish():388] scan: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files
+2023-09-29 11:04:02,251 INFO    SenderThread:3649 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/wandb-summary.json wandb-summary.json
+2023-09-29 11:04:02,251 INFO    SenderThread:3649 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/wandb-metadata.json wandb-metadata.json
+2023-09-29 11:04:02,251 INFO    SenderThread:3649 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/output.log output.log
+2023-09-29 11:04:02,253 INFO    SenderThread:3649 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/requirements.txt requirements.txt
+2023-09-29 11:04:02,255 INFO    SenderThread:3649 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/config.yaml config.yaml
+2023-09-29 11:04:02,255 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 10
+2023-09-29 11:04:02,256 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:04:02,259 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-29 11:04:02,259 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:04:02,260 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-09-29 11:04:02,260 INFO    SenderThread:3649 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-29 11:04:02,638 INFO    wandb-upload_0:3649 [upload_job.py:push():131] Uploaded file /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/wandb-summary.json
+2023-09-29 11:04:02,744 INFO    wandb-upload_1:3649 [upload_job.py:push():131] Uploaded file /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/output.log
+2023-09-29 11:04:03,015 INFO    wandb-upload_2:3649 [upload_job.py:push():131] Uploaded file /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/requirements.txt
+2023-09-29 11:04:03,039 INFO    wandb-upload_3:3649 [upload_job.py:push():131] Uploaded file /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/files/config.yaml
+2023-09-29 11:04:03,239 INFO    Thread-11 (_thread_body):3649 [sender.py:transition_state():613] send defer: 11
+2023-09-29 11:04:03,239 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:04:03,239 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-29 11:04:03,240 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:04:03,240 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-09-29 11:04:03,240 INFO    SenderThread:3649 [file_pusher.py:join():181] waiting for file pusher
+2023-09-29 11:04:03,240 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 12
+2023-09-29 11:04:03,240 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:04:03,240 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-29 11:04:03,240 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:04:03,240 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-09-29 11:04:03,240 INFO    SenderThread:3649 [file_stream.py:finish():595] file stream finish called
+2023-09-29 11:04:03,390 INFO    SenderThread:3649 [file_stream.py:finish():599] file stream finish is done
+2023-09-29 11:04:03,390 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 13
+2023-09-29 11:04:03,390 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:04:03,390 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-29 11:04:03,390 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:04:03,391 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-09-29 11:04:03,391 INFO    SenderThread:3649 [sender.py:transition_state():613] send defer: 14
+2023-09-29 11:04:03,391 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 11:04:03,391 INFO    HandlerThread:3649 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-29 11:04:03,391 DEBUG   SenderThread:3649 [sender.py:send():380] send: final
+2023-09-29 11:04:03,391 DEBUG   SenderThread:3649 [sender.py:send():380] send: footer
+2023-09-29 11:04:03,391 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: defer
+2023-09-29 11:04:03,391 INFO    SenderThread:3649 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-09-29 11:04:03,392 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 11:04:03,392 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-29 11:04:03,392 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: poll_exit
+2023-09-29 11:04:03,393 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: server_info
+2023-09-29 11:04:03,393 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-29 11:04:03,393 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-29 11:04:03,393 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: job_info
+2023-09-29 11:04:03,393 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: server_info
+2023-09-29 11:04:03,530 DEBUG   SenderThread:3649 [sender.py:send_request():407] send_request: job_info
+2023-09-29 11:04:03,531 DEBUG   HandlerThread:3649 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-29 11:04:03,531 INFO    HandlerThread:3649 [handler.py:finish():844] shutting down handler
+2023-09-29 11:04:04,394 INFO    WriterThread:3649 [datastore.py:close():294] close: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_110356-itbtg1mm/run-itbtg1mm.wandb
+2023-09-29 11:04:04,531 INFO    SenderThread:3649 [sender.py:finish():1534] shutting down sender
+2023-09-29 11:04:04,531 INFO    SenderThread:3649 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-29 11:04:04,531 INFO    SenderThread:3649 [file_pusher.py:join():181] waiting for file pusher

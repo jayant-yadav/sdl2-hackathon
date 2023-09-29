@@ -1,0 +1,2141 @@
+Reading data
+Done reading data
+Starting training loop...
+Mean MSE_loss                            tot:    0.20885, ma:    0.20885, last:    0.20885
+Mean MSE_loss_val                        tot:    0.20885, ma:    0.20885, last:    0.20885
+Mean RMSE                                tot:    0.45700, ma:    0.45700, last:    0.45700
+Iter: 0 / 53397
+Mean MSE_loss                            tot:    0.04449, ma:    0.11891, last:    0.04429
+Mean MSE_loss_val                        tot:    0.12657, ma:    0.12657, last:    0.04429
+Mean RMSE                                tot:    0.19981, ma:    0.35202, last:    0.21044
+Iter: 100 / 53397
+Mean MSE_loss                            tot:    0.03432, ma:    0.10989, last:    0.05356
+Mean MSE_loss_val                        tot:    0.10223, ma:    0.10223, last:    0.05356
+Mean RMSE                                tot:    0.17555, ma:    0.33269, last:    0.23144
+Iter: 200 / 53397
+Mean MSE_loss                            tot:    0.03029, ma:    0.10154, last:    0.00893
+Mean MSE_loss_val                        tot:    0.07891, ma:    0.07891, last:    0.00893
+Mean RMSE                                tot:    0.16514, ma:    0.31457, last:    0.09452
+Iter: 300 / 53397
+Mean MSE_loss                            tot:    0.02828, ma:    0.09399, last:    0.03918
+Mean MSE_loss_val                        tot:    0.07096, ma:    0.07096, last:    0.03918
+Mean RMSE                                tot:    0.15993, ma:    0.29821, last:    0.19795
+Iter: 400 / 53397
+Mean MSE_loss                            tot:    0.02696, ma:    0.08712, last:    0.01493
+Mean MSE_loss_val                        tot:    0.06162, ma:    0.06162, last:    0.01493
+Mean RMSE                                tot:    0.15647, ma:    0.28327, last:    0.12217
+Iter: 500 / 53397
+Mean MSE_loss                            tot:    0.02601, ma:    0.08084, last:    0.01536
+Mean MSE_loss_val                        tot:    0.05501, ma:    0.05501, last:    0.01536
+Mean RMSE                                tot:    0.15390, ma:    0.26958, last:    0.12393
+Iter: 600 / 53397
+Mean MSE_loss                            tot:    0.02552, ma:    0.07530, last:    0.00485
+Mean MSE_loss_val                        tot:    0.04874, ma:    0.04874, last:    0.00485
+Mean RMSE                                tot:    0.15252, ma:    0.25754, last:    0.06963
+Iter: 700 / 53397
+Mean MSE_loss                            tot:    0.02500, ma:    0.07015, last:    0.02372
+Mean MSE_loss_val                        tot:    0.04596, ma:    0.04596, last:    0.02372
+Mean RMSE                                tot:    0.15116, ma:    0.24639, last:    0.15403
+Iter: 800 / 53397
+Mean MSE_loss                            tot:    0.02451, ma:    0.06544, last:    0.02767
+Mean MSE_loss_val                        tot:    0.04413, ma:    0.04595, last:    0.02767
+Mean RMSE                                tot:    0.14993, ma:    0.23618, last:    0.16634
+Iter: 900 / 53397
+Mean MSE_loss                            tot:    0.02408, ma:    0.06113, last:    0.02152
+Mean MSE_loss_val                        tot:    0.04208, ma:    0.04592, last:    0.02152
+Mean RMSE                                tot:    0.14882, ma:    0.22682, last:    0.14671
+Iter: 1000 / 53397
+Mean MSE_loss                            tot:    0.02382, ma:    0.05734, last:    0.01898
+Mean MSE_loss_val                        tot:    0.04015, ma:    0.04589, last:    0.01898
+Mean RMSE                                tot:    0.14819, ma:    0.21867, last:    0.13775
+Iter: 1100 / 53397
+Mean MSE_loss                            tot:    0.02354, ma:    0.05382, last:    0.01669
+Mean MSE_loss_val                        tot:    0.03835, ma:    0.04586, last:    0.01669
+Mean RMSE                                tot:    0.14737, ma:    0.21093, last:    0.12920
+Iter: 1200 / 53397
+Mean MSE_loss                            tot:    0.02332, ma:    0.05066, last:    0.03491
+Mean MSE_loss_val                        tot:    0.03810, ma:    0.04585, last:    0.03491
+Mean RMSE                                tot:    0.14682, ma:    0.20412, last:    0.18683
+Iter: 1300 / 53397
+Mean MSE_loss                            tot:    0.02309, ma:    0.04776, last:    0.02842
+Mean MSE_loss_val                        tot:    0.03746, ma:    0.04584, last:    0.02842
+Mean RMSE                                tot:    0.14629, ma:    0.19792, last:    0.16857
+Iter: 1400 / 53397
+Mean MSE_loss                            tot:    0.02310, ma:    0.04541, last:    0.01370
+Mean MSE_loss_val                        tot:    0.03597, ma:    0.04580, last:    0.01370
+Mean RMSE                                tot:    0.14636, ma:    0.19302, last:    0.11703
+Iter: 1500 / 53397
+Mean MSE_loss                            tot:    0.02296, ma:    0.04306, last:    0.01472
+Mean MSE_loss_val                        tot:    0.03472, ma:    0.04577, last:    0.01472
+Mean RMSE                                tot:    0.14594, ma:    0.18787, last:    0.12134
+Iter: 1600 / 53397
+Mean MSE_loss                            tot:    0.02274, ma:    0.04080, last:    0.00844
+Mean MSE_loss_val                        tot:    0.03326, ma:    0.04574, last:    0.00844
+Mean RMSE                                tot:    0.14528, ma:    0.18275, last:    0.09188
+Iter: 1700 / 53397
+Mean MSE_loss                            tot:    0.02273, ma:    0.03906, last:    0.03511
+Mean MSE_loss_val                        tot:    0.03336, ma:    0.04573, last:    0.03511
+Mean RMSE                                tot:    0.14531, ma:    0.17920, last:    0.18737
+Iter: 1800 / 53397
+Mean MSE_loss                            tot:    0.02260, ma:    0.03728, last:    0.02310
+Mean MSE_loss_val                        tot:    0.03285, ma:    0.04570, last:    0.02310
+Mean RMSE                                tot:    0.14491, ma:    0.17521, last:    0.15200
+Iter: 1900 / 53397
+Mean MSE_loss                            tot:    0.02246, ma:    0.03560, last:    0.02071
+Mean MSE_loss_val                        tot:    0.03227, ma:    0.04568, last:    0.02071
+Mean RMSE                                tot:    0.14442, ma:    0.17136, last:    0.14392
+Iter: 2000 / 53397
+Mean MSE_loss                            tot:    0.02246, ma:    0.03435, last:    0.02064
+Mean MSE_loss_val                        tot:    0.03174, ma:    0.04565, last:    0.02064
+Mean RMSE                                tot:    0.14448, ma:    0.16892, last:    0.14367
+Iter: 2100 / 53397
+Mean MSE_loss                            tot:    0.02244, ma:    0.03319, last:    0.01320
+Mean MSE_loss_val                        tot:    0.03093, ma:    0.04562, last:    0.01320
+Mean RMSE                                tot:    0.14444, ma:    0.16648, last:    0.11488
+Iter: 2200 / 53397
+Mean MSE_loss                            tot:    0.02240, ma:    0.03209, last:    0.01688
+Mean MSE_loss_val                        tot:    0.03035, ma:    0.04559, last:    0.01688
+Mean RMSE                                tot:    0.14430, ma:    0.16408, last:    0.12991
+Iter: 2300 / 53397
+Mean MSE_loss                            tot:    0.02237, ma:    0.03108, last:    0.00811
+Mean MSE_loss_val                        tot:    0.02946, ma:    0.04555, last:    0.00811
+Mean RMSE                                tot:    0.14420, ma:    0.16195, last:    0.09006
+Iter: 2400 / 53397
+Mean MSE_loss                            tot:    0.02230, ma:    0.03009, last:    0.02618
+Mean MSE_loss_val                        tot:    0.02933, ma:    0.04553, last:    0.02618
+Mean RMSE                                tot:    0.14405, ma:    0.15987, last:    0.16180
+Iter: 2500 / 53397
+Mean MSE_loss                            tot:    0.02223, ma:    0.02918, last:    0.01706
+Mean MSE_loss_val                        tot:    0.02888, ma:    0.04551, last:    0.01706
+Mean RMSE                                tot:    0.14386, ma:    0.15785, last:    0.13062
+Iter: 2600 / 53397
+Mean MSE_loss                            tot:    0.02219, ma:    0.02840, last:    0.01673
+Mean MSE_loss_val                        tot:    0.02844, ma:    0.04548, last:    0.01673
+Mean RMSE                                tot:    0.14370, ma:    0.15609, last:    0.12934
+Iter: 2700 / 53397
+Mean MSE_loss                            tot:    0.02218, ma:    0.02778, last:    0.02356
+Mean MSE_loss_val                        tot:    0.02828, ma:    0.04546, last:    0.02356
+Mean RMSE                                tot:    0.14372, ma:    0.15496, last:    0.15350
+Iter: 2800 / 53397
+Mean MSE_loss                            tot:    0.02215, ma:    0.02719, last:    0.00626
+Mean MSE_loss_val                        tot:    0.02754, ma:    0.04542, last:    0.00626
+Mean RMSE                                tot:    0.14363, ma:    0.15365, last:    0.07910
+Iter: 2900 / 53397
+Mean MSE_loss                            tot:    0.02218, ma:    0.02677, last:    0.06569
+Mean MSE_loss_val                        tot:    0.02877, ma:    0.04544, last:    0.06569
+Mean RMSE                                tot:    0.14378, ma:    0.15309, last:    0.25631
+Iter: 3000 / 53397
+Mean MSE_loss                            tot:    0.02213, ma:    0.02620, last:    0.01729
+Mean MSE_loss_val                        tot:    0.02841, ma:    0.04541, last:    0.01729
+Mean RMSE                                tot:    0.14364, ma:    0.15180, last:    0.13150
+Iter: 3100 / 53397
+Mean MSE_loss                            tot:    0.02205, ma:    0.02558, last:    0.01106
+Mean MSE_loss_val                        tot:    0.02789, ma:    0.04537, last:    0.01106
+Mean RMSE                                tot:    0.14340, ma:    0.15027, last:    0.10517
+Iter: 3200 / 53397
+Mean MSE_loss                            tot:    0.02206, ma:    0.02526, last:    0.00379
+Mean MSE_loss_val                        tot:    0.02718, ma:    0.04533, last:    0.00379
+Mean RMSE                                tot:    0.14343, ma:    0.14970, last:    0.06154
+Iter: 3300 / 53397
+Mean MSE_loss                            tot:    0.02201, ma:    0.02479, last:    0.01000
+Mean MSE_loss_val                        tot:    0.02669, ma:    0.04530, last:    0.01000
+Mean RMSE                                tot:    0.14329, ma:    0.14863, last:    0.09998
+Iter: 3400 / 53397
+Mean MSE_loss                            tot:    0.02199, ma:    0.02446, last:    0.02413
+Mean MSE_loss_val                        tot:    0.02662, ma:    0.04528, last:    0.02413
+Mean RMSE                                tot:    0.14324, ma:    0.14796, last:    0.15533
+Iter: 3500 / 53397
+Mean MSE_loss                            tot:    0.02198, ma:    0.02418, last:    0.03246
+Mean MSE_loss_val                        tot:    0.02677, ma:    0.04526, last:    0.03246
+Mean RMSE                                tot:    0.14323, ma:    0.14748, last:    0.18017
+Iter: 3600 / 53397
+Mean MSE_loss                            tot:    0.02201, ma:    0.02407, last:    0.02601
+Mean MSE_loss_val                        tot:    0.02675, ma:    0.04524, last:    0.02601
+Mean RMSE                                tot:    0.14334, ma:    0.14744, last:    0.16126
+Iter: 3700 / 53397
+Mean MSE_loss                            tot:    0.02200, ma:    0.02386, last:    0.02739
+Mean MSE_loss_val                        tot:    0.02677, ma:    0.04523, last:    0.02739
+Mean RMSE                                tot:    0.14334, ma:    0.14700, last:    0.16549
+Iter: 3800 / 53397
+Mean MSE_loss                            tot:    0.02195, ma:    0.02347, last:    0.01064
+Mean MSE_loss_val                        tot:    0.02637, ma:    0.04519, last:    0.01064
+Mean RMSE                                tot:    0.14318, ma:    0.14604, last:    0.10317
+Iter: 3900 / 53397
+Mean MSE_loss                            tot:    0.02192, ma:    0.02323, last:    0.03009
+Mean MSE_loss_val                        tot:    0.02646, ma:    0.04518, last:    0.03009
+Mean RMSE                                tot:    0.14313, ma:    0.14559, last:    0.17345
+Iter: 4000 / 53397
+Mean MSE_loss                            tot:    0.02194, ma:    0.02316, last:    0.01492
+Mean MSE_loss_val                        tot:    0.02618, ma:    0.04515, last:    0.01492
+Mean RMSE                                tot:    0.14319, ma:    0.14562, last:    0.12215
+Iter: 4100 / 53397
+Mean MSE_loss                            tot:    0.02189, ma:    0.02285, last:    0.01945
+Mean MSE_loss_val                        tot:    0.02603, ma:    0.04512, last:    0.01945
+Mean RMSE                                tot:    0.14306, ma:    0.14485, last:    0.13948
+Iter: 4200 / 53397
+Mean MSE_loss                            tot:    0.02190, ma:    0.02281, last:    0.00588
+Mean MSE_loss_val                        tot:    0.02557, ma:    0.04508, last:    0.00588
+Mean RMSE                                tot:    0.14307, ma:    0.14471, last:    0.07669
+Iter: 4300 / 53397
+Mean MSE_loss                            tot:    0.02188, ma:    0.02263, last:    0.01025
+Mean MSE_loss_val                        tot:    0.02523, ma:    0.04505, last:    0.01025
+Mean RMSE                                tot:    0.14301, ma:    0.14429, last:    0.10123
+Iter: 4400 / 53397
+Mean MSE_loss                            tot:    0.02187, ma:    0.02255, last:    0.01465
+Mean MSE_loss_val                        tot:    0.02500, ma:    0.04502, last:    0.01465
+Mean RMSE                                tot:    0.14300, ma:    0.14417, last:    0.12104
+Iter: 4500 / 53397
+Mean MSE_loss                            tot:    0.02186, ma:    0.02241, last:    0.01261
+Mean MSE_loss_val                        tot:    0.02474, ma:    0.04498, last:    0.01261
+Mean RMSE                                tot:    0.14296, ma:    0.14385, last:    0.11228
+Iter: 4600 / 53397
+Mean MSE_loss                            tot:    0.02181, ma:    0.02215, last:    0.03018
+Mean MSE_loss_val                        tot:    0.02485, ma:    0.04497, last:    0.03018
+Mean RMSE                                tot:    0.14283, ma:    0.14319, last:    0.17371
+Iter: 4700 / 53397
+Mean MSE_loss                            tot:    0.02175, ma:    0.02186, last:    0.01547
+Mean MSE_loss_val                        tot:    0.02466, ma:    0.04494, last:    0.01547
+Mean RMSE                                tot:    0.14263, ma:    0.14221, last:    0.12436
+Iter: 4800 / 53397
+Mean MSE_loss                            tot:    0.02174, ma:    0.02179, last:    0.01274
+Mean MSE_loss_val                        tot:    0.02442, ma:    0.04491, last:    0.01274
+Mean RMSE                                tot:    0.14258, ma:    0.14202, last:    0.11287
+Iter: 4900 / 53397
+Mean MSE_loss                            tot:    0.02173, ma:    0.02171, last:    0.01015
+Mean MSE_loss_val                        tot:    0.02414, ma:    0.04487, last:    0.01015
+Mean RMSE                                tot:    0.14255, ma:    0.14193, last:    0.10072
+Iter: 5000 / 53397
+Mean MSE_loss                            tot:    0.02168, ma:    0.02149, last:    0.02851
+Mean MSE_loss_val                        tot:    0.02422, ma:    0.04486, last:    0.02851
+Mean RMSE                                tot:    0.14241, ma:    0.14129, last:    0.16883
+Iter: 5100 / 53397
+Mean MSE_loss                            tot:    0.02166, ma:    0.02140, last:    0.03690
+Mean MSE_loss_val                        tot:    0.02446, ma:    0.04485, last:    0.03690
+Mean RMSE                                tot:    0.14233, ma:    0.14104, last:    0.19209
+Iter: 5200 / 53397
+Mean MSE_loss                            tot:    0.02165, ma:    0.02137, last:    0.01421
+Mean MSE_loss_val                        tot:    0.02427, ma:    0.04482, last:    0.01421
+Mean RMSE                                tot:    0.14231, ma:    0.14102, last:    0.11922
+Iter: 5300 / 53397
+Mean MSE_loss                            tot:    0.02164, ma:    0.02134, last:    0.02162
+Mean MSE_loss_val                        tot:    0.02422, ma:    0.04479, last:    0.02162
+Mean RMSE                                tot:    0.14227, ma:    0.14097, last:    0.14704
+Iter: 5400 / 53397
+Mean MSE_loss                            tot:    0.02162, ma:    0.02130, last:    0.03136
+Mean MSE_loss_val                        tot:    0.02435, ma:    0.04478, last:    0.03136
+Mean RMSE                                tot:    0.14224, ma:    0.14094, last:    0.17708
+Iter: 5500 / 53397
+Mean MSE_loss                            tot:    0.02160, ma:    0.02121, last:    0.03424
+Mean MSE_loss_val                        tot:    0.02452, ma:    0.04477, last:    0.03424
+Mean RMSE                                tot:    0.14218, ma:    0.14075, last:    0.18503
+Iter: 5600 / 53397
+Mean MSE_loss                            tot:    0.02158, ma:    0.02116, last:    0.01188
+Mean MSE_loss_val                        tot:    0.02431, ma:    0.04474, last:    0.01188
+Mean RMSE                                tot:    0.14214, ma:    0.14063, last:    0.10899
+Iter: 5700 / 53397
+Mean MSE_loss                            tot:    0.02157, ma:    0.02113, last:    0.01516
+Mean MSE_loss_val                        tot:    0.02415, ma:    0.04471, last:    0.01516
+Mean RMSE                                tot:    0.14211, ma:    0.14061, last:    0.12314
+Iter: 5800 / 53397
+Mean MSE_loss                            tot:    0.02157, ma:    0.02116, last:    0.02646
+Mean MSE_loss_val                        tot:    0.02419, ma:    0.04469, last:    0.02646
+Mean RMSE                                tot:    0.14210, ma:    0.14071, last:    0.16265
+Iter: 5900 / 53397
+Mean MSE_loss                            tot:    0.02156, ma:    0.02118, last:    0.01809
+Mean MSE_loss_val                        tot:    0.02409, ma:    0.04466, last:    0.01809
+Mean RMSE                                tot:    0.14209, ma:    0.14081, last:    0.13449
+Iter: 6000 / 53397
+Mean MSE_loss                            tot:    0.02158, ma:    0.02128, last:    0.02324
+Mean MSE_loss_val                        tot:    0.02408, ma:    0.04464, last:    0.02324
+Mean RMSE                                tot:    0.14213, ma:    0.14114, last:    0.15245
+Iter: 6100 / 53397
+Mean MSE_loss                            tot:    0.02155, ma:    0.02116, last:    0.00882
+Mean MSE_loss_val                        tot:    0.02383, ma:    0.04461, last:    0.00882
+Mean RMSE                                tot:    0.14203, ma:    0.14069, last:    0.09391
+Iter: 6200 / 53397
+Mean MSE_loss                            tot:    0.02156, ma:    0.02123, last:    0.03924
+Mean MSE_loss_val                        tot:    0.02407, ma:    0.04460, last:    0.03924
+Mean RMSE                                tot:    0.14206, ma:    0.14101, last:    0.19808
+Iter: 6300 / 53397
+Mean MSE_loss                            tot:    0.02154, ma:    0.02115, last:    0.03346
+Mean MSE_loss_val                        tot:    0.02422, ma:    0.04459, last:    0.03346
+Mean RMSE                                tot:    0.14203, ma:    0.14087, last:    0.18291
+Iter: 6400 / 53397
+Mean MSE_loss                            tot:    0.02151, ma:    0.02103, last:    0.03009
+Mean MSE_loss_val                        tot:    0.02431, ma:    0.04457, last:    0.03009
+Mean RMSE                                tot:    0.14193, ma:    0.14037, last:    0.17345
+Iter: 6500 / 53397
+Mean MSE_loss                            tot:    0.02150, ma:    0.02100, last:    0.01782
+Mean MSE_loss_val                        tot:    0.02421, ma:    0.04455, last:    0.01782
+Mean RMSE                                tot:    0.14190, ma:    0.14031, last:    0.13350
+Iter: 6600 / 53397
+Mean MSE_loss                            tot:    0.02152, ma:    0.02119, last:    0.01611
+Mean MSE_loss_val                        tot:    0.02409, ma:    0.04452, last:    0.01611
+Mean RMSE                                tot:    0.14197, ma:    0.14094, last:    0.12693
+Iter: 6700 / 53397
+Mean MSE_loss                            tot:    0.02151, ma:    0.02113, last:    0.02016
+Mean MSE_loss_val                        tot:    0.02404, ma:    0.04449, last:    0.02016
+Mean RMSE                                tot:    0.14194, ma:    0.14083, last:    0.14200
+Iter: 6800 / 53397
+Mean MSE_loss                            tot:    0.02151, ma:    0.02117, last:    0.01324
+Mean MSE_loss_val                        tot:    0.02388, ma:    0.04446, last:    0.01324
+Mean RMSE                                tot:    0.14193, ma:    0.14090, last:    0.11508
+Iter: 6900 / 53397
+Mean MSE_loss                            tot:    0.02150, ma:    0.02111, last:    0.03309
+Mean MSE_loss_val                        tot:    0.02401, ma:    0.04445, last:    0.03309
+Mean RMSE                                tot:    0.14189, ma:    0.14076, last:    0.18191
+Iter: 7000 / 53397
+Mean MSE_loss                            tot:    0.02148, ma:    0.02108, last:    0.03498
+Mean MSE_loss_val                        tot:    0.02416, ma:    0.04444, last:    0.03498
+Mean RMSE                                tot:    0.14187, ma:    0.14069, last:    0.18703
+Iter: 7100 / 53397
+Mean MSE_loss                            tot:    0.02150, ma:    0.02120, last:    0.00663
+Mean MSE_loss_val                        tot:    0.02392, ma:    0.04440, last:    0.00663
+Mean RMSE                                tot:    0.14191, ma:    0.14106, last:    0.08144
+Iter: 7200 / 53397
+Mean MSE_loss                            tot:    0.02151, ma:    0.02130, last:    0.02542
+Mean MSE_loss_val                        tot:    0.02394, ma:    0.04439, last:    0.02542
+Mean RMSE                                tot:    0.14196, ma:    0.14151, last:    0.15943
+Iter: 7300 / 53397
+Mean MSE_loss                            tot:    0.02152, ma:    0.02141, last:    0.02947
+Mean MSE_loss_val                        tot:    0.02402, ma:    0.04437, last:    0.02947
+Mean RMSE                                tot:    0.14201, ma:    0.14193, last:    0.17166
+Iter: 7400 / 53397
+Mean MSE_loss                            tot:    0.02153, ma:    0.02148, last:    0.02424
+Mean MSE_loss_val                        tot:    0.02402, ma:    0.04435, last:    0.02424
+Mean RMSE                                tot:    0.14204, ma:    0.14214, last:    0.15569
+Iter: 7500 / 53397
+Mean MSE_loss                            tot:    0.02152, ma:    0.02143, last:    0.01222
+Mean MSE_loss_val                        tot:    0.02387, ma:    0.04432, last:    0.01222
+Mean RMSE                                tot:    0.14201, ma:    0.14194, last:    0.11054
+Iter: 7600 / 53397
+Mean MSE_loss                            tot:    0.02151, ma:    0.02139, last:    0.01760
+Mean MSE_loss_val                        tot:    0.02379, ma:    0.04429, last:    0.01760
+Mean RMSE                                tot:    0.14198, ma:    0.14175, last:    0.13268
+Iter: 7700 / 53397
+Mean MSE_loss                            tot:    0.02152, ma:    0.02144, last:    0.01291
+Mean MSE_loss_val                        tot:    0.02365, ma:    0.04426, last:    0.01291
+Mean RMSE                                tot:    0.14200, ma:    0.14187, last:    0.11362
+Iter: 7800 / 53397
+Mean MSE_loss                            tot:    0.02151, ma:    0.02137, last:    0.03508
+Mean MSE_loss_val                        tot:    0.02379, ma:    0.04425, last:    0.03508
+Mean RMSE                                tot:    0.14196, ma:    0.14162, last:    0.18730
+Iter: 7900 / 53397
+Mean MSE_loss                            tot:    0.02149, ma:    0.02123, last:    0.00812
+Mean MSE_loss_val                        tot:    0.02360, ma:    0.04422, last:    0.00812
+Mean RMSE                                tot:    0.14189, ma:    0.14109, last:    0.09010
+Iter: 8000 / 53397
+Mean MSE_loss                            tot:    0.02149, ma:    0.02124, last:    0.01715
+Mean MSE_loss_val                        tot:    0.02352, ma:    0.04419, last:    0.01715
+Mean RMSE                                tot:    0.14190, ma:    0.14121, last:    0.13094
+Iter: 8100 / 53397
+Mean MSE_loss                            tot:    0.02149, ma:    0.02126, last:    0.01161
+Mean MSE_loss_val                        tot:    0.02338, ma:    0.04416, last:    0.01161
+Mean RMSE                                tot:    0.14190, ma:    0.14130, last:    0.10776
+Iter: 8200 / 53397
+Mean MSE_loss                            tot:    0.02149, ma:    0.02128, last:    0.01238
+Mean MSE_loss_val                        tot:    0.02325, ma:    0.04412, last:    0.01238
+Mean RMSE                                tot:    0.14190, ma:    0.14137, last:    0.11127
+Iter: 8300 / 53397
+Mean MSE_loss                            tot:    0.02148, ma:    0.02122, last:    0.02423
+Mean MSE_loss_val                        tot:    0.02326, ma:    0.04410, last:    0.02423
+Mean RMSE                                tot:    0.14186, ma:    0.14112, last:    0.15567
+Iter: 8400 / 53397
+Mean MSE_loss                            tot:    0.02148, ma:    0.02130, last:    0.01557
+Mean MSE_loss_val                        tot:    0.02317, ma:    0.04408, last:    0.01557
+Mean RMSE                                tot:    0.14188, ma:    0.14135, last:    0.12476
+Iter: 8500 / 53397
+Mean MSE_loss                            tot:    0.02146, ma:    0.02113, last:    0.01491
+Mean MSE_loss_val                        tot:    0.02307, ma:    0.04405, last:    0.01491
+Mean RMSE                                tot:    0.14180, ma:    0.14069, last:    0.12209
+Iter: 8600 / 53397
+Mean MSE_loss                            tot:    0.02145, ma:    0.02110, last:    0.01449
+Mean MSE_loss_val                        tot:    0.02297, ma:    0.04402, last:    0.01449
+Mean RMSE                                tot:    0.14178, ma:    0.14062, last:    0.12037
+Iter: 8700 / 53397
+Mean MSE_loss                            tot:    0.02144, ma:    0.02102, last:    0.02093
+Mean MSE_loss_val                        tot:    0.02295, ma:    0.04399, last:    0.02093
+Mean RMSE                                tot:    0.14173, ma:    0.14030, last:    0.14466
+Iter: 8800 / 53397
+Mean MSE_loss                            tot:    0.02143, ma:    0.02097, last:    0.01423
+Mean MSE_loss_val                        tot:    0.02285, ma:    0.04396, last:    0.01423
+Mean RMSE                                tot:    0.14170, ma:    0.14016, last:    0.11929
+Iter: 8900 / 53397
+Mean MSE_loss                            tot:    0.02142, ma:    0.02093, last:    0.02531
+Mean MSE_loss_val                        tot:    0.02288, ma:    0.04395, last:    0.02531
+Mean RMSE                                tot:    0.14166, ma:    0.14002, last:    0.15908
+Iter: 9000 / 53397
+Mean MSE_loss                            tot:    0.02143, ma:    0.02109, last:    0.02555
+Mean MSE_loss_val                        tot:    0.02291, ma:    0.04393, last:    0.02555
+Mean RMSE                                tot:    0.14171, ma:    0.14055, last:    0.15984
+Iter: 9100 / 53397
+Mean MSE_loss                            tot:    0.02143, ma:    0.02107, last:    0.02344
+Mean MSE_loss_val                        tot:    0.02292, ma:    0.04391, last:    0.02344
+Mean RMSE                                tot:    0.14169, ma:    0.14051, last:    0.15311
+Iter: 9200 / 53397
+Mean MSE_loss                            tot:    0.02140, ma:    0.02089, last:    0.01967
+Mean MSE_loss_val                        tot:    0.02288, ma:    0.04388, last:    0.01967
+Mean RMSE                                tot:    0.14161, ma:    0.13995, last:    0.14025
+Iter: 9300 / 53397
+Mean MSE_loss                            tot:    0.02141, ma:    0.02097, last:    0.01016
+Mean MSE_loss_val                        tot:    0.02275, ma:    0.04385, last:    0.01016
+Mean RMSE                                tot:    0.14164, ma:    0.14033, last:    0.10081
+Iter: 9400 / 53397
+Mean MSE_loss                            tot:    0.02138, ma:    0.02081, last:    0.02206
+Mean MSE_loss_val                        tot:    0.02274, ma:    0.04383, last:    0.02206
+Mean RMSE                                tot:    0.14158, ma:    0.13990, last:    0.14853
+Iter: 9500 / 53397
+Mean MSE_loss                            tot:    0.02138, ma:    0.02086, last:    0.03447
+Mean MSE_loss_val                        tot:    0.02286, ma:    0.04382, last:    0.03447
+Mean RMSE                                tot:    0.14158, ma:    0.14008, last:    0.18565
+Iter: 9600 / 53397
+Mean MSE_loss                            tot:    0.02136, ma:    0.02075, last:    0.01449
+Mean MSE_loss_val                        tot:    0.02278, ma:    0.04379, last:    0.01449
+Mean RMSE                                tot:    0.14151, ma:    0.13963, last:    0.12036
+Iter: 9700 / 53397
+Mean MSE_loss                            tot:    0.02135, ma:    0.02066, last:    0.01443
+Mean MSE_loss_val                        tot:    0.02269, ma:    0.04376, last:    0.01443
+Mean RMSE                                tot:    0.14145, ma:    0.13924, last:    0.12011
+Iter: 9800 / 53397
+Mean MSE_loss                            tot:    0.02133, ma:    0.02059, last:    0.02330
+Mean MSE_loss_val                        tot:    0.02270, ma:    0.04374, last:    0.02330
+Mean RMSE                                tot:    0.14140, ma:    0.13897, last:    0.15265
+Iter: 9900 / 53397
+Mean MSE_loss                            tot:    0.02133, ma:    0.02058, last:    0.00787
+Mean MSE_loss_val                        tot:    0.02255, ma:    0.04370, last:    0.00787
+Mean RMSE                                tot:    0.14136, ma:    0.13877, last:    0.08868
+Iter: 10000 / 53397
+Mean MSE_loss                            tot:    0.02132, ma:    0.02060, last:    0.03088
+Mean MSE_loss_val                        tot:    0.02263, ma:    0.04369, last:    0.03088
+Mean RMSE                                tot:    0.14134, ma:    0.13889, last:    0.17572
+Iter: 10100 / 53397
+Mean MSE_loss                            tot:    0.02131, ma:    0.02055, last:    0.02228
+Mean MSE_loss_val                        tot:    0.02263, ma:    0.04367, last:    0.02228
+Mean RMSE                                tot:    0.14129, ma:    0.13864, last:    0.14927
+Iter: 10200 / 53397
+Mean MSE_loss                            tot:    0.02132, ma:    0.02074, last:    0.03521
+Mean MSE_loss_val                        tot:    0.02275, ma:    0.04366, last:    0.03521
+Mean RMSE                                tot:    0.14133, ma:    0.13931, last:    0.18763
+Iter: 10300 / 53397
+Mean MSE_loss                            tot:    0.02130, ma:    0.02060, last:    0.02933
+Mean MSE_loss_val                        tot:    0.02281, ma:    0.04365, last:    0.02933
+Mean RMSE                                tot:    0.14128, ma:    0.13894, last:    0.17125
+Iter: 10400 / 53397
+Mean MSE_loss                            tot:    0.02131, ma:    0.02073, last:    0.02101
+Mean MSE_loss_val                        tot:    0.02280, ma:    0.04362, last:    0.02101
+Mean RMSE                                tot:    0.14131, ma:    0.13955, last:    0.14494
+Iter: 10500 / 53397
+Mean MSE_loss                            tot:    0.02130, ma:    0.02075, last:    0.01017
+Mean MSE_loss_val                        tot:    0.02268, ma:    0.04359, last:    0.01017
+Mean RMSE                                tot:    0.14130, ma:    0.13959, last:    0.10087
+Iter: 10600 / 53397
+Mean MSE_loss                            tot:    0.02127, ma:    0.02048, last:    0.02679
+Mean MSE_loss_val                        tot:    0.02272, ma:    0.04357, last:    0.02679
+Mean RMSE                                tot:    0.14120, ma:    0.13870, last:    0.16368
+Iter: 10700 / 53397
+Mean MSE_loss                            tot:    0.02127, ma:    0.02053, last:    0.00919
+Mean MSE_loss_val                        tot:    0.02259, ma:    0.04354, last:    0.00919
+Mean RMSE                                tot:    0.14119, ma:    0.13885, last:    0.09585
+Iter: 10800 / 53397
+Mean MSE_loss                            tot:    0.02126, ma:    0.02048, last:    0.04239
+Mean MSE_loss_val                        tot:    0.02277, ma:    0.04354, last:    0.04239
+Mean RMSE                                tot:    0.14115, ma:    0.13870, last:    0.20590
+Iter: 10900 / 53397
+Mean MSE_loss                            tot:    0.02127, ma:    0.02065, last:    0.02871
+Mean MSE_loss_val                        tot:    0.02283, ma:    0.04352, last:    0.02871
+Mean RMSE                                tot:    0.14120, ma:    0.13937, last:    0.16945
+Iter: 11000 / 53397
+Mean MSE_loss                            tot:    0.02126, ma:    0.02067, last:    0.03456
+Mean MSE_loss_val                        tot:    0.02293, ma:    0.04351, last:    0.03456
+Mean RMSE                                tot:    0.14119, ma:    0.13946, last:    0.18590
+Iter: 11100 / 53397
+Mean MSE_loss                            tot:    0.02125, ma:    0.02061, last:    0.00996
+Mean MSE_loss_val                        tot:    0.02282, ma:    0.04348, last:    0.00996
+Mean RMSE                                tot:    0.14114, ma:    0.13916, last:    0.09978
+Iter: 11200 / 53397
+Mean MSE_loss                            tot:    0.02125, ma:    0.02060, last:    0.01841
+Mean MSE_loss_val                        tot:    0.02278, ma:    0.04345, last:    0.01841
+Mean RMSE                                tot:    0.14112, ma:    0.13912, last:    0.13569
+Iter: 11300 / 53397
+Mean MSE_loss                            tot:    0.02124, ma:    0.02065, last:    0.01569
+Mean MSE_loss_val                        tot:    0.02272, ma:    0.04343, last:    0.01569
+Mean RMSE                                tot:    0.14111, ma:    0.13918, last:    0.12524
+Iter: 11400 / 53397
+Mean MSE_loss                            tot:    0.02124, ma:    0.02067, last:    0.01414
+Mean MSE_loss_val                        tot:    0.02264, ma:    0.04340, last:    0.01414
+Mean RMSE                                tot:    0.14110, ma:    0.13925, last:    0.11890
+Iter: 11500 / 53397
+Mean MSE_loss                            tot:    0.02124, ma:    0.02071, last:    0.01317
+Mean MSE_loss_val                        tot:    0.02256, ma:    0.04337, last:    0.01317
+Mean RMSE                                tot:    0.14110, ma:    0.13943, last:    0.11475
+Iter: 11600 / 53397
+Mean MSE_loss                            tot:    0.02124, ma:    0.02070, last:    0.01996
+Mean MSE_loss_val                        tot:    0.02254, ma:    0.04334, last:    0.01996
+Mean RMSE                                tot:    0.14109, ma:    0.13947, last:    0.14130
+Iter: 11700 / 53397
+Mean MSE_loss                            tot:    0.02123, ma:    0.02072, last:    0.02025
+Mean MSE_loss_val                        tot:    0.02252, ma:    0.04332, last:    0.02025
+Mean RMSE                                tot:    0.14107, ma:    0.13941, last:    0.14229
+Iter: 11800 / 53397
+Mean MSE_loss                            tot:    0.02122, ma:    0.02069, last:    0.02296
+Mean MSE_loss_val                        tot:    0.02252, ma:    0.04330, last:    0.02296
+Mean RMSE                                tot:    0.14105, ma:    0.13932, last:    0.15154
+Iter: 11900 / 53397
+Mean MSE_loss                            tot:    0.02122, ma:    0.02066, last:    0.02302
+Mean MSE_loss_val                        tot:    0.02253, ma:    0.04328, last:    0.02302
+Mean RMSE                                tot:    0.14103, ma:    0.13925, last:    0.15172
+Iter: 12000 / 53397
+Mean MSE_loss                            tot:    0.02121, ma:    0.02062, last:    0.02099
+Mean MSE_loss_val                        tot:    0.02251, ma:    0.04326, last:    0.02099
+Mean RMSE                                tot:    0.14101, ma:    0.13921, last:    0.14487
+Iter: 12100 / 53397
+Mean MSE_loss                            tot:    0.02121, ma:    0.02069, last:    0.01883
+Mean MSE_loss_val                        tot:    0.02248, ma:    0.04323, last:    0.01883
+Mean RMSE                                tot:    0.14101, ma:    0.13939, last:    0.13723
+Iter: 12200 / 53397
+Mean MSE_loss                            tot:    0.02121, ma:    0.02068, last:    0.01378
+Mean MSE_loss_val                        tot:    0.02241, ma:    0.04320, last:    0.01378
+Mean RMSE                                tot:    0.14099, ma:    0.13931, last:    0.11739
+Iter: 12300 / 53397
+Mean MSE_loss                            tot:    0.02119, ma:    0.02056, last:    0.01978
+Mean MSE_loss_val                        tot:    0.02239, ma:    0.04318, last:    0.01978
+Mean RMSE                                tot:    0.14095, ma:    0.13895, last:    0.14063
+Iter: 12400 / 53397
+Mean MSE_loss                            tot:    0.02120, ma:    0.02079, last:    0.02885
+Mean MSE_loss_val                        tot:    0.02244, ma:    0.04317, last:    0.02885
+Mean RMSE                                tot:    0.14099, ma:    0.13968, last:    0.16986
+Iter: 12500 / 53397
+Mean MSE_loss                            tot:    0.02119, ma:    0.02070, last:    0.01184
+Mean MSE_loss_val                        tot:    0.02236, ma:    0.04313, last:    0.01184
+Mean RMSE                                tot:    0.14096, ma:    0.13939, last:    0.10881
+Iter: 12600 / 53397
+Mean MSE_loss                            tot:    0.02120, ma:    0.02086, last:    0.00608
+Mean MSE_loss_val                        tot:    0.02223, ma:    0.04310, last:    0.00608
+Mean RMSE                                tot:    0.14099, ma:    0.13987, last:    0.07795
+Iter: 12700 / 53397
+Mean MSE_loss                            tot:    0.02120, ma:    0.02079, last:    0.00361
+Mean MSE_loss_val                        tot:    0.02209, ma:    0.04306, last:    0.00361
+Mean RMSE                                tot:    0.14096, ma:    0.13964, last:    0.06008
+Iter: 12800 / 53397
+Mean MSE_loss                            tot:    0.02118, ma:    0.02070, last:    0.01406
+Mean MSE_loss_val                        tot:    0.02203, ma:    0.04303, last:    0.01406
+Mean RMSE                                tot:    0.14092, ma:    0.13932, last:    0.11859
+Iter: 12900 / 53397
+Mean MSE_loss                            tot:    0.02119, ma:    0.02087, last:    0.01496
+Mean MSE_loss_val                        tot:    0.02197, ma:    0.04300, last:    0.01496
+Mean RMSE                                tot:    0.14095, ma:    0.13986, last:    0.12233
+Iter: 13000 / 53397
+Mean MSE_loss                            tot:    0.02119, ma:    0.02087, last:    0.01701
+Mean MSE_loss_val                        tot:    0.02194, ma:    0.04298, last:    0.01701
+Mean RMSE                                tot:    0.14095, ma:    0.13989, last:    0.13044
+Iter: 13100 / 53397
+Mean MSE_loss                            tot:    0.02118, ma:    0.02081, last:    0.00307
+Mean MSE_loss_val                        tot:    0.02179, ma:    0.04294, last:    0.00307
+Mean RMSE                                tot:    0.14092, ma:    0.13961, last:    0.05538
+Iter: 13200 / 53397
+Mean MSE_loss                            tot:    0.02118, ma:    0.02074, last:    0.00833
+Mean MSE_loss_val                        tot:    0.02169, ma:    0.04290, last:    0.00833
+Mean RMSE                                tot:    0.14090, ma:    0.13947, last:    0.09125
+Iter: 13300 / 53397
+Mean MSE_loss                            tot:    0.02117, ma:    0.02073, last:    0.02132
+Mean MSE_loss_val                        tot:    0.02169, ma:    0.04288, last:    0.02132
+Mean RMSE                                tot:    0.14088, ma:    0.13938, last:    0.14602
+Iter: 13400 / 53397
+Mean MSE_loss                            tot:    0.02116, ma:    0.02063, last:    0.01450
+Mean MSE_loss_val                        tot:    0.02164, ma:    0.04285, last:    0.01450
+Mean RMSE                                tot:    0.14083, ma:    0.13892, last:    0.12043
+Iter: 13500 / 53397
+Mean MSE_loss                            tot:    0.02115, ma:    0.02055, last:    0.00319
+Mean MSE_loss_val                        tot:    0.02150, ma:    0.04281, last:    0.00319
+Mean RMSE                                tot:    0.14080, ma:    0.13870, last:    0.05648
+Iter: 13600 / 53397
+Mean MSE_loss                            tot:    0.02115, ma:    0.02052, last:    0.01243
+Mean MSE_loss_val                        tot:    0.02144, ma:    0.04278, last:    0.01243
+Mean RMSE                                tot:    0.14078, ma:    0.13860, last:    0.11147
+Iter: 13700 / 53397
+Mean MSE_loss                            tot:    0.02114, ma:    0.02050, last:    0.02658
+Mean MSE_loss_val                        tot:    0.02147, ma:    0.04276, last:    0.02658
+Mean RMSE                                tot:    0.14077, ma:    0.13867, last:    0.16304
+Iter: 13800 / 53397
+Mean MSE_loss                            tot:    0.02114, ma:    0.02059, last:    0.05323
+Mean MSE_loss_val                        tot:    0.02170, ma:    0.04277, last:    0.05323
+Mean RMSE                                tot:    0.14079, ma:    0.13918, last:    0.23071
+Iter: 13900 / 53397
+Mean MSE_loss                            tot:    0.02113, ma:    0.02045, last:    0.01079
+Mean MSE_loss_val                        tot:    0.02162, ma:    0.04274, last:    0.01079
+Mean RMSE                                tot:    0.14074, ma:    0.13856, last:    0.10389
+Iter: 14000 / 53397
+Mean MSE_loss                            tot:    0.02113, ma:    0.02058, last:    0.01484
+Mean MSE_loss_val                        tot:    0.02158, ma:    0.04272, last:    0.01484
+Mean RMSE                                tot:    0.14076, ma:    0.13905, last:    0.12181
+Iter: 14100 / 53397
+Mean MSE_loss                            tot:    0.02113, ma:    0.02062, last:    0.01408
+Mean MSE_loss_val                        tot:    0.02152, ma:    0.04269, last:    0.01408
+Mean RMSE                                tot:    0.14075, ma:    0.13919, last:    0.11865
+Iter: 14200 / 53397
+Mean MSE_loss                            tot:    0.02112, ma:    0.02052, last:    0.02712
+Mean MSE_loss_val                        tot:    0.02156, ma:    0.04267, last:    0.02712
+Mean RMSE                                tot:    0.14072, ma:    0.13890, last:    0.16468
+Iter: 14300 / 53397
+Mean MSE_loss                            tot:    0.02112, ma:    0.02064, last:    0.01433
+Mean MSE_loss_val                        tot:    0.02151, ma:    0.04264, last:    0.01433
+Mean RMSE                                tot:    0.14074, ma:    0.13933, last:    0.11971
+Iter: 14400 / 53397
+Mean MSE_loss                            tot:    0.02111, ma:    0.02050, last:    0.00536
+Mean MSE_loss_val                        tot:    0.02140, ma:    0.04261, last:    0.00536
+Mean RMSE                                tot:    0.14068, ma:    0.13865, last:    0.07324
+Iter: 14500 / 53397
+Mean MSE_loss                            tot:    0.02110, ma:    0.02042, last:    0.01923
+Mean MSE_loss_val                        tot:    0.02139, ma:    0.04258, last:    0.01923
+Mean RMSE                                tot:    0.14065, ma:    0.13833, last:    0.13867
+Iter: 14600 / 53397
+Mean MSE_loss                            tot:    0.02109, ma:    0.02032, last:    0.01184
+Mean MSE_loss_val                        tot:    0.02132, ma:    0.04255, last:    0.01184
+Mean RMSE                                tot:    0.14061, ma:    0.13806, last:    0.10880
+Iter: 14700 / 53397
+Mean MSE_loss                            tot:    0.02109, ma:    0.02047, last:    0.02389
+Mean MSE_loss_val                        tot:    0.02134, ma:    0.04253, last:    0.02389
+Mean RMSE                                tot:    0.14063, ma:    0.13862, last:    0.15457
+Iter: 14800 / 53397
+Mean MSE_loss                            tot:    0.02110, ma:    0.02058, last:    0.03591
+Mean MSE_loss_val                        tot:    0.02144, ma:    0.04253, last:    0.03591
+Mean RMSE                                tot:    0.14065, ma:    0.13912, last:    0.18950
+Iter: 14900 / 53397
+Mean MSE_loss                            tot:    0.02110, ma:    0.02063, last:    0.03010
+Mean MSE_loss_val                        tot:    0.02149, ma:    0.04251, last:    0.03010
+Mean RMSE                                tot:    0.14066, ma:    0.13930, last:    0.17348
+Iter: 15000 / 53397
+Mean MSE_loss                            tot:    0.02110, ma:    0.02066, last:    0.01412
+Mean MSE_loss_val                        tot:    0.02145, ma:    0.04248, last:    0.01412
+Mean RMSE                                tot:    0.14066, ma:    0.13942, last:    0.11882
+Iter: 15100 / 53397
+Mean MSE_loss                            tot:    0.02109, ma:    0.02055, last:    0.01620
+Mean MSE_loss_val                        tot:    0.02141, ma:    0.04246, last:    0.01620
+Mean RMSE                                tot:    0.14062, ma:    0.13904, last:    0.12730
+Iter: 15200 / 53397
+Mean MSE_loss                            tot:    0.02109, ma:    0.02068, last:    0.04510
+Mean MSE_loss_val                        tot:    0.02157, ma:    0.04246, last:    0.04510
+Mean RMSE                                tot:    0.14064, ma:    0.13951, last:    0.21237
+Iter: 15300 / 53397
+Mean MSE_loss                            tot:    0.02109, ma:    0.02064, last:    0.01285
+Mean MSE_loss_val                        tot:    0.02151, ma:    0.04243, last:    0.01285
+Mean RMSE                                tot:    0.14062, ma:    0.13931, last:    0.11337
+Iter: 15400 / 53397
+Mean MSE_loss                            tot:    0.02108, ma:    0.02057, last:    0.02465
+Mean MSE_loss_val                        tot:    0.02153, ma:    0.04241, last:    0.02465
+Mean RMSE                                tot:    0.14060, ma:    0.13914, last:    0.15699
+Iter: 15500 / 53397
+Mean MSE_loss                            tot:    0.02109, ma:    0.02074, last:    0.00855
+Mean MSE_loss_val                        tot:    0.02145, ma:    0.04238, last:    0.00855
+Mean RMSE                                tot:    0.14063, ma:    0.13959, last:    0.09248
+Iter: 15600 / 53397
+Mean MSE_loss                            tot:    0.02109, ma:    0.02075, last:    0.02748
+Mean MSE_loss_val                        tot:    0.02148, ma:    0.04237, last:    0.02748
+Mean RMSE                                tot:    0.14062, ma:    0.13962, last:    0.16576
+Iter: 15700 / 53397
+Mean MSE_loss                            tot:    0.02108, ma:    0.02072, last:    0.03622
+Mean MSE_loss_val                        tot:    0.02158, ma:    0.04236, last:    0.03622
+Mean RMSE                                tot:    0.14061, ma:    0.13953, last:    0.19032
+Iter: 15800 / 53397
+Mean MSE_loss                            tot:    0.02108, ma:    0.02077, last:    0.04409
+Mean MSE_loss_val                        tot:    0.02172, ma:    0.04236, last:    0.04409
+Mean RMSE                                tot:    0.14062, ma:    0.13982, last:    0.20996
+Iter: 15900 / 53397
+Mean MSE_loss                            tot:    0.02108, ma:    0.02079, last:    0.01360
+Mean MSE_loss_val                        tot:    0.02167, ma:    0.04233, last:    0.01360
+Mean RMSE                                tot:    0.14062, ma:    0.13989, last:    0.11662
+Iter: 16000 / 53397
+Mean MSE_loss                            tot:    0.02108, ma:    0.02079, last:    0.02250
+Mean MSE_loss_val                        tot:    0.02167, ma:    0.04231, last:    0.02250
+Mean RMSE                                tot:    0.14062, ma:    0.13993, last:    0.15001
+Iter: 16100 / 53397
+Mean MSE_loss                            tot:    0.02107, ma:    0.02071, last:    0.01442
+Mean MSE_loss_val                        tot:    0.02163, ma:    0.04228, last:    0.01442
+Mean RMSE                                tot:    0.14059, ma:    0.13965, last:    0.12008
+Iter: 16200 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02055, last:    0.01151
+Mean MSE_loss_val                        tot:    0.02157, ma:    0.04225, last:    0.01151
+Mean RMSE                                tot:    0.14055, ma:    0.13904, last:    0.10730
+Iter: 16300 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02053, last:    0.01085
+Mean MSE_loss_val                        tot:    0.02150, ma:    0.04222, last:    0.01085
+Mean RMSE                                tot:    0.14054, ma:    0.13896, last:    0.10417
+Iter: 16400 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02065, last:    0.02743
+Mean MSE_loss_val                        tot:    0.02154, ma:    0.04221, last:    0.02743
+Mean RMSE                                tot:    0.14055, ma:    0.13939, last:    0.16562
+Iter: 16500 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02061, last:    0.00303
+Mean MSE_loss_val                        tot:    0.02143, ma:    0.04217, last:    0.00303
+Mean RMSE                                tot:    0.14053, ma:    0.13917, last:    0.05507
+Iter: 16600 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02064, last:    0.02669
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04215, last:    0.02669
+Mean RMSE                                tot:    0.14054, ma:    0.13933, last:    0.16336
+Iter: 16700 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02072, last:    0.01872
+Mean MSE_loss_val                        tot:    0.02144, ma:    0.04213, last:    0.01872
+Mean RMSE                                tot:    0.14055, ma:    0.13964, last:    0.13682
+Iter: 16800 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02074, last:    0.02531
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04211, last:    0.02531
+Mean RMSE                                tot:    0.14054, ma:    0.13966, last:    0.15910
+Iter: 16900 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02082, last:    0.00956
+Mean MSE_loss_val                        tot:    0.02140, ma:    0.04208, last:    0.00956
+Mean RMSE                                tot:    0.14056, ma:    0.13994, last:    0.09777
+Iter: 17000 / 53397
+Mean MSE_loss                            tot:    0.02107, ma:    0.02092, last:    0.02358
+Mean MSE_loss_val                        tot:    0.02141, ma:    0.04206, last:    0.02358
+Mean RMSE                                tot:    0.14058, ma:    0.14034, last:    0.15356
+Iter: 17100 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02083, last:    0.00951
+Mean MSE_loss_val                        tot:    0.02134, ma:    0.04203, last:    0.00951
+Mean RMSE                                tot:    0.14055, ma:    0.13999, last:    0.09753
+Iter: 17200 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02083, last:    0.02021
+Mean MSE_loss_val                        tot:    0.02133, ma:    0.04201, last:    0.02021
+Mean RMSE                                tot:    0.14055, ma:    0.14000, last:    0.14216
+Iter: 17300 / 53397
+Mean MSE_loss                            tot:    0.02105, ma:    0.02079, last:    0.02983
+Mean MSE_loss_val                        tot:    0.02138, ma:    0.04199, last:    0.02983
+Mean RMSE                                tot:    0.14054, ma:    0.13983, last:    0.17270
+Iter: 17400 / 53397
+Mean MSE_loss                            tot:    0.02105, ma:    0.02079, last:    0.03088
+Mean MSE_loss_val                        tot:    0.02144, ma:    0.04198, last:    0.03088
+Mean RMSE                                tot:    0.14054, ma:    0.13994, last:    0.17572
+Iter: 17500 / 53397
+Mean MSE_loss                            tot:    0.02106, ma:    0.02093, last:    0.02537
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04197, last:    0.02537
+Mean RMSE                                tot:    0.14056, ma:    0.14044, last:    0.15927
+Iter: 17600 / 53397
+Mean MSE_loss                            tot:    0.02105, ma:    0.02073, last:    0.02139
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04195, last:    0.02139
+Mean RMSE                                tot:    0.14052, ma:    0.13964, last:    0.14624
+Iter: 17700 / 53397
+Mean MSE_loss                            tot:    0.02104, ma:    0.02068, last:    0.01487
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04192, last:    0.01487
+Mean RMSE                                tot:    0.14051, ma:    0.13959, last:    0.12195
+Iter: 17800 / 53397
+Mean MSE_loss                            tot:    0.02105, ma:    0.02080, last:    0.01461
+Mean MSE_loss_val                        tot:    0.02138, ma:    0.04189, last:    0.01461
+Mean RMSE                                tot:    0.14053, ma:    0.14007, last:    0.12088
+Iter: 17900 / 53397
+Mean MSE_loss                            tot:    0.02105, ma:    0.02090, last:    0.01648
+Mean MSE_loss_val                        tot:    0.02136, ma:    0.04187, last:    0.01648
+Mean RMSE                                tot:    0.14054, ma:    0.14034, last:    0.12836
+Iter: 18000 / 53397
+Mean MSE_loss                            tot:    0.02105, ma:    0.02090, last:    0.03540
+Mean MSE_loss_val                        tot:    0.02143, ma:    0.04186, last:    0.03540
+Mean RMSE                                tot:    0.14055, ma:    0.14039, last:    0.18815
+Iter: 18100 / 53397
+Mean MSE_loss                            tot:    0.02104, ma:    0.02073, last:    0.01072
+Mean MSE_loss_val                        tot:    0.02137, ma:    0.04183, last:    0.01072
+Mean RMSE                                tot:    0.14051, ma:    0.13975, last:    0.10355
+Iter: 18200 / 53397
+Mean MSE_loss                            tot:    0.02104, ma:    0.02073, last:    0.02050
+Mean MSE_loss_val                        tot:    0.02137, ma:    0.04181, last:    0.02050
+Mean RMSE                                tot:    0.14051, ma:    0.13976, last:    0.14318
+Iter: 18300 / 53397
+Mean MSE_loss                            tot:    0.02103, ma:    0.02068, last:    0.01772
+Mean MSE_loss_val                        tot:    0.02135, ma:    0.04178, last:    0.01772
+Mean RMSE                                tot:    0.14050, ma:    0.13963, last:    0.13313
+Iter: 18400 / 53397
+Mean MSE_loss                            tot:    0.02104, ma:    0.02075, last:    0.01913
+Mean MSE_loss_val                        tot:    0.02134, ma:    0.04176, last:    0.01913
+Mean RMSE                                tot:    0.14051, ma:    0.13995, last:    0.13831
+Iter: 18500 / 53397
+Mean MSE_loss                            tot:    0.02104, ma:    0.02079, last:    0.02331
+Mean MSE_loss_val                        tot:    0.02135, ma:    0.04174, last:    0.02331
+Mean RMSE                                tot:    0.14052, ma:    0.14018, last:    0.15267
+Iter: 18600 / 53397
+Mean MSE_loss                            tot:    0.02103, ma:    0.02064, last:    0.02109
+Mean MSE_loss_val                        tot:    0.02135, ma:    0.04172, last:    0.02109
+Mean RMSE                                tot:    0.14049, ma:    0.13966, last:    0.14521
+Iter: 18700 / 53397
+Mean MSE_loss                            tot:    0.02103, ma:    0.02066, last:    0.01926
+Mean MSE_loss_val                        tot:    0.02134, ma:    0.04170, last:    0.01926
+Mean RMSE                                tot:    0.14048, ma:    0.13969, last:    0.13878
+Iter: 18800 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02062, last:    0.00847
+Mean MSE_loss_val                        tot:    0.02127, ma:    0.04167, last:    0.00847
+Mean RMSE                                tot:    0.14047, ma:    0.13942, last:    0.09204
+Iter: 18900 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02058, last:    0.04526
+Mean MSE_loss_val                        tot:    0.02139, ma:    0.04167, last:    0.04526
+Mean RMSE                                tot:    0.14046, ma:    0.13945, last:    0.21273
+Iter: 19000 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02062, last:    0.02564
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04165, last:    0.02564
+Mean RMSE                                tot:    0.14046, ma:    0.13960, last:    0.16011
+Iter: 19100 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02061, last:    0.03662
+Mean MSE_loss_val                        tot:    0.02149, ma:    0.04165, last:    0.03662
+Mean RMSE                                tot:    0.14046, ma:    0.13955, last:    0.19135
+Iter: 19200 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02059, last:    0.02064
+Mean MSE_loss_val                        tot:    0.02149, ma:    0.04163, last:    0.02064
+Mean RMSE                                tot:    0.14045, ma:    0.13946, last:    0.14365
+Iter: 19300 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02061, last:    0.03557
+Mean MSE_loss_val                        tot:    0.02156, ma:    0.04162, last:    0.03557
+Mean RMSE                                tot:    0.14045, ma:    0.13956, last:    0.18859
+Iter: 19400 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02076, last:    0.01609
+Mean MSE_loss_val                        tot:    0.02153, ma:    0.04160, last:    0.01609
+Mean RMSE                                tot:    0.14047, ma:    0.14006, last:    0.12686
+Iter: 19500 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02075, last:    0.01205
+Mean MSE_loss_val                        tot:    0.02149, ma:    0.04157, last:    0.01205
+Mean RMSE                                tot:    0.14046, ma:    0.13997, last:    0.10980
+Iter: 19600 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02071, last:    0.02381
+Mean MSE_loss_val                        tot:    0.02150, ma:    0.04155, last:    0.02381
+Mean RMSE                                tot:    0.14045, ma:    0.13979, last:    0.15431
+Iter: 19700 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02100, last:    0.04697
+Mean MSE_loss_val                        tot:    0.02163, ma:    0.04155, last:    0.04697
+Mean RMSE                                tot:    0.14050, ma:    0.14082, last:    0.21672
+Iter: 19800 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02101, last:    0.01506
+Mean MSE_loss_val                        tot:    0.02159, ma:    0.04153, last:    0.01506
+Mean RMSE                                tot:    0.14050, ma:    0.14072, last:    0.12270
+Iter: 19900 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02086, last:    0.01658
+Mean MSE_loss_val                        tot:    0.02157, ma:    0.04150, last:    0.01658
+Mean RMSE                                tot:    0.14048, ma:    0.14030, last:    0.12877
+Iter: 20000 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02083, last:    0.02951
+Mean MSE_loss_val                        tot:    0.02161, ma:    0.04149, last:    0.02951
+Mean RMSE                                tot:    0.14047, ma:    0.14024, last:    0.17178
+Iter: 20100 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02101, last:    0.01886
+Mean MSE_loss_val                        tot:    0.02159, ma:    0.04147, last:    0.01886
+Mean RMSE                                tot:    0.14050, ma:    0.14081, last:    0.13732
+Iter: 20200 / 53397
+Mean MSE_loss                            tot:    0.02103, ma:    0.02105, last:    0.01796
+Mean MSE_loss_val                        tot:    0.02158, ma:    0.04144, last:    0.01796
+Mean RMSE                                tot:    0.14050, ma:    0.14078, last:    0.13400
+Iter: 20300 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02101, last:    0.01605
+Mean MSE_loss_val                        tot:    0.02155, ma:    0.04142, last:    0.01605
+Mean RMSE                                tot:    0.14049, ma:    0.14064, last:    0.12669
+Iter: 20400 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02096, last:    0.02937
+Mean MSE_loss_val                        tot:    0.02159, ma:    0.04141, last:    0.02937
+Mean RMSE                                tot:    0.14049, ma:    0.14061, last:    0.17137
+Iter: 20500 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02083, last:    0.01173
+Mean MSE_loss_val                        tot:    0.02154, ma:    0.04138, last:    0.01173
+Mean RMSE                                tot:    0.14047, ma:    0.14011, last:    0.10831
+Iter: 20600 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02081, last:    0.01538
+Mean MSE_loss_val                        tot:    0.02151, ma:    0.04135, last:    0.01538
+Mean RMSE                                tot:    0.14046, ma:    0.13998, last:    0.12402
+Iter: 20700 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02066, last:    0.01630
+Mean MSE_loss_val                        tot:    0.02148, ma:    0.04133, last:    0.01630
+Mean RMSE                                tot:    0.14043, ma:    0.13943, last:    0.12765
+Iter: 20800 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02078, last:    0.02537
+Mean MSE_loss_val                        tot:    0.02150, ma:    0.04131, last:    0.02537
+Mean RMSE                                tot:    0.14045, ma:    0.13995, last:    0.15928
+Iter: 20900 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02074, last:    0.01149
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04128, last:    0.01149
+Mean RMSE                                tot:    0.14044, ma:    0.13982, last:    0.10720
+Iter: 21000 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02084, last:    0.02485
+Mean MSE_loss_val                        tot:    0.02147, ma:    0.04126, last:    0.02485
+Mean RMSE                                tot:    0.14045, ma:    0.14011, last:    0.15764
+Iter: 21100 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02079, last:    0.01074
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04123, last:    0.01074
+Mean RMSE                                tot:    0.14044, ma:    0.13979, last:    0.10365
+Iter: 21200 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02100, last:    0.02049
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04121, last:    0.02049
+Mean RMSE                                tot:    0.14047, ma:    0.14049, last:    0.14315
+Iter: 21300 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02102, last:    0.01454
+Mean MSE_loss_val                        tot:    0.02139, ma:    0.04119, last:    0.01454
+Mean RMSE                                tot:    0.14047, ma:    0.14050, last:    0.12057
+Iter: 21400 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02106, last:    0.01953
+Mean MSE_loss_val                        tot:    0.02138, ma:    0.04116, last:    0.01953
+Mean RMSE                                tot:    0.14047, ma:    0.14060, last:    0.13974
+Iter: 21500 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02099, last:    0.02079
+Mean MSE_loss_val                        tot:    0.02137, ma:    0.04114, last:    0.02079
+Mean RMSE                                tot:    0.14046, ma:    0.14030, last:    0.14418
+Iter: 21600 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02107, last:    0.02939
+Mean MSE_loss_val                        tot:    0.02141, ma:    0.04113, last:    0.02939
+Mean RMSE                                tot:    0.14048, ma:    0.14067, last:    0.17143
+Iter: 21700 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02097, last:    0.02403
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04112, last:    0.02403
+Mean RMSE                                tot:    0.14046, ma:    0.14039, last:    0.15503
+Iter: 21800 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02082, last:    0.01021
+Mean MSE_loss_val                        tot:    0.02137, ma:    0.04108, last:    0.01021
+Mean RMSE                                tot:    0.14044, ma:    0.13992, last:    0.10106
+Iter: 21900 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02069, last:    0.01697
+Mean MSE_loss_val                        tot:    0.02135, ma:    0.04106, last:    0.01697
+Mean RMSE                                tot:    0.14042, ma:    0.13949, last:    0.13025
+Iter: 22000 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02069, last:    0.03661
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04106, last:    0.03661
+Mean RMSE                                tot:    0.14042, ma:    0.13954, last:    0.19133
+Iter: 22100 / 53397
+Mean MSE_loss                            tot:    0.02099, ma:    0.02067, last:    0.03659
+Mean MSE_loss_val                        tot:    0.02149, ma:    0.04105, last:    0.03659
+Mean RMSE                                tot:    0.14041, ma:    0.13953, last:    0.19129
+Iter: 22200 / 53397
+Mean MSE_loss                            tot:    0.02099, ma:    0.02071, last:    0.03123
+Mean MSE_loss_val                        tot:    0.02153, ma:    0.04104, last:    0.03123
+Mean RMSE                                tot:    0.14041, ma:    0.13971, last:    0.17671
+Iter: 22300 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02078, last:    0.02429
+Mean MSE_loss_val                        tot:    0.02154, ma:    0.04102, last:    0.02429
+Mean RMSE                                tot:    0.14042, ma:    0.13998, last:    0.15584
+Iter: 22400 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02080, last:    0.00841
+Mean MSE_loss_val                        tot:    0.02149, ma:    0.04099, last:    0.00841
+Mean RMSE                                tot:    0.14042, ma:    0.13995, last:    0.09170
+Iter: 22500 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02091, last:    0.01899
+Mean MSE_loss_val                        tot:    0.02147, ma:    0.04097, last:    0.01899
+Mean RMSE                                tot:    0.14043, ma:    0.14030, last:    0.13781
+Iter: 22600 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02108, last:    0.02033
+Mean MSE_loss_val                        tot:    0.02147, ma:    0.04095, last:    0.02033
+Mean RMSE                                tot:    0.14046, ma:    0.14091, last:    0.14259
+Iter: 22700 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02112, last:    0.03256
+Mean MSE_loss_val                        tot:    0.02152, ma:    0.04094, last:    0.03256
+Mean RMSE                                tot:    0.14047, ma:    0.14116, last:    0.18043
+Iter: 22800 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02107, last:    0.02184
+Mean MSE_loss_val                        tot:    0.02152, ma:    0.04092, last:    0.02184
+Mean RMSE                                tot:    0.14047, ma:    0.14109, last:    0.14777
+Iter: 22900 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02114, last:    0.01066
+Mean MSE_loss_val                        tot:    0.02147, ma:    0.04089, last:    0.01066
+Mean RMSE                                tot:    0.14048, ma:    0.14124, last:    0.10324
+Iter: 23000 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02099, last:    0.03149
+Mean MSE_loss_val                        tot:    0.02152, ma:    0.04088, last:    0.03149
+Mean RMSE                                tot:    0.14046, ma:    0.14076, last:    0.17745
+Iter: 23100 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02111, last:    0.02636
+Mean MSE_loss_val                        tot:    0.02154, ma:    0.04087, last:    0.02636
+Mean RMSE                                tot:    0.14049, ma:    0.14126, last:    0.16235
+Iter: 23200 / 53397
+Mean MSE_loss                            tot:    0.02102, ma:    0.02123, last:    0.01417
+Mean MSE_loss_val                        tot:    0.02151, ma:    0.04084, last:    0.01417
+Mean RMSE                                tot:    0.14051, ma:    0.14162, last:    0.11904
+Iter: 23300 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02110, last:    0.00418
+Mean MSE_loss_val                        tot:    0.02143, ma:    0.04080, last:    0.00418
+Mean RMSE                                tot:    0.14049, ma:    0.14107, last:    0.06466
+Iter: 23400 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02108, last:    0.03757
+Mean MSE_loss_val                        tot:    0.02150, ma:    0.04080, last:    0.03757
+Mean RMSE                                tot:    0.14049, ma:    0.14108, last:    0.19382
+Iter: 23500 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02099, last:    0.01886
+Mean MSE_loss_val                        tot:    0.02149, ma:    0.04078, last:    0.01886
+Mean RMSE                                tot:    0.14048, ma:    0.14083, last:    0.13731
+Iter: 23600 / 53397
+Mean MSE_loss                            tot:    0.02101, ma:    0.02098, last:    0.01350
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04075, last:    0.01350
+Mean RMSE                                tot:    0.14047, ma:    0.14057, last:    0.11618
+Iter: 23700 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02088, last:    0.01139
+Mean MSE_loss_val                        tot:    0.02141, ma:    0.04072, last:    0.01139
+Mean RMSE                                tot:    0.14046, ma:    0.14018, last:    0.10671
+Iter: 23800 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02093, last:    0.03818
+Mean MSE_loss_val                        tot:    0.02148, ma:    0.04072, last:    0.03818
+Mean RMSE                                tot:    0.14046, ma:    0.14037, last:    0.19540
+Iter: 23900 / 53397
+Mean MSE_loss                            tot:    0.02100, ma:    0.02076, last:    0.00907
+Mean MSE_loss_val                        tot:    0.02143, ma:    0.04069, last:    0.00907
+Mean RMSE                                tot:    0.14044, ma:    0.13971, last:    0.09524
+Iter: 24000 / 53397
+Mean MSE_loss                            tot:    0.02099, ma:    0.02061, last:    0.00771
+Mean MSE_loss_val                        tot:    0.02137, ma:    0.04066, last:    0.00771
+Mean RMSE                                tot:    0.14041, ma:    0.13915, last:    0.08781
+Iter: 24100 / 53397
+Mean MSE_loss                            tot:    0.02099, ma:    0.02068, last:    0.04069
+Mean MSE_loss_val                        tot:    0.02145, ma:    0.04066, last:    0.04069
+Mean RMSE                                tot:    0.14042, ma:    0.13948, last:    0.20172
+Iter: 24200 / 53397
+Mean MSE_loss                            tot:    0.02099, ma:    0.02064, last:    0.02009
+Mean MSE_loss_val                        tot:    0.02145, ma:    0.04064, last:    0.02009
+Mean RMSE                                tot:    0.14041, ma:    0.13931, last:    0.14176
+Iter: 24300 / 53397
+Mean MSE_loss                            tot:    0.02099, ma:    0.02067, last:    0.00883
+Mean MSE_loss_val                        tot:    0.02140, ma:    0.04060, last:    0.00883
+Mean RMSE                                tot:    0.14040, ma:    0.13939, last:    0.09397
+Iter: 24400 / 53397
+Mean MSE_loss                            tot:    0.02098, ma:    0.02063, last:    0.02681
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04059, last:    0.02681
+Mean RMSE                                tot:    0.14039, ma:    0.13927, last:    0.16374
+Iter: 24500 / 53397
+Mean MSE_loss                            tot:    0.02099, ma:    0.02074, last:    0.01639
+Mean MSE_loss_val                        tot:    0.02140, ma:    0.04057, last:    0.01639
+Mean RMSE                                tot:    0.14041, ma:    0.13966, last:    0.12800
+Iter: 24600 / 53397
+Mean MSE_loss                            tot:    0.02098, ma:    0.02070, last:    0.01339
+Mean MSE_loss_val                        tot:    0.02137, ma:    0.04054, last:    0.01339
+Mean RMSE                                tot:    0.14040, ma:    0.13949, last:    0.11570
+Iter: 24700 / 53397
+Mean MSE_loss                            tot:    0.02098, ma:    0.02055, last:    0.00830
+Mean MSE_loss_val                        tot:    0.02131, ma:    0.04051, last:    0.00830
+Mean RMSE                                tot:    0.14037, ma:    0.13894, last:    0.09109
+Iter: 24800 / 53397
+Mean MSE_loss                            tot:    0.02098, ma:    0.02058, last:    0.04727
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04051, last:    0.04727
+Mean RMSE                                tot:    0.14037, ma:    0.13910, last:    0.21741
+Iter: 24900 / 53397
+Mean MSE_loss                            tot:    0.02097, ma:    0.02048, last:    0.03115
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04050, last:    0.03115
+Mean RMSE                                tot:    0.14034, ma:    0.13866, last:    0.17650
+Iter: 25000 / 53397
+Mean MSE_loss                            tot:    0.02097, ma:    0.02043, last:    0.02716
+Mean MSE_loss_val                        tot:    0.02148, ma:    0.04049, last:    0.02716
+Mean RMSE                                tot:    0.14033, ma:    0.13847, last:    0.16481
+Iter: 25100 / 53397
+Mean MSE_loss                            tot:    0.02097, ma:    0.02048, last:    0.02008
+Mean MSE_loss_val                        tot:    0.02147, ma:    0.04047, last:    0.02008
+Mean RMSE                                tot:    0.14033, ma:    0.13868, last:    0.14170
+Iter: 25200 / 53397
+Mean MSE_loss                            tot:    0.02097, ma:    0.02054, last:    0.00944
+Mean MSE_loss_val                        tot:    0.02143, ma:    0.04044, last:    0.00944
+Mean RMSE                                tot:    0.14033, ma:    0.13889, last:    0.09716
+Iter: 25300 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02046, last:    0.03443
+Mean MSE_loss_val                        tot:    0.02148, ma:    0.04043, last:    0.03443
+Mean RMSE                                tot:    0.14032, ma:    0.13862, last:    0.18554
+Iter: 25400 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02054, last:    0.02192
+Mean MSE_loss_val                        tot:    0.02148, ma:    0.04041, last:    0.02192
+Mean RMSE                                tot:    0.14032, ma:    0.13884, last:    0.14805
+Iter: 25500 / 53397
+Mean MSE_loss                            tot:    0.02097, ma:    0.02064, last:    0.02401
+Mean MSE_loss_val                        tot:    0.02149, ma:    0.04040, last:    0.02401
+Mean RMSE                                tot:    0.14033, ma:    0.13925, last:    0.15496
+Iter: 25600 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02054, last:    0.01391
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04037, last:    0.01391
+Mean RMSE                                tot:    0.14031, ma:    0.13893, last:    0.11796
+Iter: 25700 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02044, last:    0.02641
+Mean MSE_loss_val                        tot:    0.02148, ma:    0.04036, last:    0.02641
+Mean RMSE                                tot:    0.14029, ma:    0.13856, last:    0.16250
+Iter: 25800 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02055, last:    0.01926
+Mean MSE_loss_val                        tot:    0.02147, ma:    0.04034, last:    0.01926
+Mean RMSE                                tot:    0.14030, ma:    0.13889, last:    0.13877
+Iter: 25900 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02068, last:    0.01766
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04031, last:    0.01766
+Mean RMSE                                tot:    0.14031, ma:    0.13924, last:    0.13290
+Iter: 26000 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02077, last:    0.02203
+Mean MSE_loss_val                        tot:    0.02146, ma:    0.04030, last:    0.02203
+Mean RMSE                                tot:    0.14032, ma:    0.13965, last:    0.14844
+Iter: 26100 / 53397
+Mean MSE_loss                            tot:    0.02097, ma:    0.02092, last:    0.01424
+Mean MSE_loss_val                        tot:    0.02143, ma:    0.04027, last:    0.01424
+Mean RMSE                                tot:    0.14034, ma:    0.14017, last:    0.11935
+Iter: 26200 / 53397
+Mean MSE_loss                            tot:    0.02097, ma:    0.02087, last:    0.01765
+Mean MSE_loss_val                        tot:    0.02142, ma:    0.04025, last:    0.01765
+Mean RMSE                                tot:    0.14033, ma:    0.14001, last:    0.13285
+Iter: 26300 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02071, last:    0.01261
+Mean MSE_loss_val                        tot:    0.02138, ma:    0.04022, last:    0.01261
+Mean RMSE                                tot:    0.14031, ma:    0.13950, last:    0.11230
+Iter: 26400 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02064, last:    0.01833
+Mean MSE_loss_val                        tot:    0.02137, ma:    0.04020, last:    0.01833
+Mean RMSE                                tot:    0.14030, ma:    0.13937, last:    0.13539
+Iter: 26500 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02077, last:    0.00549
+Mean MSE_loss_val                        tot:    0.02131, ma:    0.04016, last:    0.00549
+Mean RMSE                                tot:    0.14031, ma:    0.13975, last:    0.07412
+Iter: 26600 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02080, last:    0.01871
+Mean MSE_loss_val                        tot:    0.02130, ma:    0.04014, last:    0.01871
+Mean RMSE                                tot:    0.14031, ma:    0.13982, last:    0.13679
+Iter: 26700 / 53397
+Mean MSE_loss                            tot:    0.02096, ma:    0.02078, last:    0.01030
+Mean MSE_loss_val                        tot:    0.02126, ma:    0.04011, last:    0.01030
+Mean RMSE                                tot:    0.14031, ma:    0.13964, last:    0.10147
+Iter: 26800 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02064, last:    0.00691
+Mean MSE_loss_val                        tot:    0.02121, ma:    0.04008, last:    0.00691
+Mean RMSE                                tot:    0.14028, ma:    0.13917, last:    0.08311
+Iter: 26900 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02060, last:    0.03081
+Mean MSE_loss_val                        tot:    0.02124, ma:    0.04007, last:    0.03081
+Mean RMSE                                tot:    0.14027, ma:    0.13894, last:    0.17553
+Iter: 27000 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02058, last:    0.01708
+Mean MSE_loss_val                        tot:    0.02123, ma:    0.04005, last:    0.01708
+Mean RMSE                                tot:    0.14026, ma:    0.13884, last:    0.13070
+Iter: 27100 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02063, last:    0.01070
+Mean MSE_loss_val                        tot:    0.02119, ma:    0.04002, last:    0.01070
+Mean RMSE                                tot:    0.14026, ma:    0.13887, last:    0.10345
+Iter: 27200 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02059, last:    0.02316
+Mean MSE_loss_val                        tot:    0.02120, ma:    0.04000, last:    0.02316
+Mean RMSE                                tot:    0.14025, ma:    0.13880, last:    0.15220
+Iter: 27300 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02077, last:    0.02007
+Mean MSE_loss_val                        tot:    0.02119, ma:    0.03998, last:    0.02007
+Mean RMSE                                tot:    0.14027, ma:    0.13946, last:    0.14168
+Iter: 27400 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02078, last:    0.03354
+Mean MSE_loss_val                        tot:    0.02124, ma:    0.03997, last:    0.03354
+Mean RMSE                                tot:    0.14028, ma:    0.13966, last:    0.18314
+Iter: 27500 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02076, last:    0.00836
+Mean MSE_loss_val                        tot:    0.02119, ma:    0.03994, last:    0.00836
+Mean RMSE                                tot:    0.14027, ma:    0.13962, last:    0.09144
+Iter: 27600 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02076, last:    0.01426
+Mean MSE_loss_val                        tot:    0.02117, ma:    0.03992, last:    0.01426
+Mean RMSE                                tot:    0.14027, ma:    0.13956, last:    0.11943
+Iter: 27700 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02078, last:    0.01126
+Mean MSE_loss_val                        tot:    0.02113, ma:    0.03989, last:    0.01126
+Mean RMSE                                tot:    0.14027, ma:    0.13964, last:    0.10613
+Iter: 27800 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02079, last:    0.01522
+Mean MSE_loss_val                        tot:    0.02111, ma:    0.03986, last:    0.01522
+Mean RMSE                                tot:    0.14026, ma:    0.13962, last:    0.12339
+Iter: 27900 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02084, last:    0.02799
+Mean MSE_loss_val                        tot:    0.02113, ma:    0.03985, last:    0.02799
+Mean RMSE                                tot:    0.14027, ma:    0.13993, last:    0.16730
+Iter: 28000 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02083, last:    0.01909
+Mean MSE_loss_val                        tot:    0.02113, ma:    0.03983, last:    0.01909
+Mean RMSE                                tot:    0.14027, ma:    0.13995, last:    0.13816
+Iter: 28100 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02078, last:    0.00944
+Mean MSE_loss_val                        tot:    0.02109, ma:    0.03980, last:    0.00944
+Mean RMSE                                tot:    0.14027, ma:    0.13980, last:    0.09716
+Iter: 28200 / 53397
+Mean MSE_loss                            tot:    0.02095, ma:    0.02079, last:    0.01435
+Mean MSE_loss_val                        tot:    0.02106, ma:    0.03977, last:    0.01435
+Mean RMSE                                tot:    0.14027, ma:    0.13980, last:    0.11978
+Iter: 28300 / 53397
+Mean MSE_loss                            tot:    0.02094, ma:    0.02065, last:    0.00353
+Mean MSE_loss_val                        tot:    0.02100, ma:    0.03974, last:    0.00353
+Mean RMSE                                tot:    0.14024, ma:    0.13927, last:    0.05946
+Iter: 28400 / 53397
+Mean MSE_loss                            tot:    0.02094, ma:    0.02067, last:    0.01282
+Mean MSE_loss_val                        tot:    0.02097, ma:    0.03971, last:    0.01282
+Mean RMSE                                tot:    0.14024, ma:    0.13932, last:    0.11322
+Iter: 28500 / 53397
+Mean MSE_loss                            tot:    0.02094, ma:    0.02077, last:    0.02491
+Mean MSE_loss_val                        tot:    0.02099, ma:    0.03970, last:    0.02491
+Mean RMSE                                tot:    0.14025, ma:    0.13970, last:    0.15783
+Iter: 28600 / 53397
+Mean MSE_loss                            tot:    0.02094, ma:    0.02072, last:    0.01441
+Mean MSE_loss_val                        tot:    0.02096, ma:    0.03967, last:    0.01441
+Mean RMSE                                tot:    0.14025, ma:    0.13956, last:    0.12003
+Iter: 28700 / 53397
+Mean MSE_loss                            tot:    0.02094, ma:    0.02058, last:    0.02634
+Mean MSE_loss_val                        tot:    0.02098, ma:    0.03966, last:    0.02634
+Mean RMSE                                tot:    0.14023, ma:    0.13923, last:    0.16229
+Iter: 28800 / 53397
+Mean MSE_loss                            tot:    0.02094, ma:    0.02064, last:    0.00970
+Mean MSE_loss_val                        tot:    0.02094, ma:    0.03963, last:    0.00970
+Mean RMSE                                tot:    0.14023, ma:    0.13930, last:    0.09847
+Iter: 28900 / 53397
+Mean MSE_loss                            tot:    0.02094, ma:    0.02075, last:    0.01728
+Mean MSE_loss_val                        tot:    0.02093, ma:    0.03960, last:    0.01728
+Mean RMSE                                tot:    0.14024, ma:    0.13971, last:    0.13147
+Iter: 29000 / 53397
+Mean MSE_loss                            tot:    0.02094, ma:    0.02070, last:    0.03593
+Mean MSE_loss_val                        tot:    0.02098, ma:    0.03960, last:    0.03593
+Mean RMSE                                tot:    0.14024, ma:    0.13961, last:    0.18955
+Iter: 29100 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02064, last:    0.01482
+Mean MSE_loss_val                        tot:    0.02096, ma:    0.03958, last:    0.01482
+Mean RMSE                                tot:    0.14022, ma:    0.13932, last:    0.12175
+Iter: 29200 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02053, last:    0.01474
+Mean MSE_loss_val                        tot:    0.02094, ma:    0.03955, last:    0.01474
+Mean RMSE                                tot:    0.14021, ma:    0.13894, last:    0.12142
+Iter: 29300 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02071, last:    0.02268
+Mean MSE_loss_val                        tot:    0.02094, ma:    0.03953, last:    0.02268
+Mean RMSE                                tot:    0.14022, ma:    0.13947, last:    0.15058
+Iter: 29400 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02054, last:    0.01855
+Mean MSE_loss_val                        tot:    0.02094, ma:    0.03951, last:    0.01855
+Mean RMSE                                tot:    0.14020, ma:    0.13890, last:    0.13620
+Iter: 29500 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02052, last:    0.02405
+Mean MSE_loss_val                        tot:    0.02095, ma:    0.03950, last:    0.02405
+Mean RMSE                                tot:    0.14019, ma:    0.13885, last:    0.15509
+Iter: 29600 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02066, last:    0.00853
+Mean MSE_loss_val                        tot:    0.02091, ma:    0.03947, last:    0.00853
+Mean RMSE                                tot:    0.14020, ma:    0.13919, last:    0.09237
+Iter: 29700 / 53397
+Mean MSE_loss                            tot:    0.02092, ma:    0.02048, last:    0.02522
+Mean MSE_loss_val                        tot:    0.02092, ma:    0.03945, last:    0.02522
+Mean RMSE                                tot:    0.14017, ma:    0.13852, last:    0.15880
+Iter: 29800 / 53397
+Mean MSE_loss                            tot:    0.02092, ma:    0.02053, last:    0.02826
+Mean MSE_loss_val                        tot:    0.02094, ma:    0.03944, last:    0.02826
+Mean RMSE                                tot:    0.14018, ma:    0.13878, last:    0.16812
+Iter: 29900 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02068, last:    0.03793
+Mean MSE_loss_val                        tot:    0.02100, ma:    0.03944, last:    0.03793
+Mean RMSE                                tot:    0.14019, ma:    0.13930, last:    0.19475
+Iter: 30000 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02069, last:    0.01469
+Mean MSE_loss_val                        tot:    0.02098, ma:    0.03942, last:    0.01469
+Mean RMSE                                tot:    0.14019, ma:    0.13937, last:    0.12120
+Iter: 30100 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02074, last:    0.00780
+Mean MSE_loss_val                        tot:    0.02094, ma:    0.03938, last:    0.00780
+Mean RMSE                                tot:    0.14019, ma:    0.13955, last:    0.08830
+Iter: 30200 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02079, last:    0.02478
+Mean MSE_loss_val                        tot:    0.02095, ma:    0.03937, last:    0.02478
+Mean RMSE                                tot:    0.14020, ma:    0.13971, last:    0.15742
+Iter: 30300 / 53397
+Mean MSE_loss                            tot:    0.02092, ma:    0.02071, last:    0.04002
+Mean MSE_loss_val                        tot:    0.02101, ma:    0.03937, last:    0.04002
+Mean RMSE                                tot:    0.14019, ma:    0.13949, last:    0.20006
+Iter: 30400 / 53397
+Mean MSE_loss                            tot:    0.02092, ma:    0.02064, last:    0.01026
+Mean MSE_loss_val                        tot:    0.02098, ma:    0.03934, last:    0.01026
+Mean RMSE                                tot:    0.14018, ma:    0.13922, last:    0.10128
+Iter: 30500 / 53397
+Mean MSE_loss                            tot:    0.02093, ma:    0.02079, last:    0.00514
+Mean MSE_loss_val                        tot:    0.02092, ma:    0.03931, last:    0.00514
+Mean RMSE                                tot:    0.14019, ma:    0.13966, last:    0.07168
+Iter: 30600 / 53397
+Mean MSE_loss                            tot:    0.02092, ma:    0.02066, last:    0.01884
+Mean MSE_loss_val                        tot:    0.02092, ma:    0.03929, last:    0.01884
+Mean RMSE                                tot:    0.14017, ma:    0.13925, last:    0.13725
+Iter: 30700 / 53397
+Mean MSE_loss                            tot:    0.02092, ma:    0.02061, last:    0.02119
+Mean MSE_loss_val                        tot:    0.02092, ma:    0.03927, last:    0.02119
+Mean RMSE                                tot:    0.14016, ma:    0.13900, last:    0.14555
+Iter: 30800 / 53397
+Mean MSE_loss                            tot:    0.02092, ma:    0.02059, last:    0.00741
+Mean MSE_loss_val                        tot:    0.02088, ma:    0.03924, last:    0.00741
+Mean RMSE                                tot:    0.14015, ma:    0.13887, last:    0.08609
+Iter: 30900 / 53397
+Mean MSE_loss                            tot:    0.02091, ma:    0.02050, last:    0.02981
+Mean MSE_loss_val                        tot:    0.02090, ma:    0.03923, last:    0.02981
+Mean RMSE                                tot:    0.14014, ma:    0.13869, last:    0.17265
+Iter: 31000 / 53397
+Mean MSE_loss                            tot:    0.02091, ma:    0.02040, last:    0.02961
+Mean MSE_loss_val                        tot:    0.02093, ma:    0.03922, last:    0.02961
+Mean RMSE                                tot:    0.14013, ma:    0.13838, last:    0.17206
+Iter: 31100 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02036, last:    0.01801
+Mean MSE_loss_val                        tot:    0.02092, ma:    0.03920, last:    0.01801
+Mean RMSE                                tot:    0.14012, ma:    0.13822, last:    0.13421
+Iter: 31200 / 53397
+Mean MSE_loss                            tot:    0.02091, ma:    0.02053, last:    0.00860
+Mean MSE_loss_val                        tot:    0.02088, ma:    0.03917, last:    0.00860
+Mean RMSE                                tot:    0.14013, ma:    0.13883, last:    0.09275
+Iter: 31300 / 53397
+Mean MSE_loss                            tot:    0.02091, ma:    0.02053, last:    0.00587
+Mean MSE_loss_val                        tot:    0.02084, ma:    0.03913, last:    0.00587
+Mean RMSE                                tot:    0.14013, ma:    0.13876, last:    0.07662
+Iter: 31400 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02049, last:    0.00579
+Mean MSE_loss_val                        tot:    0.02079, ma:    0.03910, last:    0.00579
+Mean RMSE                                tot:    0.14012, ma:    0.13860, last:    0.07610
+Iter: 31500 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02040, last:    0.01831
+Mean MSE_loss_val                        tot:    0.02078, ma:    0.03908, last:    0.01831
+Mean RMSE                                tot:    0.14010, ma:    0.13833, last:    0.13533
+Iter: 31600 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02056, last:    0.01667
+Mean MSE_loss_val                        tot:    0.02077, ma:    0.03906, last:    0.01667
+Mean RMSE                                tot:    0.14012, ma:    0.13890, last:    0.12909
+Iter: 31700 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02042, last:    0.03163
+Mean MSE_loss_val                        tot:    0.02080, ma:    0.03905, last:    0.03163
+Mean RMSE                                tot:    0.14010, ma:    0.13849, last:    0.17785
+Iter: 31800 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02061, last:    0.00941
+Mean MSE_loss_val                        tot:    0.02077, ma:    0.03902, last:    0.00941
+Mean RMSE                                tot:    0.14011, ma:    0.13913, last:    0.09699
+Iter: 31900 / 53397
+Mean MSE_loss                            tot:    0.02091, ma:    0.02070, last:    0.03313
+Mean MSE_loss_val                        tot:    0.02080, ma:    0.03901, last:    0.03313
+Mean RMSE                                tot:    0.14012, ma:    0.13948, last:    0.18202
+Iter: 32000 / 53397
+Mean MSE_loss                            tot:    0.02091, ma:    0.02084, last:    0.01288
+Mean MSE_loss_val                        tot:    0.02078, ma:    0.03899, last:    0.01288
+Mean RMSE                                tot:    0.14014, ma:    0.13996, last:    0.11347
+Iter: 32100 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02060, last:    0.00685
+Mean MSE_loss_val                        tot:    0.02074, ma:    0.03895, last:    0.00685
+Mean RMSE                                tot:    0.14011, ma:    0.13906, last:    0.08276
+Iter: 32200 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02044, last:    0.02141
+Mean MSE_loss_val                        tot:    0.02074, ma:    0.03894, last:    0.02141
+Mean RMSE                                tot:    0.14008, ma:    0.13847, last:    0.14631
+Iter: 32300 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02057, last:    0.01696
+Mean MSE_loss_val                        tot:    0.02073, ma:    0.03891, last:    0.01696
+Mean RMSE                                tot:    0.14010, ma:    0.13897, last:    0.13023
+Iter: 32400 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02062, last:    0.02557
+Mean MSE_loss_val                        tot:    0.02074, ma:    0.03890, last:    0.02557
+Mean RMSE                                tot:    0.14010, ma:    0.13922, last:    0.15990
+Iter: 32500 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02069, last:    0.01072
+Mean MSE_loss_val                        tot:    0.02071, ma:    0.03887, last:    0.01072
+Mean RMSE                                tot:    0.14010, ma:    0.13938, last:    0.10352
+Iter: 32600 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02073, last:    0.03701
+Mean MSE_loss_val                        tot:    0.02076, ma:    0.03887, last:    0.03701
+Mean RMSE                                tot:    0.14010, ma:    0.13944, last:    0.19238
+Iter: 32700 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02082, last:    0.05967
+Mean MSE_loss_val                        tot:    0.02088, ma:    0.03889, last:    0.05967
+Mean RMSE                                tot:    0.14011, ma:    0.13981, last:    0.24427
+Iter: 32800 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02080, last:    0.01628
+Mean MSE_loss_val                        tot:    0.02087, ma:    0.03887, last:    0.01628
+Mean RMSE                                tot:    0.14011, ma:    0.13972, last:    0.12758
+Iter: 32900 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02078, last:    0.01283
+Mean MSE_loss_val                        tot:    0.02084, ma:    0.03884, last:    0.01283
+Mean RMSE                                tot:    0.14010, ma:    0.13959, last:    0.11325
+Iter: 33000 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02069, last:    0.01839
+Mean MSE_loss_val                        tot:    0.02083, ma:    0.03882, last:    0.01839
+Mean RMSE                                tot:    0.14009, ma:    0.13926, last:    0.13563
+Iter: 33100 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02077, last:    0.03075
+Mean MSE_loss_val                        tot:    0.02086, ma:    0.03882, last:    0.03075
+Mean RMSE                                tot:    0.14010, ma:    0.13967, last:    0.17536
+Iter: 33200 / 53397
+Mean MSE_loss                            tot:    0.02090, ma:    0.02072, last:    0.02883
+Mean MSE_loss_val                        tot:    0.02089, ma:    0.03881, last:    0.02883
+Mean RMSE                                tot:    0.14009, ma:    0.13951, last:    0.16978
+Iter: 33300 / 53397
+Mean MSE_loss                            tot:    0.02089, ma:    0.02050, last:    0.00875
+Mean MSE_loss_val                        tot:    0.02085, ma:    0.03878, last:    0.00875
+Mean RMSE                                tot:    0.14006, ma:    0.13859, last:    0.09355
+Iter: 33400 / 53397
+Mean MSE_loss                            tot:    0.02089, ma:    0.02038, last:    0.02533
+Mean MSE_loss_val                        tot:    0.02086, ma:    0.03876, last:    0.02533
+Mean RMSE                                tot:    0.14005, ma:    0.13817, last:    0.15916
+Iter: 33500 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02039, last:    0.02547
+Mean MSE_loss_val                        tot:    0.02088, ma:    0.03875, last:    0.02547
+Mean RMSE                                tot:    0.14005, ma:    0.13831, last:    0.15958
+Iter: 33600 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02039, last:    0.02349
+Mean MSE_loss_val                        tot:    0.02089, ma:    0.03873, last:    0.02349
+Mean RMSE                                tot:    0.14004, ma:    0.13829, last:    0.15326
+Iter: 33700 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02033, last:    0.01149
+Mean MSE_loss_val                        tot:    0.02086, ma:    0.03871, last:    0.01149
+Mean RMSE                                tot:    0.14003, ma:    0.13801, last:    0.10721
+Iter: 33800 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02047, last:    0.01869
+Mean MSE_loss_val                        tot:    0.02085, ma:    0.03869, last:    0.01869
+Mean RMSE                                tot:    0.14004, ma:    0.13855, last:    0.13671
+Iter: 33900 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02031, last:    0.00357
+Mean MSE_loss_val                        tot:    0.02080, ma:    0.03865, last:    0.00357
+Mean RMSE                                tot:    0.14001, ma:    0.13786, last:    0.05971
+Iter: 34000 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02035, last:    0.02446
+Mean MSE_loss_val                        tot:    0.02081, ma:    0.03864, last:    0.02446
+Mean RMSE                                tot:    0.14001, ma:    0.13817, last:    0.15640
+Iter: 34100 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02048, last:    0.00943
+Mean MSE_loss_val                        tot:    0.02078, ma:    0.03861, last:    0.00943
+Mean RMSE                                tot:    0.14002, ma:    0.13857, last:    0.09712
+Iter: 34200 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02047, last:    0.01971
+Mean MSE_loss_val                        tot:    0.02078, ma:    0.03859, last:    0.01971
+Mean RMSE                                tot:    0.14002, ma:    0.13858, last:    0.14038
+Iter: 34300 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02058, last:    0.02091
+Mean MSE_loss_val                        tot:    0.02078, ma:    0.03857, last:    0.02091
+Mean RMSE                                tot:    0.14002, ma:    0.13895, last:    0.14459
+Iter: 34400 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02058, last:    0.01164
+Mean MSE_loss_val                        tot:    0.02075, ma:    0.03854, last:    0.01164
+Mean RMSE                                tot:    0.14002, ma:    0.13897, last:    0.10789
+Iter: 34500 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02052, last:    0.04024
+Mean MSE_loss_val                        tot:    0.02081, ma:    0.03855, last:    0.04024
+Mean RMSE                                tot:    0.14001, ma:    0.13880, last:    0.20059
+Iter: 34600 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02062, last:    0.02016
+Mean MSE_loss_val                        tot:    0.02080, ma:    0.03853, last:    0.02016
+Mean RMSE                                tot:    0.14003, ma:    0.13930, last:    0.14198
+Iter: 34700 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02067, last:    0.02447
+Mean MSE_loss_val                        tot:    0.02081, ma:    0.03851, last:    0.02447
+Mean RMSE                                tot:    0.14003, ma:    0.13955, last:    0.15643
+Iter: 34800 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02065, last:    0.02643
+Mean MSE_loss_val                        tot:    0.02083, ma:    0.03850, last:    0.02643
+Mean RMSE                                tot:    0.14003, ma:    0.13944, last:    0.16258
+Iter: 34900 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02071, last:    0.01275
+Mean MSE_loss_val                        tot:    0.02081, ma:    0.03848, last:    0.01275
+Mean RMSE                                tot:    0.14003, ma:    0.13965, last:    0.11291
+Iter: 35000 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02062, last:    0.01205
+Mean MSE_loss_val                        tot:    0.02078, ma:    0.03845, last:    0.01205
+Mean RMSE                                tot:    0.14002, ma:    0.13925, last:    0.10979
+Iter: 35100 / 53397
+Mean MSE_loss                            tot:    0.02088, ma:    0.02066, last:    0.01670
+Mean MSE_loss_val                        tot:    0.02077, ma:    0.03843, last:    0.01670
+Mean RMSE                                tot:    0.14002, ma:    0.13941, last:    0.12924
+Iter: 35200 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02049, last:    0.01667
+Mean MSE_loss_val                        tot:    0.02076, ma:    0.03841, last:    0.01667
+Mean RMSE                                tot:    0.14000, ma:    0.13886, last:    0.12911
+Iter: 35300 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02047, last:    0.01040
+Mean MSE_loss_val                        tot:    0.02073, ma:    0.03838, last:    0.01040
+Mean RMSE                                tot:    0.13999, ma:    0.13867, last:    0.10196
+Iter: 35400 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02059, last:    0.01794
+Mean MSE_loss_val                        tot:    0.02072, ma:    0.03836, last:    0.01794
+Mean RMSE                                tot:    0.14000, ma:    0.13914, last:    0.13393
+Iter: 35500 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02056, last:    0.01978
+Mean MSE_loss_val                        tot:    0.02072, ma:    0.03834, last:    0.01978
+Mean RMSE                                tot:    0.14000, ma:    0.13895, last:    0.14064
+Iter: 35600 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02056, last:    0.00762
+Mean MSE_loss_val                        tot:    0.02068, ma:    0.03831, last:    0.00762
+Mean RMSE                                tot:    0.13999, ma:    0.13893, last:    0.08732
+Iter: 35700 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02047, last:    0.00902
+Mean MSE_loss_val                        tot:    0.02065, ma:    0.03828, last:    0.00902
+Mean RMSE                                tot:    0.13998, ma:    0.13863, last:    0.09495
+Iter: 35800 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02064, last:    0.01232
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03825, last:    0.01232
+Mean RMSE                                tot:    0.13999, ma:    0.13906, last:    0.11099
+Iter: 35900 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02053, last:    0.02353
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03824, last:    0.02353
+Mean RMSE                                tot:    0.13997, ma:    0.13867, last:    0.15340
+Iter: 36000 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02072, last:    0.00932
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03821, last:    0.00932
+Mean RMSE                                tot:    0.13999, ma:    0.13930, last:    0.09655
+Iter: 36100 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02066, last:    0.01335
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03818, last:    0.01335
+Mean RMSE                                tot:    0.13998, ma:    0.13912, last:    0.11555
+Iter: 36200 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02079, last:    0.01826
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03816, last:    0.01826
+Mean RMSE                                tot:    0.13999, ma:    0.13962, last:    0.13514
+Iter: 36300 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02077, last:    0.04609
+Mean MSE_loss_val                        tot:    0.02065, ma:    0.03817, last:    0.04609
+Mean RMSE                                tot:    0.14000, ma:    0.13968, last:    0.21468
+Iter: 36400 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02082, last:    0.01418
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03815, last:    0.01418
+Mean RMSE                                tot:    0.14000, ma:    0.13979, last:    0.11910
+Iter: 36500 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02082, last:    0.02088
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03813, last:    0.02088
+Mean RMSE                                tot:    0.14000, ma:    0.13971, last:    0.14450
+Iter: 36600 / 53397
+Mean MSE_loss                            tot:    0.02087, ma:    0.02075, last:    0.03954
+Mean MSE_loss_val                        tot:    0.02068, ma:    0.03813, last:    0.03954
+Mean RMSE                                tot:    0.13999, ma:    0.13951, last:    0.19885
+Iter: 36700 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02058, last:    0.01973
+Mean MSE_loss_val                        tot:    0.02068, ma:    0.03811, last:    0.01973
+Mean RMSE                                tot:    0.13997, ma:    0.13898, last:    0.14045
+Iter: 36800 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02050, last:    0.01805
+Mean MSE_loss_val                        tot:    0.02067, ma:    0.03809, last:    0.01805
+Mean RMSE                                tot:    0.13996, ma:    0.13869, last:    0.13435
+Iter: 36900 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02045, last:    0.00809
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03806, last:    0.00809
+Mean RMSE                                tot:    0.13995, ma:    0.13850, last:    0.08996
+Iter: 37000 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02052, last:    0.02103
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03805, last:    0.02103
+Mean RMSE                                tot:    0.13996, ma:    0.13881, last:    0.14501
+Iter: 37100 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02048, last:    0.02886
+Mean MSE_loss_val                        tot:    0.02066, ma:    0.03804, last:    0.02886
+Mean RMSE                                tot:    0.13995, ma:    0.13872, last:    0.16987
+Iter: 37200 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02046, last:    0.00929
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03801, last:    0.00929
+Mean RMSE                                tot:    0.13994, ma:    0.13857, last:    0.09639
+Iter: 37300 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02057, last:    0.01303
+Mean MSE_loss_val                        tot:    0.02061, ma:    0.03798, last:    0.01303
+Mean RMSE                                tot:    0.13995, ma:    0.13888, last:    0.11415
+Iter: 37400 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02047, last:    0.01036
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03796, last:    0.01036
+Mean RMSE                                tot:    0.13994, ma:    0.13852, last:    0.10179
+Iter: 37500 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02058, last:    0.01555
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03793, last:    0.01555
+Mean RMSE                                tot:    0.13995, ma:    0.13900, last:    0.12471
+Iter: 37600 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02066, last:    0.01214
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03791, last:    0.01214
+Mean RMSE                                tot:    0.13995, ma:    0.13920, last:    0.11020
+Iter: 37700 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02065, last:    0.01257
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03788, last:    0.01257
+Mean RMSE                                tot:    0.13994, ma:    0.13910, last:    0.11210
+Iter: 37800 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02057, last:    0.02080
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03787, last:    0.02080
+Mean RMSE                                tot:    0.13993, ma:    0.13888, last:    0.14423
+Iter: 37900 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02062, last:    0.01453
+Mean MSE_loss_val                        tot:    0.02051, ma:    0.03784, last:    0.01453
+Mean RMSE                                tot:    0.13994, ma:    0.13904, last:    0.12053
+Iter: 38000 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02061, last:    0.03192
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03784, last:    0.03192
+Mean RMSE                                tot:    0.13993, ma:    0.13905, last:    0.17866
+Iter: 38100 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02061, last:    0.01308
+Mean MSE_loss_val                        tot:    0.02052, ma:    0.03781, last:    0.01308
+Mean RMSE                                tot:    0.13993, ma:    0.13902, last:    0.11437
+Iter: 38200 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02047, last:    0.02699
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03780, last:    0.02699
+Mean RMSE                                tot:    0.13991, ma:    0.13852, last:    0.16430
+Iter: 38300 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02052, last:    0.02957
+Mean MSE_loss_val                        tot:    0.02056, ma:    0.03779, last:    0.02957
+Mean RMSE                                tot:    0.13992, ma:    0.13876, last:    0.17195
+Iter: 38400 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02057, last:    0.02641
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03778, last:    0.02641
+Mean RMSE                                tot:    0.13992, ma:    0.13886, last:    0.16250
+Iter: 38500 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02070, last:    0.02927
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03777, last:    0.02927
+Mean RMSE                                tot:    0.13993, ma:    0.13938, last:    0.17108
+Iter: 38600 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02070, last:    0.02261
+Mean MSE_loss_val                        tot:    0.02061, ma:    0.03776, last:    0.02261
+Mean RMSE                                tot:    0.13993, ma:    0.13939, last:    0.15036
+Iter: 38700 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02070, last:    0.01682
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03774, last:    0.01682
+Mean RMSE                                tot:    0.13992, ma:    0.13932, last:    0.12969
+Iter: 38800 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02061, last:    0.00509
+Mean MSE_loss_val                        tot:    0.02056, ma:    0.03770, last:    0.00509
+Mean RMSE                                tot:    0.13991, ma:    0.13888, last:    0.07135
+Iter: 38900 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02075, last:    0.04534
+Mean MSE_loss_val                        tot:    0.02062, ma:    0.03771, last:    0.04534
+Mean RMSE                                tot:    0.13992, ma:    0.13947, last:    0.21292
+Iter: 39000 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02079, last:    0.01923
+Mean MSE_loss_val                        tot:    0.02062, ma:    0.03769, last:    0.01923
+Mean RMSE                                tot:    0.13993, ma:    0.13964, last:    0.13866
+Iter: 39100 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02077, last:    0.02036
+Mean MSE_loss_val                        tot:    0.02061, ma:    0.03768, last:    0.02036
+Mean RMSE                                tot:    0.13993, ma:    0.13968, last:    0.14270
+Iter: 39200 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02083, last:    0.01248
+Mean MSE_loss_val                        tot:    0.02059, ma:    0.03765, last:    0.01248
+Mean RMSE                                tot:    0.13993, ma:    0.13992, last:    0.11169
+Iter: 39300 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02090, last:    0.01541
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03763, last:    0.01541
+Mean RMSE                                tot:    0.13994, ma:    0.14006, last:    0.12415
+Iter: 39400 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02095, last:    0.01821
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03761, last:    0.01821
+Mean RMSE                                tot:    0.13994, ma:    0.14019, last:    0.13494
+Iter: 39500 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02098, last:    0.01235
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03758, last:    0.01235
+Mean RMSE                                tot:    0.13994, ma:    0.14028, last:    0.11114
+Iter: 39600 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02083, last:    0.01975
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03757, last:    0.01975
+Mean RMSE                                tot:    0.13993, ma:    0.13973, last:    0.14052
+Iter: 39700 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02096, last:    0.02269
+Mean MSE_loss_val                        tot:    0.02056, ma:    0.03755, last:    0.02269
+Mean RMSE                                tot:    0.13994, ma:    0.14021, last:    0.15064
+Iter: 39800 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02095, last:    0.01888
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03753, last:    0.01888
+Mean RMSE                                tot:    0.13994, ma:    0.14021, last:    0.13740
+Iter: 39900 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02103, last:    0.01635
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03751, last:    0.01635
+Mean RMSE                                tot:    0.13995, ma:    0.14056, last:    0.12786
+Iter: 40000 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02105, last:    0.02000
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03749, last:    0.02000
+Mean RMSE                                tot:    0.13996, ma:    0.14071, last:    0.14143
+Iter: 40100 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02104, last:    0.04368
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03750, last:    0.04368
+Mean RMSE                                tot:    0.13996, ma:    0.14086, last:    0.20899
+Iter: 40200 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02080, last:    0.00898
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03747, last:    0.00898
+Mean RMSE                                tot:    0.13994, ma:    0.13990, last:    0.09474
+Iter: 40300 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02084, last:    0.01149
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03744, last:    0.01149
+Mean RMSE                                tot:    0.13994, ma:    0.14001, last:    0.10721
+Iter: 40400 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02112, last:    0.00616
+Mean MSE_loss_val                        tot:    0.02051, ma:    0.03741, last:    0.00616
+Mean RMSE                                tot:    0.13996, ma:    0.14082, last:    0.07850
+Iter: 40500 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02106, last:    0.01866
+Mean MSE_loss_val                        tot:    0.02051, ma:    0.03739, last:    0.01866
+Mean RMSE                                tot:    0.13996, ma:    0.14072, last:    0.13659
+Iter: 40600 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02094, last:    0.02022
+Mean MSE_loss_val                        tot:    0.02051, ma:    0.03738, last:    0.02022
+Mean RMSE                                tot:    0.13995, ma:    0.14020, last:    0.14218
+Iter: 40700 / 53397
+Mean MSE_loss                            tot:    0.02086, ma:    0.02092, last:    0.03468
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03737, last:    0.03468
+Mean RMSE                                tot:    0.13995, ma:    0.14020, last:    0.18623
+Iter: 40800 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02075, last:    0.02371
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03736, last:    0.02371
+Mean RMSE                                tot:    0.13994, ma:    0.13957, last:    0.15398
+Iter: 40900 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02059, last:    0.01623
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03734, last:    0.01623
+Mean RMSE                                tot:    0.13992, ma:    0.13907, last:    0.12740
+Iter: 41000 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02064, last:    0.01323
+Mean MSE_loss_val                        tot:    0.02052, ma:    0.03732, last:    0.01323
+Mean RMSE                                tot:    0.13992, ma:    0.13920, last:    0.11503
+Iter: 41100 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02060, last:    0.01100
+Mean MSE_loss_val                        tot:    0.02050, ma:    0.03729, last:    0.01100
+Mean RMSE                                tot:    0.13992, ma:    0.13899, last:    0.10487
+Iter: 41200 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02064, last:    0.02186
+Mean MSE_loss_val                        tot:    0.02050, ma:    0.03727, last:    0.02186
+Mean RMSE                                tot:    0.13992, ma:    0.13920, last:    0.14786
+Iter: 41300 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02064, last:    0.01888
+Mean MSE_loss_val                        tot:    0.02050, ma:    0.03726, last:    0.01888
+Mean RMSE                                tot:    0.13992, ma:    0.13915, last:    0.13740
+Iter: 41400 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02067, last:    0.00866
+Mean MSE_loss_val                        tot:    0.02047, ma:    0.03723, last:    0.00866
+Mean RMSE                                tot:    0.13992, ma:    0.13920, last:    0.09308
+Iter: 41500 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02061, last:    0.01945
+Mean MSE_loss_val                        tot:    0.02047, ma:    0.03721, last:    0.01945
+Mean RMSE                                tot:    0.13991, ma:    0.13901, last:    0.13947
+Iter: 41600 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02066, last:    0.01709
+Mean MSE_loss_val                        tot:    0.02046, ma:    0.03719, last:    0.01709
+Mean RMSE                                tot:    0.13991, ma:    0.13922, last:    0.13074
+Iter: 41700 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02062, last:    0.01021
+Mean MSE_loss_val                        tot:    0.02043, ma:    0.03716, last:    0.01021
+Mean RMSE                                tot:    0.13991, ma:    0.13904, last:    0.10105
+Iter: 41800 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02068, last:    0.01799
+Mean MSE_loss_val                        tot:    0.02043, ma:    0.03714, last:    0.01799
+Mean RMSE                                tot:    0.13991, ma:    0.13931, last:    0.13411
+Iter: 41900 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02065, last:    0.01972
+Mean MSE_loss_val                        tot:    0.02043, ma:    0.03713, last:    0.01972
+Mean RMSE                                tot:    0.13991, ma:    0.13928, last:    0.14042
+Iter: 42000 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02071, last:    0.01529
+Mean MSE_loss_val                        tot:    0.02041, ma:    0.03710, last:    0.01529
+Mean RMSE                                tot:    0.13992, ma:    0.13951, last:    0.12366
+Iter: 42100 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02071, last:    0.02154
+Mean MSE_loss_val                        tot:    0.02042, ma:    0.03709, last:    0.02154
+Mean RMSE                                tot:    0.13991, ma:    0.13944, last:    0.14677
+Iter: 42200 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02052, last:    0.02007
+Mean MSE_loss_val                        tot:    0.02042, ma:    0.03707, last:    0.02007
+Mean RMSE                                tot:    0.13990, ma:    0.13879, last:    0.14167
+Iter: 42300 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02050, last:    0.02151
+Mean MSE_loss_val                        tot:    0.02042, ma:    0.03706, last:    0.02151
+Mean RMSE                                tot:    0.13989, ma:    0.13871, last:    0.14668
+Iter: 42400 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02068, last:    0.01327
+Mean MSE_loss_val                        tot:    0.02040, ma:    0.03703, last:    0.01327
+Mean RMSE                                tot:    0.13990, ma:    0.13931, last:    0.11521
+Iter: 42500 / 53397
+Mean MSE_loss                            tot:    0.02085, ma:    0.02075, last:    0.02300
+Mean MSE_loss_val                        tot:    0.02041, ma:    0.03702, last:    0.02300
+Mean RMSE                                tot:    0.13991, ma:    0.13957, last:    0.15166
+Iter: 42600 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02058, last:    0.01814
+Mean MSE_loss_val                        tot:    0.02040, ma:    0.03700, last:    0.01814
+Mean RMSE                                tot:    0.13989, ma:    0.13898, last:    0.13469
+Iter: 42700 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02036, last:    0.02602
+Mean MSE_loss_val                        tot:    0.02042, ma:    0.03699, last:    0.02602
+Mean RMSE                                tot:    0.13987, ma:    0.13821, last:    0.16130
+Iter: 42800 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02059, last:    0.00856
+Mean MSE_loss_val                        tot:    0.02039, ma:    0.03696, last:    0.00856
+Mean RMSE                                tot:    0.13989, ma:    0.13896, last:    0.09250
+Iter: 42900 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02068, last:    0.01113
+Mean MSE_loss_val                        tot:    0.02037, ma:    0.03693, last:    0.01113
+Mean RMSE                                tot:    0.13989, ma:    0.13927, last:    0.10552
+Iter: 43000 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02065, last:    0.02229
+Mean MSE_loss_val                        tot:    0.02037, ma:    0.03692, last:    0.02229
+Mean RMSE                                tot:    0.13989, ma:    0.13921, last:    0.14929
+Iter: 43100 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02056, last:    0.03188
+Mean MSE_loss_val                        tot:    0.02040, ma:    0.03691, last:    0.03188
+Mean RMSE                                tot:    0.13988, ma:    0.13893, last:    0.17856
+Iter: 43200 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02053, last:    0.03733
+Mean MSE_loss_val                        tot:    0.02044, ma:    0.03691, last:    0.03733
+Mean RMSE                                tot:    0.13988, ma:    0.13895, last:    0.19320
+Iter: 43300 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02072, last:    0.02170
+Mean MSE_loss_val                        tot:    0.02044, ma:    0.03690, last:    0.02170
+Mean RMSE                                tot:    0.13989, ma:    0.13960, last:    0.14732
+Iter: 43400 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02058, last:    0.05915
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03692, last:    0.05915
+Mean RMSE                                tot:    0.13988, ma:    0.13919, last:    0.24321
+Iter: 43500 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02053, last:    0.03188
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03692, last:    0.03188
+Mean RMSE                                tot:    0.13987, ma:    0.13896, last:    0.17855
+Iter: 43600 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02059, last:    0.01905
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03690, last:    0.01905
+Mean RMSE                                tot:    0.13987, ma:    0.13914, last:    0.13803
+Iter: 43700 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02068, last:    0.02722
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03689, last:    0.02722
+Mean RMSE                                tot:    0.13988, ma:    0.13950, last:    0.16499
+Iter: 43800 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02076, last:    0.01948
+Mean MSE_loss_val                        tot:    0.02056, ma:    0.03687, last:    0.01948
+Mean RMSE                                tot:    0.13989, ma:    0.13983, last:    0.13957
+Iter: 43900 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02095, last:    0.00643
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03684, last:    0.00643
+Mean RMSE                                tot:    0.13990, ma:    0.14046, last:    0.08020
+Iter: 44000 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02080, last:    0.03188
+Mean MSE_loss_val                        tot:    0.02056, ma:    0.03684, last:    0.03188
+Mean RMSE                                tot:    0.13989, ma:    0.13996, last:    0.17855
+Iter: 44100 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02081, last:    0.03340
+Mean MSE_loss_val                        tot:    0.02059, ma:    0.03683, last:    0.03340
+Mean RMSE                                tot:    0.13990, ma:    0.14007, last:    0.18277
+Iter: 44200 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02097, last:    0.01981
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03682, last:    0.01981
+Mean RMSE                                tot:    0.13991, ma:    0.14054, last:    0.14073
+Iter: 44300 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02082, last:    0.01472
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03679, last:    0.01472
+Mean RMSE                                tot:    0.13990, ma:    0.14009, last:    0.12131
+Iter: 44400 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02066, last:    0.01135
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03677, last:    0.01135
+Mean RMSE                                tot:    0.13989, ma:    0.13954, last:    0.10653
+Iter: 44500 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02065, last:    0.01917
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03675, last:    0.01917
+Mean RMSE                                tot:    0.13988, ma:    0.13943, last:    0.13846
+Iter: 44600 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02060, last:    0.01650
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03673, last:    0.01650
+Mean RMSE                                tot:    0.13988, ma:    0.13922, last:    0.12847
+Iter: 44700 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02055, last:    0.01262
+Mean MSE_loss_val                        tot:    0.02052, ma:    0.03671, last:    0.01262
+Mean RMSE                                tot:    0.13987, ma:    0.13908, last:    0.11234
+Iter: 44800 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02058, last:    0.01422
+Mean MSE_loss_val                        tot:    0.02051, ma:    0.03668, last:    0.01422
+Mean RMSE                                tot:    0.13987, ma:    0.13921, last:    0.11924
+Iter: 44900 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02077, last:    0.01910
+Mean MSE_loss_val                        tot:    0.02050, ma:    0.03667, last:    0.01910
+Mean RMSE                                tot:    0.13989, ma:    0.13988, last:    0.13822
+Iter: 45000 / 53397
+Mean MSE_loss                            tot:    0.02084, ma:    0.02084, last:    0.03821
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03667, last:    0.03821
+Mean RMSE                                tot:    0.13989, ma:    0.14005, last:    0.19548
+Iter: 45100 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02054, last:    0.00909
+Mean MSE_loss_val                        tot:    0.02052, ma:    0.03664, last:    0.00909
+Mean RMSE                                tot:    0.13987, ma:    0.13894, last:    0.09532
+Iter: 45200 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02057, last:    0.01400
+Mean MSE_loss_val                        tot:    0.02050, ma:    0.03662, last:    0.01400
+Mean RMSE                                tot:    0.13987, ma:    0.13904, last:    0.11832
+Iter: 45300 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02050, last:    0.03630
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03662, last:    0.03630
+Mean RMSE                                tot:    0.13986, ma:    0.13890, last:    0.19052
+Iter: 45400 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02046, last:    0.00686
+Mean MSE_loss_val                        tot:    0.02051, ma:    0.03659, last:    0.00686
+Mean RMSE                                tot:    0.13986, ma:    0.13871, last:    0.08284
+Iter: 45500 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02072, last:    0.03462
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03659, last:    0.03462
+Mean RMSE                                tot:    0.13987, ma:    0.13968, last:    0.18606
+Iter: 45600 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02072, last:    0.02469
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03657, last:    0.02469
+Mean RMSE                                tot:    0.13988, ma:    0.13978, last:    0.15714
+Iter: 45700 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02060, last:    0.01783
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03655, last:    0.01783
+Mean RMSE                                tot:    0.13986, ma:    0.13929, last:    0.13354
+Iter: 45800 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02075, last:    0.03613
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03655, last:    0.03613
+Mean RMSE                                tot:    0.13987, ma:    0.13982, last:    0.19007
+Iter: 45900 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02079, last:    0.01694
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03653, last:    0.01694
+Mean RMSE                                tot:    0.13988, ma:    0.13990, last:    0.13016
+Iter: 46000 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02064, last:    0.03579
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03653, last:    0.03579
+Mean RMSE                                tot:    0.13987, ma:    0.13953, last:    0.18919
+Iter: 46100 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02073, last:    0.00571
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03650, last:    0.00571
+Mean RMSE                                tot:    0.13987, ma:    0.13974, last:    0.07554
+Iter: 46200 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02076, last:    0.01902
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03649, last:    0.01902
+Mean RMSE                                tot:    0.13987, ma:    0.13980, last:    0.13793
+Iter: 46300 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02076, last:    0.03405
+Mean MSE_loss_val                        tot:    0.02059, ma:    0.03648, last:    0.03405
+Mean RMSE                                tot:    0.13987, ma:    0.13981, last:    0.18453
+Iter: 46400 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02066, last:    0.01422
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03646, last:    0.01422
+Mean RMSE                                tot:    0.13987, ma:    0.13950, last:    0.11927
+Iter: 46500 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02057, last:    0.06871
+Mean MSE_loss_val                        tot:    0.02068, ma:    0.03649, last:    0.06871
+Mean RMSE                                tot:    0.13986, ma:    0.13919, last:    0.26213
+Iter: 46600 / 53397
+Mean MSE_loss                            tot:    0.02083, ma:    0.02058, last:    0.01881
+Mean MSE_loss_val                        tot:    0.02068, ma:    0.03648, last:    0.01881
+Mean RMSE                                tot:    0.13986, ma:    0.13931, last:    0.13714
+Iter: 46700 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02048, last:    0.00972
+Mean MSE_loss_val                        tot:    0.02066, ma:    0.03645, last:    0.00972
+Mean RMSE                                tot:    0.13985, ma:    0.13890, last:    0.09860
+Iter: 46800 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02050, last:    0.00789
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03642, last:    0.00789
+Mean RMSE                                tot:    0.13985, ma:    0.13893, last:    0.08883
+Iter: 46900 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02040, last:    0.01926
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03640, last:    0.01926
+Mean RMSE                                tot:    0.13984, ma:    0.13859, last:    0.13880
+Iter: 47000 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02056, last:    0.02649
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03639, last:    0.02649
+Mean RMSE                                tot:    0.13985, ma:    0.13916, last:    0.16276
+Iter: 47100 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02069, last:    0.02122
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03638, last:    0.02122
+Mean RMSE                                tot:    0.13986, ma:    0.13962, last:    0.14568
+Iter: 47200 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02064, last:    0.02605
+Mean MSE_loss_val                        tot:    0.02065, ma:    0.03637, last:    0.02605
+Mean RMSE                                tot:    0.13985, ma:    0.13952, last:    0.16141
+Iter: 47300 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02069, last:    0.01648
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03635, last:    0.01648
+Mean RMSE                                tot:    0.13986, ma:    0.13968, last:    0.12838
+Iter: 47400 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02062, last:    0.01057
+Mean MSE_loss_val                        tot:    0.02062, ma:    0.03632, last:    0.01057
+Mean RMSE                                tot:    0.13985, ma:    0.13939, last:    0.10282
+Iter: 47500 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02071, last:    0.01574
+Mean MSE_loss_val                        tot:    0.02061, ma:    0.03630, last:    0.01574
+Mean RMSE                                tot:    0.13986, ma:    0.13972, last:    0.12545
+Iter: 47600 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02077, last:    0.03912
+Mean MSE_loss_val                        tot:    0.02065, ma:    0.03630, last:    0.03912
+Mean RMSE                                tot:    0.13986, ma:    0.13994, last:    0.19778
+Iter: 47700 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02062, last:    0.02721
+Mean MSE_loss_val                        tot:    0.02066, ma:    0.03630, last:    0.02721
+Mean RMSE                                tot:    0.13985, ma:    0.13949, last:    0.16497
+Iter: 47800 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02071, last:    0.02749
+Mean MSE_loss_val                        tot:    0.02068, ma:    0.03629, last:    0.02749
+Mean RMSE                                tot:    0.13986, ma:    0.13982, last:    0.16579
+Iter: 47900 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02074, last:    0.02475
+Mean MSE_loss_val                        tot:    0.02069, ma:    0.03628, last:    0.02475
+Mean RMSE                                tot:    0.13986, ma:    0.13987, last:    0.15731
+Iter: 48000 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02064, last:    0.00613
+Mean MSE_loss_val                        tot:    0.02066, ma:    0.03624, last:    0.00613
+Mean RMSE                                tot:    0.13985, ma:    0.13937, last:    0.07828
+Iter: 48100 / 53397
+Mean MSE_loss                            tot:    0.02082, ma:    0.02044, last:    0.02657
+Mean MSE_loss_val                        tot:    0.02067, ma:    0.03624, last:    0.02657
+Mean RMSE                                tot:    0.13983, ma:    0.13874, last:    0.16302
+Iter: 48200 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02037, last:    0.00440
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03620, last:    0.00440
+Mean RMSE                                tot:    0.13982, ma:    0.13843, last:    0.06630
+Iter: 48300 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02036, last:    0.03627
+Mean MSE_loss_val                        tot:    0.02067, ma:    0.03620, last:    0.03627
+Mean RMSE                                tot:    0.13982, ma:    0.13845, last:    0.19045
+Iter: 48400 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02036, last:    0.00969
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03618, last:    0.00969
+Mean RMSE                                tot:    0.13982, ma:    0.13850, last:    0.09845
+Iter: 48500 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02050, last:    0.00764
+Mean MSE_loss_val                        tot:    0.02062, ma:    0.03615, last:    0.00764
+Mean RMSE                                tot:    0.13983, ma:    0.13885, last:    0.08738
+Iter: 48600 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02058, last:    0.01971
+Mean MSE_loss_val                        tot:    0.02062, ma:    0.03613, last:    0.01971
+Mean RMSE                                tot:    0.13983, ma:    0.13911, last:    0.14039
+Iter: 48700 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02045, last:    0.01323
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03611, last:    0.01323
+Mean RMSE                                tot:    0.13982, ma:    0.13863, last:    0.11501
+Iter: 48800 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02042, last:    0.01494
+Mean MSE_loss_val                        tot:    0.02059, ma:    0.03609, last:    0.01494
+Mean RMSE                                tot:    0.13981, ma:    0.13852, last:    0.12221
+Iter: 48900 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02040, last:    0.01364
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03607, last:    0.01364
+Mean RMSE                                tot:    0.13981, ma:    0.13847, last:    0.11680
+Iter: 49000 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02053, last:    0.02005
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03605, last:    0.02005
+Mean RMSE                                tot:    0.13982, ma:    0.13892, last:    0.14158
+Iter: 49100 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02047, last:    0.02327
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03604, last:    0.02327
+Mean RMSE                                tot:    0.13981, ma:    0.13880, last:    0.15254
+Iter: 49200 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02052, last:    0.02694
+Mean MSE_loss_val                        tot:    0.02059, ma:    0.03603, last:    0.02694
+Mean RMSE                                tot:    0.13981, ma:    0.13903, last:    0.16412
+Iter: 49300 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02052, last:    0.02268
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03601, last:    0.02268
+Mean RMSE                                tot:    0.13981, ma:    0.13904, last:    0.15060
+Iter: 49400 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02035, last:    0.00685
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03599, last:    0.00685
+Mean RMSE                                tot:    0.13980, ma:    0.13840, last:    0.08279
+Iter: 49500 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02040, last:    0.02421
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03597, last:    0.02421
+Mean RMSE                                tot:    0.13980, ma:    0.13850, last:    0.15561
+Iter: 49600 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02045, last:    0.03195
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03597, last:    0.03195
+Mean RMSE                                tot:    0.13980, ma:    0.13875, last:    0.17875
+Iter: 49700 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02052, last:    0.02112
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03595, last:    0.02112
+Mean RMSE                                tot:    0.13980, ma:    0.13905, last:    0.14531
+Iter: 49800 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02051, last:    0.01140
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03593, last:    0.01140
+Mean RMSE                                tot:    0.13980, ma:    0.13900, last:    0.10678
+Iter: 49900 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02050, last:    0.01099
+Mean MSE_loss_val                        tot:    0.02056, ma:    0.03590, last:    0.01099
+Mean RMSE                                tot:    0.13980, ma:    0.13894, last:    0.10484
+Iter: 50000 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02061, last:    0.02331
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03589, last:    0.02331
+Mean RMSE                                tot:    0.13981, ma:    0.13933, last:    0.15267
+Iter: 50100 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02067, last:    0.04841
+Mean MSE_loss_val                        tot:    0.02062, ma:    0.03590, last:    0.04841
+Mean RMSE                                tot:    0.13981, ma:    0.13964, last:    0.22003
+Iter: 50200 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02067, last:    0.02052
+Mean MSE_loss_val                        tot:    0.02062, ma:    0.03589, last:    0.02052
+Mean RMSE                                tot:    0.13981, ma:    0.13970, last:    0.14324
+Iter: 50300 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02067, last:    0.01387
+Mean MSE_loss_val                        tot:    0.02061, ma:    0.03587, last:    0.01387
+Mean RMSE                                tot:    0.13981, ma:    0.13968, last:    0.11779
+Iter: 50400 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02068, last:    0.00741
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03584, last:    0.00741
+Mean RMSE                                tot:    0.13981, ma:    0.13958, last:    0.08606
+Iter: 50500 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02070, last:    0.02344
+Mean MSE_loss_val                        tot:    0.02059, ma:    0.03583, last:    0.02344
+Mean RMSE                                tot:    0.13981, ma:    0.13962, last:    0.15309
+Iter: 50600 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02072, last:    0.02388
+Mean MSE_loss_val                        tot:    0.02060, ma:    0.03581, last:    0.02388
+Mean RMSE                                tot:    0.13981, ma:    0.13961, last:    0.15454
+Iter: 50700 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02063, last:    0.01476
+Mean MSE_loss_val                        tot:    0.02058, ma:    0.03579, last:    0.01476
+Mean RMSE                                tot:    0.13980, ma:    0.13929, last:    0.12147
+Iter: 50800 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02061, last:    0.00483
+Mean MSE_loss_val                        tot:    0.02055, ma:    0.03576, last:    0.00483
+Mean RMSE                                tot:    0.13980, ma:    0.13917, last:    0.06951
+Iter: 50900 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02060, last:    0.00780
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03573, last:    0.00780
+Mean RMSE                                tot:    0.13979, ma:    0.13899, last:    0.08834
+Iter: 51000 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02057, last:    0.01154
+Mean MSE_loss_val                        tot:    0.02051, ma:    0.03571, last:    0.01154
+Mean RMSE                                tot:    0.13979, ma:    0.13888, last:    0.10743
+Iter: 51100 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02041, last:    0.01716
+Mean MSE_loss_val                        tot:    0.02050, ma:    0.03569, last:    0.01716
+Mean RMSE                                tot:    0.13978, ma:    0.13838, last:    0.13100
+Iter: 51200 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02050, last:    0.03361
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03569, last:    0.03361
+Mean RMSE                                tot:    0.13978, ma:    0.13871, last:    0.18332
+Iter: 51300 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02052, last:    0.01877
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03567, last:    0.01877
+Mean RMSE                                tot:    0.13978, ma:    0.13863, last:    0.13699
+Iter: 51400 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02050, last:    0.01514
+Mean MSE_loss_val                        tot:    0.02052, ma:    0.03565, last:    0.01514
+Mean RMSE                                tot:    0.13977, ma:    0.13856, last:    0.12305
+Iter: 51500 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02056, last:    0.03421
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03565, last:    0.03421
+Mean RMSE                                tot:    0.13978, ma:    0.13883, last:    0.18495
+Iter: 51600 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02048, last:    0.01250
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03563, last:    0.01250
+Mean RMSE                                tot:    0.13977, ma:    0.13847, last:    0.11179
+Iter: 51700 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02065, last:    0.02172
+Mean MSE_loss_val                        tot:    0.02053, ma:    0.03561, last:    0.02172
+Mean RMSE                                tot:    0.13978, ma:    0.13915, last:    0.14739
+Iter: 51800 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02071, last:    0.01752
+Mean MSE_loss_val                        tot:    0.02052, ma:    0.03560, last:    0.01752
+Mean RMSE                                tot:    0.13978, ma:    0.13938, last:    0.13235
+Iter: 51900 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02080, last:    0.03703
+Mean MSE_loss_val                        tot:    0.02056, ma:    0.03560, last:    0.03703
+Mean RMSE                                tot:    0.13979, ma:    0.13975, last:    0.19244
+Iter: 52000 / 53397
+Mean MSE_loss                            tot:    0.02080, ma:    0.02082, last:    0.02087
+Mean MSE_loss_val                        tot:    0.02056, ma:    0.03558, last:    0.02087
+Mean RMSE                                tot:    0.13979, ma:    0.13982, last:    0.14445
+Iter: 52100 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02098, last:    0.01318
+Mean MSE_loss_val                        tot:    0.02054, ma:    0.03556, last:    0.01318
+Mean RMSE                                tot:    0.13980, ma:    0.14032, last:    0.11480
+Iter: 52200 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02095, last:    0.03308
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03556, last:    0.03308
+Mean RMSE                                tot:    0.13980, ma:    0.14025, last:    0.18189
+Iter: 52300 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02102, last:    0.02206
+Mean MSE_loss_val                        tot:    0.02057, ma:    0.03554, last:    0.02206
+Mean RMSE                                tot:    0.13981, ma:    0.14053, last:    0.14853
+Iter: 52400 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02106, last:    0.05846
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03557, last:    0.05846
+Mean RMSE                                tot:    0.13981, ma:    0.14072, last:    0.24178
+Iter: 52500 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02114, last:    0.01653
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03555, last:    0.01653
+Mean RMSE                                tot:    0.13982, ma:    0.14096, last:    0.12855
+Iter: 52600 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02104, last:    0.00936
+Mean MSE_loss_val                        tot:    0.02061, ma:    0.03552, last:    0.00936
+Mean RMSE                                tot:    0.13981, ma:    0.14056, last:    0.09673
+Iter: 52700 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02109, last:    0.02718
+Mean MSE_loss_val                        tot:    0.02062, ma:    0.03551, last:    0.02718
+Mean RMSE                                tot:    0.13982, ma:    0.14080, last:    0.16486
+Iter: 52800 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02100, last:    0.03061
+Mean MSE_loss_val                        tot:    0.02064, ma:    0.03551, last:    0.03061
+Mean RMSE                                tot:    0.13981, ma:    0.14052, last:    0.17497
+Iter: 52900 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02093, last:    0.01483
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03549, last:    0.01483
+Mean RMSE                                tot:    0.13981, ma:    0.14027, last:    0.12178
+Iter: 53000 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02098, last:    0.03322
+Mean MSE_loss_val                        tot:    0.02066, ma:    0.03549, last:    0.03322
+Mean RMSE                                tot:    0.13982, ma:    0.14046, last:    0.18225
+Iter: 53100 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02082, last:    0.01616
+Mean MSE_loss_val                        tot:    0.02065, ma:    0.03547, last:    0.01616
+Mean RMSE                                tot:    0.13981, ma:    0.13987, last:    0.12712
+Iter: 53200 / 53397
+Mean MSE_loss                            tot:    0.02081, ma:    0.02080, last:    0.00989
+Mean MSE_loss_val                        tot:    0.02063, ma:    0.03544, last:    0.00989
+Mean RMSE                                tot:    0.13980, ma:    0.13982, last:    0.09946
+Iter: 53300 / 53397
+Saving model weights
+DONE!
