@@ -1,0 +1,41 @@
+wandb_version: 1
+
+learning_rate:
+  desc: null
+  value: 0.0003
+batch size:
+  desc: null
+  value: 512
+weight decay:
+  desc: null
+  value: 0.001
+beta 1:
+  desc: null
+  value: 0.9
+training itr:
+  desc: null
+  value: 1000000
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.15.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1695981786.970018
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.15.11
+      8:
+      - 5
+      13: linux-x86_64

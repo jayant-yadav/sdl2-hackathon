@@ -1,0 +1,11 @@
+2023-09-29 06:53:38,208 INFO    StreamThr :26594 [internal.py:wandb_internal():86] W&B internal server running at pid: 26594, started at: 2023-09-29 06:53:38.207872
+2023-09-29 06:53:38,211 DEBUG   HandlerThread:26594 [handler.py:handle_request():144] handle_request: status
+2023-09-29 06:53:38,222 INFO    WriterThread:26594 [datastore.py:open_for_write():85] open: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_065338-dtw3f4x8/run-dtw3f4x8.wandb
+2023-09-29 06:53:38,222 DEBUG   SenderThread:26594 [sender.py:send():380] send: header
+2023-09-29 06:53:38,222 DEBUG   SenderThread:26594 [sender.py:send():380] send: run
+2023-09-29 06:53:39,406 DEBUG   HandlerThread:26594 [handler.py:handle_request():144] handle_request: check_version
+2023-09-29 06:53:39,408 INFO    SenderThread:26594 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_065338-dtw3f4x8/files
+2023-09-29 06:53:39,408 INFO    SenderThread:26594 [sender.py:_start_run_threads():1122] run started: dtw3f4x8 with start time 1695970418.19399
+2023-09-29 06:53:39,408 DEBUG   SenderThread:26594 [sender.py:send_request():407] send_request: check_version
+2023-09-29 06:53:39,592 DEBUG   HandlerThread:26594 [handler.py:handle_request():144] handle_request: run_start
+2023-09-29 07:15:54,809 INFO    MainThread:26594 [internal.py:handle_exit():76] Internal process exited

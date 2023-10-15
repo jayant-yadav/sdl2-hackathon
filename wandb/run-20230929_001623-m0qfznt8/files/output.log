@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train-Copy1.py", line 198, in train
+    if (train_ctr + 1) * config.batch_size >= nbr_examples_train:
+UnboundLocalError: local variable 'train_ctr' referenced before assignment

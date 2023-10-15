@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train-Copy1.py", line 77, in train
+    if not isinstance(MODEL_LOAD_PATH, list):
+UnboundLocalError: local variable 'MODEL_LOAD_PATH' referenced before assignment

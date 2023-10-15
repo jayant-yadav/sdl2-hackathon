@@ -1,0 +1,493 @@
+2023-09-29 12:06:11,055 INFO    StreamThr :4451 [internal.py:wandb_internal():86] W&B internal server running at pid: 4451, started at: 2023-09-29 12:06:11.055460
+2023-09-29 12:06:11,057 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status
+2023-09-29 12:06:11,057 INFO    WriterThread:4451 [datastore.py:open_for_write():85] open: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/run-9xte037h.wandb
+2023-09-29 12:06:11,059 DEBUG   SenderThread:4451 [sender.py:send():380] send: header
+2023-09-29 12:06:11,061 DEBUG   SenderThread:4451 [sender.py:send():380] send: run
+2023-09-29 12:06:11,490 INFO    SenderThread:4451 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files
+2023-09-29 12:06:11,490 INFO    SenderThread:4451 [sender.py:_start_run_threads():1122] run started: 9xte037h with start time 1695989171.05546
+2023-09-29 12:06:11,498 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: check_version
+2023-09-29 12:06:11,498 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: check_version
+2023-09-29 12:06:11,616 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: run_start
+2023-09-29 12:06:11,626 DEBUG   HandlerThread:4451 [system_info.py:__init__():32] System info init
+2023-09-29 12:06:11,626 DEBUG   HandlerThread:4451 [system_info.py:__init__():47] System info init done
+2023-09-29 12:06:11,626 INFO    HandlerThread:4451 [system_monitor.py:start():181] Starting system monitor
+2023-09-29 12:06:11,626 INFO    SystemMonitor:4451 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-29 12:06:11,627 INFO    HandlerThread:4451 [system_monitor.py:probe():201] Collecting system info
+2023-09-29 12:06:11,627 INFO    SystemMonitor:4451 [interfaces.py:start():190] Started cpu monitoring
+2023-09-29 12:06:11,628 INFO    SystemMonitor:4451 [interfaces.py:start():190] Started disk monitoring
+2023-09-29 12:06:11,628 INFO    SystemMonitor:4451 [interfaces.py:start():190] Started gpu monitoring
+2023-09-29 12:06:11,629 INFO    SystemMonitor:4451 [interfaces.py:start():190] Started memory monitoring
+2023-09-29 12:06:11,630 INFO    SystemMonitor:4451 [interfaces.py:start():190] Started network monitoring
+2023-09-29 12:06:11,638 DEBUG   HandlerThread:4451 [system_info.py:probe():196] Probing system
+2023-09-29 12:06:11,640 DEBUG   HandlerThread:4451 [system_info.py:_probe_git():181] Probing git
+2023-09-29 12:06:11,645 DEBUG   HandlerThread:4451 [system_info.py:_probe_git():189] Probing git done
+2023-09-29 12:06:11,645 DEBUG   HandlerThread:4451 [system_info.py:probe():244] Probing system done
+2023-09-29 12:06:11,645 DEBUG   HandlerThread:4451 [system_monitor.py:probe():210] {'os': 'Linux-6.2.0-1012-aws-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2023-09-29T12:06:11.638918', 'startedAt': '2023-09-29T12:06:11.052038', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train.py', 'codePathLocal': 'cot_synth_train.py', 'codePath': 'cot_synth_train.py', 'git': {'remote': 'https://github.com/aleksispi/sdl2-hackathon.git', 'commit': '15fb5a901e6479bf6b6176f43f9e11ee5607c6d3'}, 'email': None, 'root': '/home/ubuntu/SDL2_group2/sdl2-hackathon', 'host': 'ip-172-31-23-179', 'username': 'ubuntu', 'executable': '/usr/bin/python3', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3099.3245, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3100.129, 'min': 0.0, 'max': 0.0}, {'current': 3098.89, 'min': 0.0, 'max': 0.0}, {'current': 3099.297, 'min': 0.0, 'max': 0.0}, {'current': 3098.982, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 48.27519989013672, 'used': 11.808391571044922}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 15.321460723876953}}
+2023-09-29 12:06:11,645 INFO    HandlerThread:4451 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-29 12:06:11,645 INFO    HandlerThread:4451 [system_monitor.py:probe():214] Publishing system info
+2023-09-29 12:06:11,645 DEBUG   HandlerThread:4451 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-09-29 12:06:11,645 DEBUG   HandlerThread:4451 [system_info.py:_save_pip():68] Saving pip packages done
+2023-09-29 12:06:11,646 INFO    HandlerThread:4451 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-29 12:06:11,647 DEBUG   SenderThread:4451 [sender.py:send():380] send: files
+2023-09-29 12:06:11,648 INFO    SenderThread:4451 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-09-29 12:06:11,654 DEBUG   SenderThread:4451 [sender.py:send():380] send: telemetry
+2023-09-29 12:06:11,697 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:06:11,698 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:06:11,698 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:06:12,262 INFO    wandb-upload_0:4451 [upload_job.py:push():131] Uploaded file /tmp/tmpj9daiwaqwandb/geljzhti-wandb-metadata.json
+2023-09-29 12:06:12,492 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:12,492 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/requirements.txt
+2023-09-29 12:06:12,492 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/wandb-metadata.json
+2023-09-29 12:06:14,492 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:16,215 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:16,492 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:18,493 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:20,493 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:21,283 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:22,494 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:24,494 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:26,357 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:26,495 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:26,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:06:26,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:06:26,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:06:28,496 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:30,496 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:31,432 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:32,497 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:34,497 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:36,498 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:36,519 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:38,499 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:40,499 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:41,653 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:06:41,654 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:06:41,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:06:41,905 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:42,500 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:42,500 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/config.yaml
+2023-09-29 12:06:44,501 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:46,501 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:47,407 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:48,502 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:50,503 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:52,503 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:52,515 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:54,504 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:56,504 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:06:56,653 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:06:56,654 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:06:56,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:06:57,641 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:06:58,505 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:00,506 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:02,506 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:02,722 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:04,507 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:06,507 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:07,835 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:08,508 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:10,509 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:11,630 DEBUG   SystemMonitor:4451 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-29 12:07:11,633 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:07:11,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:07:11,654 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:07:11,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:07:12,509 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:12,973 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:14,510 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:16,511 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:18,042 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:18,511 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:20,512 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:22,512 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:23,128 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:24,513 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:26,514 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:26,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:07:26,654 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:07:26,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:07:28,221 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:28,514 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:30,515 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:32,515 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:33,299 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:34,516 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:36,517 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:38,436 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:38,517 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:40,518 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:41,632 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:07:41,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:07:41,654 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:07:41,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:07:42,519 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:43,566 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:44,519 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:46,520 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:48,520 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:48,690 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:50,521 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:52,521 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:53,817 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:07:54,522 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:56,522 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:56,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:07:56,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:07:56,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:07:58,523 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:07:58,922 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:00,524 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:02,524 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:04,007 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:04,525 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:06,525 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:08,526 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:09,094 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:10,527 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:11,632 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:08:11,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:08:11,654 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:08:11,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:08:12,527 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:14,218 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:14,528 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:16,528 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:18,529 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:19,346 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:20,530 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:22,530 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:24,485 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:24,531 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:26,532 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:26,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:08:26,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:08:26,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:08:28,532 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:29,585 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:30,533 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:32,533 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:34,534 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:34,674 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:36,534 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:38,535 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:39,761 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:40,536 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:41,633 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:08:41,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:08:41,654 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:08:41,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:08:42,536 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:44,537 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:44,874 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:46,537 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:48,538 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:49,967 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:50,539 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:52,539 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:54,540 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:55,078 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:08:56,540 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:08:56,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:08:56,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:08:56,657 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:08:58,541 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:00,194 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:00,542 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:02,542 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:04,543 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:05,330 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:06,543 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:08,544 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:10,460 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:10,544 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:11,633 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:09:11,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:09:11,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:09:11,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:09:12,545 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:14,545 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:15,585 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:16,546 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:18,547 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:20,547 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:20,659 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:22,548 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:24,549 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:25,748 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:26,549 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:26,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:09:26,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:09:26,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:09:28,550 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:30,550 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:30,875 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:32,551 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:34,552 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:35,996 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:36,552 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:38,553 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:40,554 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:41,118 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:41,634 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:09:41,654 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:09:41,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:09:41,658 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:09:42,554 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:44,555 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:46,212 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:46,555 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:48,556 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:50,557 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:51,359 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:52,558 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:54,558 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:56,450 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:09:56,559 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:09:56,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:09:56,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:09:56,657 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:09:58,560 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:00,560 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:01,549 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:02,561 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:04,562 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:06,562 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:06,686 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:08,563 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:10,564 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:11,634 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:10:11,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:10:11,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:10:11,656 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:10:11,913 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:12,564 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:14,565 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:16,565 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:17,229 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:18,566 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:20,567 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:22,356 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:22,567 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:24,568 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:26,568 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:26,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:10:26,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:10:26,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:10:27,502 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:28,569 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:30,569 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:32,570 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:32,638 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:34,571 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:36,571 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:37,785 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:38,572 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:40,572 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:41,635 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:10:41,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:10:41,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:10:41,656 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:10:42,573 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:42,873 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:44,574 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:46,574 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:47,989 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:48,575 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:50,575 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:52,576 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:53,118 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:54,576 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:56,577 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:10:56,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:10:56,656 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:10:56,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:10:58,233 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:10:58,577 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:00,579 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:02,579 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:03,332 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:04,580 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:06,580 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:08,420 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:08,581 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:10,582 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:11,636 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:11:11,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:11:11,655 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:11:11,657 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:11:12,582 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:13,532 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:14,583 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:16,583 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:18,584 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:18,631 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:20,584 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:22,585 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:23,717 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:24,586 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:26,586 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:26,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:11:26,656 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:11:26,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:11:28,587 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:28,810 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:30,588 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:32,588 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:33,891 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:34,589 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:36,589 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:38,590 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:39,020 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:40,590 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:41,636 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:11:41,655 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-29 12:11:41,656 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:11:41,656 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: stop_status
+2023-09-29 12:11:42,591 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:44,103 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:44,592 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:46,592 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:48,593 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:49,207 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:50,593 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:52,594 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:53,650 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: summary_record
+2023-09-29 12:11:53,651 INFO    SenderThread:4451 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-09-29 12:11:53,651 DEBUG   SenderThread:4451 [sender.py:send():380] send: exit
+2023-09-29 12:11:53,651 INFO    SenderThread:4451 [sender.py:send_exit():585] handling exit code: 0
+2023-09-29 12:11:53,652 INFO    SenderThread:4451 [sender.py:send_exit():587] handling runtime: 342
+2023-09-29 12:11:53,652 INFO    SenderThread:4451 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-09-29 12:11:53,652 INFO    SenderThread:4451 [sender.py:send_exit():593] send defer
+2023-09-29 12:11:53,652 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:53,652 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-29 12:11:53,652 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:53,652 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-09-29 12:11:53,652 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 1
+2023-09-29 12:11:53,652 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:53,653 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-29 12:11:53,653 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:53,653 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-09-29 12:11:53,653 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 2
+2023-09-29 12:11:53,653 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:53,653 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-29 12:11:53,653 INFO    HandlerThread:4451 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-29 12:11:53,653 DEBUG   SystemMonitor:4451 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-29 12:11:53,653 INFO    HandlerThread:4451 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-29 12:11:53,653 DEBUG   SystemMonitor:4451 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-29 12:11:53,654 INFO    HandlerThread:4451 [interfaces.py:finish():202] Joined disk monitor
+2023-09-29 12:11:53,672 INFO    HandlerThread:4451 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-29 12:11:53,672 INFO    HandlerThread:4451 [interfaces.py:finish():202] Joined memory monitor
+2023-09-29 12:11:53,672 INFO    HandlerThread:4451 [interfaces.py:finish():202] Joined network monitor
+2023-09-29 12:11:53,673 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:53,673 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-09-29 12:11:53,673 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 3
+2023-09-29 12:11:53,673 DEBUG   SenderThread:4451 [sender.py:send():380] send: stats
+2023-09-29 12:11:53,673 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:53,673 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-29 12:11:53,673 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:53,673 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-09-29 12:11:53,673 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 4
+2023-09-29 12:11:53,674 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:53,674 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-29 12:11:53,674 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:53,674 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-09-29 12:11:53,674 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 5
+2023-09-29 12:11:53,674 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:53,674 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-29 12:11:53,674 DEBUG   SenderThread:4451 [sender.py:send():380] send: summary
+2023-09-29 12:11:53,674 INFO    SenderThread:4451 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-09-29 12:11:53,674 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:53,675 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-09-29 12:11:53,675 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 6
+2023-09-29 12:11:53,675 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:53,675 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-29 12:11:53,675 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:53,675 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-09-29 12:11:53,675 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 7
+2023-09-29 12:11:53,675 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: status_report
+2023-09-29 12:11:53,675 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:53,675 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-29 12:11:53,675 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:53,675 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-09-29 12:11:54,441 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 8
+2023-09-29 12:11:54,441 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:54,441 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-29 12:11:54,441 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:54,441 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-09-29 12:11:54,441 INFO    SenderThread:4451 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-29 12:11:54,441 INFO    SenderThread:4451 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-09-29 12:11:54,443 INFO    SenderThread:4451 [job_builder.py:build():369] adding wandb-job metadata file
+2023-09-29 12:11:54,447 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 9
+2023-09-29 12:11:54,447 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:54,447 DEBUG   SenderThread:4451 [sender.py:send():380] send: artifact
+2023-09-29 12:11:54,447 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-29 12:11:54,594 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:54,594 INFO    Thread-12 :4451 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/wandb-summary.json
+2023-09-29 12:11:54,651 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-29 12:11:55,551 INFO    wandb-upload_1:4451 [upload_job.py:push():86] Skipped uploading /home/ubuntu/.local/share/wandb/artifacts/staging/tmp35wsam5y
+2023-09-29 12:11:55,892 INFO    wandb-upload_0:4451 [upload_job.py:push():89] Uploaded file /home/ubuntu/.local/share/wandb/artifacts/staging/tmp6in5mz89
+2023-09-29 12:11:57,358 INFO    SenderThread:4451 [sender.py:send_artifact():1456] sent artifact job-https___github.com_aleksispi_sdl2-hackathon.git_cot_synth_train.py - {'id': 'QXJ0aWZhY3Q6NTg4NTQ0MTEy', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwMjI3MzY2OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTg4NTM4OTkz', 'versionIndex': 3}}}
+2023-09-29 12:11:57,358 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:57,358 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-09-29 12:11:57,358 INFO    SenderThread:4451 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-29 12:11:57,595 INFO    SenderThread:4451 [dir_watcher.py:finish():388] scan: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files
+2023-09-29 12:11:57,595 INFO    SenderThread:4451 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/wandb-summary.json wandb-summary.json
+2023-09-29 12:11:57,596 INFO    SenderThread:4451 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/wandb-metadata.json wandb-metadata.json
+2023-09-29 12:11:57,596 INFO    SenderThread:4451 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log output.log
+2023-09-29 12:11:57,597 INFO    SenderThread:4451 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/requirements.txt requirements.txt
+2023-09-29 12:11:57,598 INFO    SenderThread:4451 [dir_watcher.py:finish():402] scan save: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/config.yaml config.yaml
+2023-09-29 12:11:57,598 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 10
+2023-09-29 12:11:57,600 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: poll_exit
+2023-09-29 12:11:57,603 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:57,604 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-29 12:11:57,604 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:57,604 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-09-29 12:11:57,604 INFO    SenderThread:4451 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-29 12:11:57,967 INFO    wandb-upload_1:4451 [upload_job.py:push():131] Uploaded file /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/wandb-summary.json
+2023-09-29 12:11:58,143 INFO    wandb-upload_0:4451 [upload_job.py:push():131] Uploaded file /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/requirements.txt
+2023-09-29 12:11:58,237 INFO    wandb-upload_3:4451 [upload_job.py:push():131] Uploaded file /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/config.yaml
+2023-09-29 12:11:58,335 INFO    wandb-upload_2:4451 [upload_job.py:push():131] Uploaded file /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/files/output.log
+2023-09-29 12:11:58,536 INFO    Thread-11 (_thread_body):4451 [sender.py:transition_state():613] send defer: 11
+2023-09-29 12:11:58,536 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:58,536 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-29 12:11:58,537 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:58,537 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-09-29 12:11:58,537 INFO    SenderThread:4451 [file_pusher.py:join():181] waiting for file pusher
+2023-09-29 12:11:58,537 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 12
+2023-09-29 12:11:58,537 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:58,537 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-29 12:11:58,537 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:58,537 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-09-29 12:11:58,537 INFO    SenderThread:4451 [file_stream.py:finish():595] file stream finish called
+2023-09-29 12:11:59,108 INFO    SenderThread:4451 [file_stream.py:finish():599] file stream finish is done
+2023-09-29 12:11:59,108 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 13
+2023-09-29 12:11:59,108 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:59,108 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-29 12:11:59,108 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:59,108 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-09-29 12:11:59,108 INFO    SenderThread:4451 [sender.py:transition_state():613] send defer: 14
+2023-09-29 12:11:59,108 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: defer
+2023-09-29 12:11:59,109 INFO    HandlerThread:4451 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-29 12:11:59,109 DEBUG   SenderThread:4451 [sender.py:send():380] send: final
+2023-09-29 12:11:59,109 DEBUG   SenderThread:4451 [sender.py:send():380] send: footer
+2023-09-29 12:11:59,109 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: defer
+2023-09-29 12:11:59,109 INFO    SenderThread:4451 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-09-29 12:11:59,109 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-29 12:11:59,110 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: poll_exit
+2023-09-29 12:11:59,110 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: server_info
+2023-09-29 12:11:59,110 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: server_info
+2023-09-29 12:11:59,112 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-29 12:11:59,112 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-29 12:11:59,112 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-29 12:11:59,113 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: job_info
+2023-09-29 12:11:59,256 DEBUG   SenderThread:4451 [sender.py:send_request():407] send_request: job_info
+2023-09-29 12:11:59,257 INFO    MainThread:4451 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2023-09-29 12:11:59,257 INFO    MainThread:4451 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2023-09-29 12:11:59,257 INFO    MainThread:4451 [wandb_run.py:_footer_sync_info():3513] logging synced files
+2023-09-29 12:11:59,257 DEBUG   HandlerThread:4451 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-29 12:11:59,258 INFO    HandlerThread:4451 [handler.py:finish():844] shutting down handler
+2023-09-29 12:12:00,113 INFO    WriterThread:4451 [datastore.py:close():294] close: /home/ubuntu/SDL2_group2/sdl2-hackathon/wandb/run-20230929_120611-9xte037h/run-9xte037h.wandb
+2023-09-29 12:12:00,257 INFO    SenderThread:4451 [sender.py:finish():1534] shutting down sender
+2023-09-29 12:12:00,257 INFO    SenderThread:4451 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-29 12:12:00,257 INFO    SenderThread:4451 [file_pusher.py:join():181] waiting for file pusher

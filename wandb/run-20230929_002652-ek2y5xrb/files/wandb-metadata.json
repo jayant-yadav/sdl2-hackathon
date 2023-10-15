@@ -1,0 +1,68 @@
+{
+    "os": "Linux-6.2.0-1012-aws-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-09-29T00:26:53.311525",
+    "startedAt": "2023-09-29T00:26:52.723262",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train-Copy1.py",
+    "codePathLocal": "cot_synth_train-Copy1.py",
+    "codePath": "cot_synth_train-Copy1.py",
+    "git": {
+        "remote": "https://github.com/aleksispi/sdl2-hackathon.git",
+        "commit": "15fb5a901e6479bf6b6176f43f9e11ee5607c6d3"
+    },
+    "email": null,
+    "root": "/home/ubuntu/SDL2_group2/sdl2-hackathon",
+    "host": "ip-172-31-23-179",
+    "username": "ubuntu",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3100.0640000000003,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3100.12,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3100.023,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3100.112,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3100.001,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 48.27519989013672,
+            "used": 11.21969985961914
+        }
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 15.321460723876953
+    }
+}

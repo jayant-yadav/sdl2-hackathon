@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/SDL2_group2/sdl2-hackathon/cot_synth_train-Copy1.py", line 148, in train
+    model.load_state_dict(torch.load(model_load_path, map_location=device))
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 2041, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for ANN_v1:
+	size mismatch for lin2.weight: copying a param with shape torch.Size([64, 64]) from checkpoint, the shape in current model is torch.Size([128, 64]).
+	size mismatch for lin2.bias: copying a param with shape torch.Size([64]) from checkpoint, the shape in current model is torch.Size([128]).
+	size mismatch for lin3.weight: copying a param with shape torch.Size([64, 64]) from checkpoint, the shape in current model is torch.Size([128, 128]).
+	size mismatch for lin3.bias: copying a param with shape torch.Size([64]) from checkpoint, the shape in current model is torch.Size([128]).
+	size mismatch for lin4.weight: copying a param with shape torch.Size([64, 64]) from checkpoint, the shape in current model is torch.Size([64, 128]).
+Reading data
+Done reading data
